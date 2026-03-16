@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "ЗамкиПро на Тверской",
-    "address": "ул. Тверская, д. 15, Москва",
-    "phone": "+7 (495) 123-45-67",
-    "email": "info@zamkipro-tver.ru",
-    "whatsapp": "+74951234567",
-    "telegram": "zamkipro_tver",
-    "hours": "ежедневно 10:00 - 21:00",
+    "name": "ООО Диркод",
+    "address": "ул. Студенческая, д.19 к.3, Москва",
+    "phone": "+7 (495) 414-49-00",
+    "email": "info@dircode.ru",
+    "MAX": "https://max.ru/id7730293063_biz",
+    "telegram": "https://t.me/@dircode",
+    "hours": "ежедневно 10:00 - 18:00",
     "coords": [
-      55.764,
-      37.602
+      55.741974,
+      37.549305
     ],
     "rating": 4.8,
     "reviews_count": 25,
@@ -27,15 +27,15 @@
       "🏬 Магазин дверей",
       "🔧 Монтажная организация"
     ],
-    "website": "https://example.com/partner1",
-    "description": "Официальный дилер ведущих брендов электронных замков. Работаем с 2010 года. В наличии демо-зона с образцами замков. Профессиональный монтаж и обслуживание.",
-    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+на+Тверской",
+    "website": "https://dircode.ru",
+    "description": "Компания работает на рынке более 10 лет. Мы только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Samsung, Desi и Lockin",
+    "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=Logo",
     "photos": [
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Витрина",
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Монтаж",
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Демо-зона",
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Офис"
+      "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
+      "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
+      "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
+      "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
     ],
     "reviews": [
       {
