@@ -41,11 +41,11 @@
     ],
     "catalog": [
       {
-        "name": "Умный замок Aqara D100",
+        "name": "Philips Easykey DDL720-MVP",
         "price": 12990,
-        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description": "Биометрический замок с отпечатком пальца, кодом и ключом. Поддержка Apple HomeKit.",
-        "url": "https://example.com/product/aqara-d100"
+        "image": "https://optim.tildacdn.com/tild6661-3730-4366-a365-336336383033/-/format/webp/DDL720-MVP.png.webp",
+        "description": "Биометрический  пуш-пулл умный замок.",
+        "url": "/product"
       },
       {
         "name": "Готовое решение: умная дверь",
