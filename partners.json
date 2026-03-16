@@ -8,13 +8,25 @@
     "whatsapp": "+74951234567",
     "telegram": "zamkipro_tver",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [55.764, 37.602],
+    "coords": [
+      55.764,
+      37.602
+    ],
     "rating": 4.8,
     "reviews_count": 25,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
+    "type": [
+      "🏬 Магазин дверей",
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner1",
     "description": "Официальный дилер ведущих брендов электронных замков. Работаем с 2010 года. В наличии демо-зона с образцами замков. Профессиональный монтаж и обслуживание.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+на+Тверской",
@@ -86,13 +98,22 @@
     "whatsapp": "+74952345678",
     "telegram": "dvernoy_mir",
     "hours": "ежедневно 09:00 - 22:00",
-    "coords": [55.751, 37.589],
+    "coords": [
+      55.751,
+      37.589
+    ],
     "rating": 4.5,
     "reviews_count": 12,
-    "products": ["Умные замки"],
-    "services": ["Монтаж"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж"
+    ],
     "certified": false,
-    "type": ["🏬 Магазин дверей"],
+    "type": [
+      "🏬 Магазин дверей"
+    ],
     "website": "https://example.com/partner2",
     "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Дверной+Мир",
@@ -142,13 +163,26 @@
     "whatsapp": "+74953456789",
     "telegram": "dircode_official",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [55.743, 37.534],
+    "coords": [
+      55.743,
+      37.534
+    ],
     "rating": 4.9,
     "reviews_count": 34,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Ремонт", "Обучение"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Ремонт",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🔧 Монтажная организация", "🏠 Магазин замков"],
+    "type": [
+      "🔧 Монтажная организация",
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner3",
     "description": "Специализируемся на цифровых замках и системах контроля доступа. Обучающий центр для мастеров.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Диркод",
@@ -191,13 +225,23 @@
     "whatsapp": "+78121234567",
     "telegram": "direct_spb",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [59.935, 30.327],
+    "coords": [
+      59.935,
+      30.327
+    ],
     "rating": 4.7,
     "reviews_count": 18,
-    "products": ["Готовые решения"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏠 Магазин замков"],
+    "type": [
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner4",
     "description": "Магазин электронных замков в центре Петербурга. Есть демо-стенд. Проводим мастер-классы.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки",
@@ -223,13 +267,22 @@
     "whatsapp": "+78122345678",
     "telegram": "safeservice_spb",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [59.926, 30.318],
+    "coords": [
+      59.926,
+      30.318
+    ],
     "rating": 4.3,
     "reviews_count": 9,
-    "products": ["Умные замки"],
-    "services": ["Ремонт"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Ремонт"
+    ],
     "certified": false,
-    "type": ["🔧 Ремонтная мастерская"],
+    "type": [
+      "🔧 Ремонтная мастерская"
+    ],
     "website": "https://example.com/partner5",
     "description": "Ремонт и обслуживание замков любой сложности. Выезд мастера на дом.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
@@ -248,13 +301,23 @@
     "whatsapp": "+78362123456",
     "telegram": "kod_zamki",
     "hours": "ежедневно 09:00 - 19:00",
-    "coords": [56.632, 47.891],
+    "coords": [
+      56.632,
+      47.891
+    ],
     "rating": 4.6,
     "reviews_count": 14,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин"],
+    "type": [
+      "🏬 Магазин"
+    ],
     "website": "https://example.com/partner6",
     "description": "Продажа и установка электронных замков. Большой опыт работы с частными клиентами.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки",
@@ -273,13 +336,23 @@
     "whatsapp": "+78362234567",
     "telegram": "tehno_dveri",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [56.636, 47.884],
+    "coords": [
+      56.636,
+      47.884
+    ],
     "rating": 4.4,
     "reviews_count": 7,
-    "products": ["Умные замки"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": false,
-    "type": ["🏠 Магазин замков"],
+    "type": [
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner7",
     "description": "Специализируемся на умных замках и системах видеонаблюдения. Есть обучающие курсы.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
@@ -296,13 +369,22 @@
     "whatsapp": "+78362345678",
     "telegram": "zamok_master",
     "hours": "ежедневно 09:00 - 18:00",
-    "coords": [56.629, 47.889],
+    "coords": [
+      56.629,
+      47.889
+    ],
     "rating": 4.2,
     "reviews_count": 5,
-    "products": ["Готовые решения"],
-    "services": ["Ремонт"],
+    "products": [
+      "Готовые решения"
+    ],
+    "services": [
+      "Ремонт"
+    ],
     "certified": false,
-    "type": ["🔧 Ремонтная мастерская"],
+    "type": [
+      "🔧 Ремонтная мастерская"
+    ],
     "website": "https://example.com/partner8",
     "description": "Ремонт замков всех типов. Вскрытие дверей без повреждений.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Замок-Мастер",
@@ -319,13 +401,25 @@
     "whatsapp": "+78362456789",
     "telegram": "digital_zamok",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [56.634, 47.879],
+    "coords": [
+      56.634,
+      47.879
+    ],
     "rating": 4.8,
     "reviews_count": 21,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин", "🏠 Магазин замков"],
+    "type": [
+      "🏬 Магазин",
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner9",
     "description": "Современные цифровые замки и системы умного дома. Консультации и обучение.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
@@ -344,13 +438,23 @@
     "whatsapp": "+78362567890",
     "telegram": "bezopasnost_plus",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [56.638, 47.874],
+    "coords": [
+      56.638,
+      47.874
+    ],
     "rating": 4.5,
     "reviews_count": 11,
-    "products": ["Умные замки"],
-    "services": ["Монтаж", "Ремонт"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Ремонт"
+    ],
     "certified": true,
-    "type": ["🔧 Монтажная организация"],
+    "type": [
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner10",
     "description": "Установка и обслуживание систем безопасности, замков, домофонов.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Безопасность%2B",
@@ -367,13 +471,23 @@
     "whatsapp": "+78431234567",
     "telegram": "zamkipro_kazan",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [55.788, 49.122],
+    "coords": [
+      55.788,
+      49.122
+    ],
     "rating": 4.6,
     "reviews_count": 16,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин"],
+    "type": [
+      "🏬 Магазин"
+    ],
     "website": "https://example.com/partner11",
     "description": "Филиал сети ЗамкиПро в Казани. Широкий ассортимент, качественный монтаж.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Казань",
@@ -390,13 +504,22 @@
     "whatsapp": "+73431234567",
     "telegram": "smart_ekb",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [56.838, 60.605],
+    "coords": [
+      56.838,
+      60.605
+    ],
     "rating": 4.3,
     "reviews_count": 8,
-    "products": ["Умные замки"],
-    "services": ["Обучение"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Обучение"
+    ],
     "certified": false,
-    "type": ["🏠 Магазин замков"],
+    "type": [
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner12",
     "description": "Умные замки и системы управления домом. Проводим консультации и обучение.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Умный+Дом",
@@ -413,13 +536,23 @@
     "whatsapp": "+73831234567",
     "telegram": "direct_nsk",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [55.030, 82.920],
+    "coords": [
+      55.03,
+      82.92
+    ],
     "rating": 4.7,
     "reviews_count": 22,
-    "products": ["Готовые решения"],
-    "services": ["Монтаж", "Ремонт"],
+    "products": [
+      "Готовые решения"
+    ],
+    "services": [
+      "Монтаж",
+      "Ремонт"
+    ],
     "certified": true,
-    "type": ["🔧 Монтажная организация"],
+    "type": [
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner13",
     "description": "Профессиональный монтаж и ремонт замков. В наличии склад комплектующих.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки+НСК",
@@ -436,13 +569,22 @@
     "whatsapp": "+78311234567",
     "telegram": "safe_nnov",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [56.326, 44.006],
+    "coords": [
+      56.326,
+      44.006
+    ],
     "rating": 4.4,
     "reviews_count": 6,
-    "products": ["Умные замки"],
-    "services": ["Монтаж"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж"
+    ],
     "certified": false,
-    "type": ["🔧 Монтажная организация"],
+    "type": [
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner14",
     "description": "Монтаж и сервисное обслуживание замков и сейфов.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
@@ -459,13 +601,24 @@
     "whatsapp": "+78461234567",
     "telegram": "kod_samara",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [53.241, 50.221],
+    "coords": [
+      53.241,
+      50.221
+    ],
     "rating": 4.5,
     "reviews_count": 10,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин"],
+    "type": [
+      "🏬 Магазин"
+    ],
     "website": "https://example.com/partner15",
     "description": "Магазин электронных замков и сопутствующих товаров. Проводим мастер-классы.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки+Самара",
@@ -482,13 +635,22 @@
     "whatsapp": "+73812123456",
     "telegram": "tehno_omsk",
     "hours": "ежедневно 09:00 - 19:00",
-    "coords": [54.988, 73.324],
+    "coords": [
+      54.988,
+      73.324
+    ],
     "rating": 4.2,
     "reviews_count": 4,
-    "products": ["Умные замки"],
-    "services": ["Ремонт"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Ремонт"
+    ],
     "certified": false,
-    "type": ["🔧 Ремонтная мастерская"],
+    "type": [
+      "🔧 Ремонтная мастерская"
+    ],
     "website": "https://example.com/partner16",
     "description": "Ремонт и обслуживание замков, вскрытие дверей.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
@@ -505,13 +667,23 @@
     "whatsapp": "+73471234567",
     "telegram": "master_ufa",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [54.734, 55.957],
+    "coords": [
+      54.734,
+      55.957
+    ],
     "rating": 4.6,
     "reviews_count": 13,
-    "products": ["Готовые решения"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏠 Магазин замков"],
+    "type": [
+      "🏠 Магазин замков"
+    ],
     "website": "https://example.com/partner17",
     "description": "Большой выбор готовых решений для дома и офиса. Проводим обучение.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Замок-Мастер",
@@ -528,13 +700,24 @@
     "whatsapp": "+73911234567",
     "telegram": "digital_krsk",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [56.015, 92.893],
+    "coords": [
+      56.015,
+      92.893
+    ],
     "rating": 4.7,
     "reviews_count": 19,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Ремонт"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Ремонт"
+    ],
     "certified": true,
-    "type": ["🔧 Монтажная организация"],
+    "type": [
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner18",
     "description": "Цифровые замки и системы безопасности. Монтаж и гарантийное обслуживание.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
@@ -551,13 +734,22 @@
     "whatsapp": "+74731234567",
     "telegram": "bezopasnost_vrn",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [51.660, 39.200],
+    "coords": [
+      51.66,
+      39.2
+    ],
     "rating": 4.4,
     "reviews_count": 7,
-    "products": ["Умные замки"],
-    "services": ["Монтаж"],
+    "products": [
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж"
+    ],
     "certified": false,
-    "type": ["🔧 Монтажная организация"],
+    "type": [
+      "🔧 Монтажная организация"
+    ],
     "website": "https://example.com/partner19",
     "description": "Монтаж систем безопасности и замков. Выезд по городу и области.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Безопасность%2B",
@@ -574,13 +766,24 @@
     "whatsapp": "+78631234567",
     "telegram": "zamkipro_rostov",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [47.235, 39.701],
+    "coords": [
+      47.235,
+      39.701
+    ],
     "rating": 4.8,
     "reviews_count": 27,
-    "products": ["Готовые решения", "Умные замки"],
-    "services": ["Монтаж", "Обучение"],
+    "products": [
+      "Готовые решения",
+      "Умные замки"
+    ],
+    "services": [
+      "Монтаж",
+      "Обучение"
+    ],
     "certified": true,
-    "type": ["🏬 Магазин"],
+    "type": [
+      "🏬 Магазин"
+    ],
     "website": "https://example.com/partner20",
     "description": "Крупнейший магазин электронных замков на юге России. Обучение и сервисный центр.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Ростов",
