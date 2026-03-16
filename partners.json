@@ -41,11 +41,11 @@
     ],
     "catalog": [
       {
-        "name": "Philips Easykey DDL720-MVP",
+        "name": "Умный замок Aqara D100",
         "price": 12990,
-        "image": "https://magazin-krepost.ru/image/cache/catalog/Philips/DDL720%E2%80%91MVP/philips-easykey-ddl720-mvp-push-pull-umnyy-zamok-spb-368x368.jpg",
-        "description": "Биометрический  пуш-пулл умный замок.",
-        "url": "/product"
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Биометрический замок с отпечатком пальца, кодом и ключом. Поддержка Apple HomeKit.",
+        "url": "https://example.com/product/aqara-d100"
       },
       {
         "name": "Готовое решение: умная дверь",
@@ -111,15 +111,11 @@
     ],
     "catalog": [
       {
-        "name": "Умный замок Aqara D100",
-    "price": 12990,
-    "image": "https://images.unsplash.com/...",
-    "images": ["https://...", "https://..."],
-    "description": "Биометрический замок...",
-    "specs": {
-      "Тип": "Биометрический",
-      "Питание": "4xAA",
-      "Связь": "Zigbee"
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
       },
       {
         "name": "Дверная ручка с замком Xiaomi",
