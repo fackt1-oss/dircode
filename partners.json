@@ -111,11 +111,15 @@
     ],
     "catalog": [
       {
-        "name": "Замок Samsung SHP-DP728",
-        "price": 18990,
-        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url": "https://example.com/product/samsung-dp728"
+        "name": "Умный замок Aqara D100",
+    "price": 12990,
+    "image": "https://images.unsplash.com/...",
+    "images": ["https://...", "https://..."],
+    "description": "Биометрический замок...",
+    "specs": {
+      "Тип": "Биометрический",
+      "Питание": "4xAA",
+      "Связь": "Zigbee"
       },
       {
         "name": "Дверная ручка с замком Xiaomi",
