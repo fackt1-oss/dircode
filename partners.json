@@ -1,51 +1,5 @@
 [
   {
-  "id": 1,
-  "name": "ЗамкиПро на Тверской",
-  "address": "ул. Тверская, д. 15, Москва",
-  "phone": "+7 (495) 123-45-67",
-  "email": "info@zamkipro-tver.ru",
-  "whatsapp": "+74951234567",
-  "telegram": "zamkipro_tver",
-  "hours": "ежедневно 10:00 - 21:00",
-  "coords": [55.764, 37.602],
-  "rating": 4.8,
-  "reviews_count": 25,
-  "products": ["Готовые решения", "Умные замки"],
-  "services": ["Монтаж", "Обучение"],
-  "certified": true,
-  "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
-  "website": "https://example.com/partner1",
-  "description": "Официальный дилер ведущих брендов электронных замков...",
-  "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+на+Тверской",
-  "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=Logo",
-  "photos": [...],
-  "reviews": [...],
-  "catalog": [
-    {
-      "name": "Умный замок Aqara D100",
-      "price": 12990,
-      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-      "description": "Биометрический замок с отпечатком пальца, кодом и ключом. Поддержка Apple HomeKit.",
-      "url": "https://example.com/product/aqara-d100"
-    },
-    {
-      "name": "Готовое решение: умная дверь",
-      "price": 45900,
-      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-      "description": "Комплект: дверь + замок Aqara + доводчик. Установка включена.",
-      "url": "https://example.com/product/smart-door"
-    },
-    {
-      "name": "Навесной замок Xiaomi",
-      "price": 3490,
-      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
-      "url": "https://example.com/product/xiaomi-padlock"
-    }
-  ]
-},
-{
     "id": 1,
     "name": "ООО Диркод",
     "address": "ул. Студенческая, д 19, к. 3, Москва",
