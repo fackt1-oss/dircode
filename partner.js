@@ -1,4 +1,3 @@
-<script>
   // === Глобальные переменные ===
   let myMap;
   const placemarks = {};
@@ -345,4 +344,3 @@
 
   // Стартуем после загрузки DOM
   document.addEventListener('DOMContentLoaded', loadDataAndStart);
-</script>
