@@ -92,16 +92,16 @@
   },
   {
     "id": 2,
-    "name": "Замки Сергей",
-    "address": "ул. Арбат, д. 22, Москва",
+    "name": "Замки от Максима",
+    "address": "ул. Мира, д. 27Б, Йошкар-Ола",
     "phone": "+7 (495) 234-56-78",
-    "email": "s.grishenkoff@yandex.ru",
-    "whatsapp": "+74952345678",
+    "email": "maxbrickman@yandex.ru",
+    "whatsapp": "+79061344311",
     "telegram": "dvernoy_mir",
-    "hours": "ежедневно 09:00 - 22:00",
+    "hours": "ежедневно 10:00 - 18:00",
     "coords": [
-      55.751,
-      37.589
+      56.624059,
+      47.952088
     ],
     "rating": 4.5,
     "reviews_count": 12,
@@ -115,7 +115,7 @@
     "type": [
       "🏬 Магазин дверей"
     ],
-    "website": "https://example.com/partner2",
+    "website": "https:/хз.ru",
     "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Дверной+Мир",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
