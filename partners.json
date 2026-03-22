@@ -8,25 +8,13 @@
     "MAX": "https://max.ru/id7730293063_biz",
     "telegram": "https://t.me/@dircode",
     "hours": "ежедневно 10:00 - 18:00",
-    "coords": [
-      55.741974,
-      37.549305
-    ],
+    "coords": [55.741974, 37.549305],
     "rating": 4.8,
     "reviews_count": 25,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏬 Магазин дверей",
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
     "website": "https://dircode.ru",
     "description": "Компания работает на рынке более 10 лет. Мы только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
     "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
@@ -88,6 +76,52 @@
         "description": "Управление со смартфона, автоматическое запирание.",
         "url": "https://example.com/product/samsung-bolt"
       }
+    ],
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
+          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
+          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Обслуживание и ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
+          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        ]
+      },
+      {
+        "category": "💡 Консультации и подбор",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Подбор замка под дверь (выезд мастера)", "price": "бесплатно" },
+          { "name": "Консультация по совместимости с умным домом", "price": "бесплатно" },
+          { "name": "Помощь в настройке приложения", "price": "1 000 ₽/час" }
+        ]
+      },
+      {
+        "category": "🎓 Обучение",
+        "price": "по запросу",
+        "items": [
+          { "name": "Базовый курс по установке умных замков", "price": "15 000 ₽" },
+          { "name": "Настройка интеграций с системами умного дома", "price": "7 500 ₽" }
+        ]
+      },
+      {
+        "category": "🔩 Комплектующие и аксессуары",
+        "price": "от 300 ₽",
+        "items": [
+          { "name": "Магнитные карты и брелоки (1 шт.)", "price": "300 ₽" },
+          { "name": "Батарейки CR123A (4 шт.)", "price": "600 ₽" },
+          { "name": "Установочная пластина / адаптер", "price": "от 800 ₽" }
+        ]
+      }
     ]
   },
   {
@@ -99,22 +133,13 @@
     "whatsapp": "+79061344311",
     "telegram": "dvernoy_mir",
     "hours": "ежедневно 10:00 - 18:00",
-    "coords": [
-      56.624059,
-      47.952088
-    ],
+    "coords": [56.624059, 47.952088],
     "rating": 4.5,
     "reviews_count": 12,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Монтаж"],
     "certified": false,
-    "type": [
-      "🏬 Магазин дверей"
-    ],
+    "type": ["🏬 Магазин дверей"],
     "website": "https:/хз.ru",
     "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Дверной+Мир",
@@ -153,6 +178,32 @@
         "description": "Автоматическая задвижка, управление через приложение.",
         "url": "https://example.com/product/lockin"
       }
+    ],
+    "detailed_services": [
+      {
+        "category": "🔑 Продажа и консультация",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Подбор замка по вашей двери", "price": "бесплатно" },
+          { "name": "Демонстрация работы замков в шоуруме", "price": "бесплатно" }
+        ]
+      },
+      {
+        "category": "🛠️ Установка",
+        "price": "от 2 500 ₽",
+        "items": [
+          { "name": "Установка накладного замка", "price": "2 500 ₽" },
+          { "name": "Установка врезного замка", "price": "3 500 ₽" }
+        ]
+      },
+      {
+        "category": "🔩 Замена фурнитуры",
+        "price": "от 800 ₽",
+        "items": [
+          { "name": "Замена цилиндра", "price": "800 ₽" },
+          { "name": "Замена ручек", "price": "500 ₽" }
+        ]
+      }
     ]
   },
   {
@@ -164,26 +215,13 @@
     "whatsapp": "+74953456789",
     "telegram": "092903@dircode.ru",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [
-      55.743,
-      37.534
-    ],
+    "coords": [55.743, 37.534],
     "rating": 4.9,
     "reviews_count": 34,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Ремонт",
-      "Обучение"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Ремонт", "Обучение"],
     "certified": true,
-    "type": [
-      "🔧 Монтажная организация",
-      "🏠 Магазин замков"
-    ],
+    "type": ["🔧 Монтажная организация", "🏠 Магазин замков"],
     "website": "https://example.com/partner3",
     "description": "Специализируемся на цифровых замках и системах контроля доступа. Обучающий центр для мастеров.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Диркод",
@@ -215,6 +253,34 @@
         "description": "Электронный замок с функцией временных кодов, для офисов.",
         "url": "https://example.com/product/cisa-56930"
       }
+    ],
+    "detailed_services": [
+      {
+        "category": "🎓 Обучающие программы",
+        "price": "от 10 000 ₽",
+        "items": [
+          { "name": "Базовый курс монтажника", "price": "15 000 ₽" },
+          { "name": "Продвинутый курс по СКУД", "price": "25 000 ₽" },
+          { "name": "Сертификация специалистов", "price": "5 000 ₽" }
+        ]
+      },
+      {
+        "category": "🏢 Обслуживание организаций",
+        "price": "от 5 000 ₽/мес",
+        "items": [
+          { "name": "Абонентское обслуживание (выезд 1 раз в месяц)", "price": "5 000 ₽" },
+          { "name": "Экстренный выезд в течение часа", "price": "3 000 ₽" }
+        ]
+      },
+      {
+        "category": "📱 Интеграция с умным домом",
+        "price": "от 4 000 ₽",
+        "items": [
+          { "name": "Настройка замка в приложении", "price": "1 500 ₽" },
+          { "name": "Подключение к Яндекс.Алисе / Siri", "price": "2 500 ₽" },
+          { "name": "Создание сценариев автоматизации", "price": "от 3 000 ₽" }
+        ]
+      }
     ]
   },
   {
@@ -226,36 +292,42 @@
     "whatsapp": "+78121234567",
     "telegram": "direct_spb",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [
-      59.935,
-      30.327
-    ],
+    "coords": [59.935, 30.327],
     "rating": 4.7,
     "reviews_count": 18,
-    "products": [
-      "Готовые решения"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏠 Магазин замков"
-    ],
+    "type": ["🏠 Магазин замков"],
     "website": "https://example.com/partner4",
     "description": "Магазин электронных замков в центре Петербурга. Есть демо-стенд. Проводим мастер-классы.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
-    "photos": [
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Витрина+СПб"
-    ],
+    "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Витрина+СПб"],
     "reviews": [
       {
         "author": "Максим Л.",
         "rating": 4,
         "date": "2026-02-14",
         "text": "Хороший выбор, вежливый персонал. Цены чуть выше среднего, но качество соответствующее."
+      }
+    ],
+    "detailed_services": [
+      {
+        "category": "🧑‍🏫 Мастер-классы",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Как выбрать умный замок", "price": "бесплатно" },
+          { "name": "Установка своими руками", "price": "бесплатно" }
+        ]
+      },
+      {
+        "category": "🔧 Установка и настройка",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Монтаж замка в стандартную дверь", "price": "3 000 ₽" },
+          { "name": "Монтаж в нестандартную дверь", "price": "4 500 ₽" }
+        ]
       }
     ]
   },
@@ -268,30 +340,39 @@
     "whatsapp": "+78122345678",
     "telegram": "safeservice_spb",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [
-      59.926,
-      30.318
-    ],
+    "coords": [59.926, 30.318],
     "rating": 4.3,
     "reviews_count": 9,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Ремонт"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Ремонт"],
     "certified": false,
-    "type": [
-      "🔧 Ремонтная мастерская"
-    ],
+    "type": ["🔧 Ремонтная мастерская"],
     "website": "https://example.com/partner5",
     "description": "Ремонт и обслуживание замков любой сложности. Выезд мастера на дом.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
-    "photos": [
-      "https://via.placeholder.com/400x300/4b5563/ffffff?text=Мастерская"
-    ],
-    "reviews": []
+    "photos": ["https://via.placeholder.com/400x300/4b5563/ffffff?text=Мастерская"],
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔧 Ремонт замков",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Ремонт механической части", "price": "от 1 500 ₽" },
+          { "name": "Ремонт электроники", "price": "от 2 500 ₽" },
+          { "name": "Вскрытие замка без повреждений", "price": "от 2 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔄 Замена комплектующих",
+        "price": "от 500 ₽",
+        "items": [
+          { "name": "Замена батарейного отсека", "price": "800 ₽" },
+          { "name": "Замена сенсорной панели", "price": "от 2 000 ₽" },
+          { "name": "Перепрошивка контроллера", "price": "1 500 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -302,31 +383,37 @@
     "whatsapp": "+78362123456",
     "telegram": "kod_zamki",
     "hours": "ежедневно 09:00 - 19:00",
-    "coords": [
-      56.632,
-      47.891
-    ],
+    "coords": [56.632, 47.891],
     "rating": 4.6,
     "reviews_count": 14,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж"],
     "certified": true,
-    "type": [
-      "🏬 Магазин"
-    ],
+    "type": ["🏬 Магазин"],
     "website": "https://example.com/partner6",
     "description": "Продажа и установка электронных замков. Большой опыт работы с частными клиентами.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
-    "photos": [
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Магазин+Йошкар-Ола"
-    ],
-    "reviews": []
+    "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Магазин+Йошкар-Ола"],
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🏠 Установка под ключ",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка", "price": "3 000 ₽" },
+          { "name": "Комплексная установка (дверь + замок)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "📞 Техподдержка по телефону",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Консультация по настройке", "price": "бесплатно" },
+          { "name": "Дистанционная помощь", "price": "бесплатно" }
+        ]
+      }
+    ]
   },
   {
     "id": 7,
@@ -337,29 +424,37 @@
     "whatsapp": "+78362234567",
     "telegram": "tehno_dveri",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [
-      56.636,
-      47.884
-    ],
+    "coords": [56.636, 47.884],
     "rating": 4.4,
     "reviews_count": 7,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": false,
-    "type": [
-      "🏠 Магазин замков"
-    ],
+    "type": ["🏠 Магазин замков"],
     "website": "https://example.com/partner7",
     "description": "Специализируемся на умных замках и системах видеонаблюдения. Есть обучающие курсы.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🎥 Установка видеонаблюдения",
+        "price": "от 4 000 ₽",
+        "items": [
+          { "name": "Монтаж IP-камеры (1 шт.)", "price": "3 500 ₽" },
+          { "name": "Настройка записи и удалённого доступа", "price": "2 500 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Монтаж и настройка",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка замка с подключением к Wi-Fi", "price": "3 500 ₽" },
+          { "name": "Интеграция с видеодомофоном", "price": "от 5 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -370,28 +465,37 @@
     "whatsapp": "+78362345678",
     "telegram": "zamok_master",
     "hours": "ежедневно 09:00 - 18:00",
-    "coords": [
-      56.629,
-      47.889
-    ],
+    "coords": [56.629, 47.889],
     "rating": 4.2,
     "reviews_count": 5,
-    "products": [
-      "Готовые решения"
-    ],
-    "services": [
-      "Ремонт"
-    ],
+    "products": ["Готовые решения"],
+    "services": ["Ремонт"],
     "certified": false,
-    "type": [
-      "🔧 Ремонтная мастерская"
-    ],
+    "type": ["🔧 Ремонтная мастерская"],
     "website": "https://example.com/partner8",
     "description": "Ремонт замков всех типов. Вскрытие дверей без повреждений.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Замок-Мастер",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=ZM",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔓 Аварийное вскрытие",
+        "price": "от 2 000 ₽",
+        "items": [
+          { "name": "Вскрытие входной двери", "price": "2 500 ₽" },
+          { "name": "Вскрытие сейфа", "price": "от 4 000 ₽" }
+        ]
+      },
+      {
+        "category": "🛠️ Ремонт и замена",
+        "price": "от 1 000 ₽",
+        "items": [
+          { "name": "Замена личинки", "price": "1 000 ₽" },
+          { "name": "Ремонт заедающего замка", "price": "1 500 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 9,
@@ -402,33 +506,37 @@
     "whatsapp": "+78362456789",
     "telegram": "digital_zamok",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [
-      56.634,
-      47.879
-    ],
+    "coords": [56.634, 47.879],
     "rating": 4.8,
     "reviews_count": 21,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏬 Магазин",
-      "🏠 Магазин замков"
-    ],
+    "type": ["🏬 Магазин", "🏠 Магазин замков"],
     "website": "https://example.com/partner9",
     "description": "Современные цифровые замки и системы умного дома. Консультации и обучение.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
-    "photos": [
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Интерьер"
-    ],
-    "reviews": []
+    "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Интерьер"],
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🏠 Комплекты умного дома",
+        "price": "от 15 000 ₽",
+        "items": [
+          { "name": "Стартовый комплект (замок + хаб)", "price": "25 000 ₽" },
+          { "name": "Расширенный комплект (замок + датчики)", "price": "35 000 ₽" }
+        ]
+      },
+      {
+        "category": "📱 Настройка сценариев",
+        "price": "от 2 000 ₽",
+        "items": [
+          { "name": "Автоматическое закрытие двери по времени", "price": "2 000 ₽" },
+          { "name": "Интеграция с системой охраны", "price": "3 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 10,
@@ -439,29 +547,37 @@
     "whatsapp": "+78362567890",
     "telegram": "bezopasnost_plus",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [
-      56.638,
-      47.874
-    ],
+    "coords": [56.638, 47.874],
     "rating": 4.5,
     "reviews_count": 11,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Ремонт"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Монтаж", "Ремонт"],
     "certified": true,
-    "type": [
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🔧 Монтажная организация"],
     "website": "https://example.com/partner10",
     "description": "Установка и обслуживание систем безопасности, замков, домофонов.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Безопасность%2B",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=B%2B",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🏢 Обслуживание офисов",
+        "price": "от 7 000 ₽/мес",
+        "items": [
+          { "name": "Ежемесячная проверка замков и домофонов", "price": "7 000 ₽" },
+          { "name": "Экстренный выезд в течение 2 часов", "price": "включено" }
+        ]
+      },
+      {
+        "category": "🔧 Ремонт и замена",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Ремонт домофона", "price": "1 500 ₽" },
+          { "name": "Замена кнопки вызова", "price": "800 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 11,
@@ -472,29 +588,37 @@
     "whatsapp": "+78431234567",
     "telegram": "zamkipro_kazan",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [
-      55.788,
-      49.122
-    ],
+    "coords": [55.788, 49.122],
     "rating": 4.6,
     "reviews_count": 16,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж"],
     "certified": true,
-    "type": [
-      "🏬 Магазин"
-    ],
+    "type": ["🏬 Магазин"],
     "website": "https://example.com/partner11",
     "description": "Филиал сети ЗамкиПро в Казани. Широкий ассортимент, качественный монтаж.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Казань",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🏠 Установка замков",
+        "price": "от 2 500 ₽",
+        "items": [
+          { "name": "Накладной замок", "price": "2 500 ₽" },
+          { "name": "Врезной замок", "price": "3 500 ₽" }
+        ]
+      },
+      {
+        "category": "📦 Доставка и подъём",
+        "price": "от 500 ₽",
+        "items": [
+          { "name": "Доставка по городу", "price": "500 ₽" },
+          { "name": "Подъём на этаж (без лифта)", "price": "300 ₽/этаж" }
+        ]
+      }
+    ]
   },
   {
     "id": 12,
@@ -505,28 +629,37 @@
     "whatsapp": "+73431234567",
     "telegram": "smart_ekb",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [
-      56.838,
-      60.605
-    ],
+    "coords": [56.838, 60.605],
     "rating": 4.3,
     "reviews_count": 8,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Обучение"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Обучение"],
     "certified": false,
-    "type": [
-      "🏠 Магазин замков"
-    ],
+    "type": ["🏠 Магазин замков"],
     "website": "https://example.com/partner12",
     "description": "Умные замки и системы управления домом. Проводим консультации и обучение.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Умный+Дом",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=UD",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "📘 Онлайн-курсы",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Основы умного дома", "price": "5 000 ₽" },
+          { "name": "Установка и настройка умных замков", "price": "7 000 ₽" }
+        ]
+      },
+      {
+        "category": "💬 Консультации",
+        "price": "1 000 ₽/час",
+        "items": [
+          { "name": "Подбор оборудования", "price": "1 000 ₽" },
+          { "name": "Помощь в проектировании", "price": "2 000 ₽/час" }
+        ]
+      }
+    ]
   },
   {
     "id": 13,
@@ -537,29 +670,37 @@
     "whatsapp": "+73831234567",
     "telegram": "direct_nsk",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [
-      55.03,
-      82.92
-    ],
+    "coords": [55.03, 82.92],
     "rating": 4.7,
     "reviews_count": 22,
-    "products": [
-      "Готовые решения"
-    ],
-    "services": [
-      "Монтаж",
-      "Ремонт"
-    ],
+    "products": ["Готовые решения"],
+    "services": ["Монтаж", "Ремонт"],
     "certified": true,
-    "type": [
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🔧 Монтажная организация"],
     "website": "https://example.com/partner13",
     "description": "Профессиональный монтаж и ремонт замков. В наличии склад комплектующих.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки+НСК",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔧 Срочный ремонт",
+        "price": "от 2 000 ₽",
+        "items": [
+          { "name": "Выезд мастера в течение часа", "price": "1 000 ₽" },
+          { "name": "Ремонт замка любой сложности", "price": "от 2 500 ₽" }
+        ]
+      },
+      {
+        "category": "🔩 Комплектующие",
+        "price": "от 200 ₽",
+        "items": [
+          { "name": "Пружины и фиксаторы", "price": "200 ₽" },
+          { "name": "Запасные ключи (электронные)", "price": "500 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 14,
@@ -570,28 +711,37 @@
     "whatsapp": "+78311234567",
     "telegram": "safe_nnov",
     "hours": "ежедневно 09:00 - 20:00",
-    "coords": [
-      56.326,
-      44.006
-    ],
+    "coords": [56.326, 44.006],
     "rating": 4.4,
     "reviews_count": 6,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Монтаж"],
     "certified": false,
-    "type": [
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🔧 Монтажная организация"],
     "website": "https://example.com/partner14",
     "description": "Монтаж и сервисное обслуживание замков и сейфов.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔐 Обслуживание сейфов",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Смена кода", "price": "1 500 ₽" },
+          { "name": "Ремонт замка сейфа", "price": "от 3 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Монтаж сейфов",
+        "price": "от 2 500 ₽",
+        "items": [
+          { "name": "Установка сейфа в стену", "price": "4 000 ₽" },
+          { "name": "Установка сейфа в пол", "price": "5 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 15,
@@ -602,30 +752,37 @@
     "whatsapp": "+78461234567",
     "telegram": "kod_samara",
     "hours": "ежедневно 10:00 - 21:00",
-    "coords": [
-      53.241,
-      50.221
-    ],
+    "coords": [53.241, 50.221],
     "rating": 4.5,
     "reviews_count": 10,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏬 Магазин"
-    ],
+    "type": ["🏬 Магазин"],
     "website": "https://example.com/partner15",
     "description": "Магазин электронных замков и сопутствующих товаров. Проводим мастер-классы.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки+Самара",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🎓 Мастер-классы",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Как работает умный замок", "price": "бесплатно" },
+          { "name": "Установка своими руками", "price": "бесплатно" }
+        ]
+      },
+      {
+        "category": "🔧 Установка",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Стандартный монтаж", "price": "3 000 ₽" },
+          { "name": "Сложный монтаж (доработка двери)", "price": "от 5 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 16,
@@ -636,28 +793,37 @@
     "whatsapp": "+73812123456",
     "telegram": "tehno_omsk",
     "hours": "ежедневно 09:00 - 19:00",
-    "coords": [
-      54.988,
-      73.324
-    ],
+    "coords": [54.988, 73.324],
     "rating": 4.2,
     "reviews_count": 4,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Ремонт"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Ремонт"],
     "certified": false,
-    "type": [
-      "🔧 Ремонтная мастерская"
-    ],
+    "type": ["🔧 Ремонтная мастерская"],
     "website": "https://example.com/partner16",
     "description": "Ремонт и обслуживание замков, вскрытие дверей.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔓 Аварийное вскрытие",
+        "price": "от 2 500 ₽",
+        "items": [
+          { "name": "Вскрытие двери (любой тип)", "price": "2 500 ₽" },
+          { "name": "Вскрытие автомобиля", "price": "от 3 000 ₽" }
+        ]
+      },
+      {
+        "category": "🛠️ Ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Ремонт сувальдного замка", "price": "1 800 ₽" },
+          { "name": "Ремонт цилиндрового замка", "price": "1 500 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 17,
@@ -668,29 +834,37 @@
     "whatsapp": "+73471234567",
     "telegram": "master_ufa",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [
-      54.734,
-      55.957
-    ],
+    "coords": [54.734, 55.957],
     "rating": 4.6,
     "reviews_count": 13,
-    "products": [
-      "Готовые решения"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏠 Магазин замков"
-    ],
+    "type": ["🏠 Магазин замков"],
     "website": "https://example.com/partner17",
     "description": "Большой выбор готовых решений для дома и офиса. Проводим обучение.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Замок-Мастер",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZM",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🏠 Готовые решения",
+        "price": "от 10 000 ₽",
+        "items": [
+          { "name": "Комплект 'Умная квартира'", "price": "25 000 ₽" },
+          { "name": "Комплект 'Офисная безопасность'", "price": "30 000 ₽" }
+        ]
+      },
+      {
+        "category": "🎓 Обучение",
+        "price": "от 8 000 ₽",
+        "items": [
+          { "name": "Курс по установке", "price": "8 000 ₽" },
+          { "name": "Курс по настройке ПО", "price": "5 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 18,
@@ -701,30 +875,37 @@
     "whatsapp": "+73911234567",
     "telegram": "digital_krsk",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [
-      56.015,
-      92.893
-    ],
+    "coords": [56.015, 92.893],
     "rating": 4.7,
     "reviews_count": 19,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Ремонт"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Ремонт"],
     "certified": true,
-    "type": [
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🔧 Монтажная организация"],
     "website": "https://example.com/partner18",
     "description": "Цифровые замки и системы безопасности. Монтаж и гарантийное обслуживание.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🔧 Гарантийное обслуживание",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Плановый осмотр (раз в год)", "price": "бесплатно" },
+          { "name": "Замена бракованных деталей", "price": "бесплатно" }
+        ]
+      },
+      {
+        "category": "🛠️ Ремонт",
+        "price": "от 2 000 ₽",
+        "items": [
+          { "name": "Диагностика", "price": "1 000 ₽" },
+          { "name": "Замена мотора замка", "price": "3 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 19,
@@ -735,28 +916,37 @@
     "whatsapp": "+74731234567",
     "telegram": "bezopasnost_vrn",
     "hours": "ежедневно 10:00 - 20:00",
-    "coords": [
-      51.66,
-      39.2
-    ],
+    "coords": [51.66, 39.2],
     "rating": 4.4,
     "reviews_count": 7,
-    "products": [
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж"
-    ],
+    "products": ["Умные замки"],
+    "services": ["Монтаж"],
     "certified": false,
-    "type": [
-      "🔧 Монтажная организация"
-    ],
+    "type": ["🔧 Монтажная организация"],
     "website": "https://example.com/partner19",
     "description": "Монтаж систем безопасности и замков. Выезд по городу и области.",
     "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Безопасность%2B",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=B%2B",
     "photos": [],
-    "reviews": []
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🚗 Выездная установка",
+        "price": "от 4 000 ₽",
+        "items": [
+          { "name": "Выезд мастера в пределах города", "price": "бесплатно" },
+          { "name": "Выезд в область (до 50 км)", "price": "1 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Установка замков",
+        "price": "от 3 500 ₽",
+        "items": [
+          { "name": "Умный замок", "price": "3 500 ₽" },
+          { "name": "Электромеханический замок", "price": "4 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 20,
@@ -767,31 +957,46 @@
     "whatsapp": "+78631234567",
     "telegram": "zamkipro_rostov",
     "hours": "ежедневно 09:00 - 21:00",
-    "coords": [
-      47.235,
-      39.701
-    ],
+    "coords": [47.235, 39.701],
     "rating": 4.8,
     "reviews_count": 27,
-    "products": [
-      "Готовые решения",
-      "Умные замки"
-    ],
-    "services": [
-      "Монтаж",
-      "Обучение"
-    ],
+    "products": ["Готовые решения", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": [
-      "🏬 Магазин"
-    ],
+    "type": ["🏬 Магазин"],
     "website": "https://example.com/partner20",
     "description": "Крупнейший магазин электронных замков на юге России. Обучение и сервисный центр.",
     "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Ростов",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
-    "photos": [
-      "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Зал"
-    ],
-    "reviews": []
+    "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Зал"],
+    "reviews": [],
+    "detailed_services": [
+      {
+        "category": "🎓 Сертифицированное обучение",
+        "price": "от 12 000 ₽",
+        "items": [
+          { "name": "Курс 'Мастер по умным замкам'", "price": "15 000 ₽" },
+          { "name": "Курс 'Системы контроля доступа'", "price": "20 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Сервисный центр",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Диагностика", "price": "1 000 ₽" },
+          { "name": "Замена прошивки", "price": "2 000 ₽" },
+          { "name": "Ремонт сенсорной панели", "price": "от 2 500 ₽" }
+        ]
+      },
+      {
+        "category": "🔩 Комплектующие и аксессуары",
+        "price": "от 500 ₽",
+        "items": [
+          { "name": "Карты доступа Mifare (5 шт.)", "price": "1 000 ₽" },
+          { "name": "Брелок-ключ", "price": "700 ₽" },
+          { "name": "Умный датчик открытия двери", "price": "1 200 ₽" }
+        ]
+      }
+    ]
   }
 ]
