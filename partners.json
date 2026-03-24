@@ -43,7 +43,11 @@
       {
         "name": "Dircode T850 пуш-пулл умный замок",
         "price": 39900,
-        "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
+        "images": [
+  "https://example.com/photo1.jpg",
+  "https://example.com/photo2.jpg",
+  "https://example.com/photo3.jpg"
+]
         "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
         "url": "https://example.com/product/aqara-d100"
       },
