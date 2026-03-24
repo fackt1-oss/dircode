@@ -23,8 +23,7 @@
       "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
       "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
       "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
-      "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL",
-      "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL"
+      "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
     ],
     "reviews": [
       {
@@ -84,9 +83,6 @@
         "items": [
           { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
           { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
-          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" },
-          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" },
-          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" },
           { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
         ]
       },
@@ -315,6 +311,15 @@
         "text": "Хороший выбор, вежливый персонал. Цены чуть выше среднего, но качество соответствующее."
       }
     ],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🧑‍🏫 Мастер-классы",
@@ -356,6 +361,29 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
     "photos": ["https://via.placeholder.com/400x300/4b5563/ffffff?text=Мастерская"],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔧 Ремонт замков",
@@ -399,6 +427,15 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
     "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Магазин+Йошкар-Ола"],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🏠 Установка под ключ",
@@ -440,6 +477,29 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🎥 Установка видеонаблюдения",
@@ -481,6 +541,15 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=ZM",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔓 Аварийное вскрытие",
@@ -522,6 +591,29 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
     "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Интерьер"],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🏠 Комплекты умного дома",
@@ -563,6 +655,15 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=B%2B",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🏢 Обслуживание офисов",
@@ -604,6 +705,29 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🏠 Установка замков",
@@ -645,6 +769,15 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=UD",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "📘 Онлайн-курсы",
@@ -686,6 +819,29 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔧 Срочный ремонт",
@@ -727,6 +883,15 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔐 Обслуживание сейфов",
@@ -768,6 +933,29 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🎓 Мастер-классы",
@@ -809,6 +997,15 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔓 Аварийное вскрытие",
@@ -850,6 +1047,29 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZM",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🏠 Готовые решения",
@@ -891,6 +1111,15 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🔧 Гарантийное обслуживание",
@@ -932,6 +1161,29 @@
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=B%2B",
     "photos": [],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728"
+      },
+      {
+        "name": "Дверная ручка с замком Xiaomi",
+        "price": 9900,
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "description": "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
+        "url": "https://example.com/product/xiaomi-handle"
+      },
+      {
+        "name": "Замок-задвижка Lockin",
+        "price": 13400,
+        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "description": "Автоматическая задвижка, управление через приложение.",
+        "url": "https://example.com/product/lockin"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🚗 Выездная установка",
@@ -973,6 +1225,15 @@
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
     "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Зал"],
     "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930"
+      }
+    ],
     "detailed_services": [
       {
         "category": "🎓 Сертифицированное обучение",
