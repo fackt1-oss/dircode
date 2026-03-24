@@ -265,17 +265,7 @@
     "cover" : "https://static.tildacdn.com/tild3163-6634-4663-a336-313864353763/98497.jpg",
     "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=DK",
     "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Шоурум", "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Курсы", "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Мастерская" ],
-    "reviews" : [ {
-        "author" : "Дмитрий В.",
-        "rating" : 5,
-        "date" : "2026-03-01",
-        "text" : "Очень компетентные сотрудники. Помогли настроить систему для офиса. Рекомендую!"
-    }, {
-        "author" : "Ольга Н.",
-        "rating" : 5,
-        "date" : "2026-02-20",
-        "text" : "Прошла обучение по монтажу. Всё доступно объяснили, дали практические навыки."
-    } ],
+    "reviews" : [ ],
     "catalog" : [ {
         "name" : "Программируемый замок Cisa 56930",
         "price" : 32500,
