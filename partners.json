@@ -45,14 +45,14 @@
       "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
       "images": [
         "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
-        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-2.png.webp",
-        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-3.png.webp"
+        "https://static.tildacdn.com/tild3062-6336-4865-b330-316538383132/T850-.png",
+        "https://optim.tildacdn.com/tild3032-3537-4139-a534-663732326233/-/format/webp/T850-2.png.webp"
       ],
       "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
       "url": "https://example.com/product/dircode-t850",
       "specs": {
         "Тип": "Пуш-пулл",
-        "Питание": "4xAA",
+        "Питание": "",
         "Цвет": "Черный",
         "Количество отпечатков": "100",
         "Емкость пользователя":  "Количество администраторов ~ 10",
