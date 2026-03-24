@@ -116,6 +116,42 @@
       }
     },
     {
+      "name": "Навесной замок Xiaomi",
+      "price": 3490,
+      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      ],
+      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
+      "url": "https://example.com/product/xiaomi-padlock",
+      "specs": {
+        "Тип": "Навесной",
+        "Влагозащита": "IP67",
+        "Способ открытия": "Отпечаток пальца",
+        "Емкость аккумулятора": "500 мАч",
+        "Материал": "Цинковый сплав"
+      }
+    },
+    {
+      "name": "Навесной замок Xiaomi",
+      "price": 3490,
+      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      ],
+      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
+      "url": "https://example.com/product/xiaomi-padlock",
+      "specs": {
+        "Тип": "Навесной",
+        "Влагозащита": "IP67",
+        "Способ открытия": "Отпечаток пальца",
+        "Емкость аккумулятора": "500 мАч",
+        "Материал": "Цинковый сплав"
+      }
+    },
+    {
       "name": "Электронная задвижка Samsung",
       "price": 21500,
       "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
