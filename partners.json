@@ -1,86 +1,121 @@
 [
   {
-    "id": 1,
-    "name": "ООО Диркод",
-    "address": "ул. Студенческая, д.19 к.3, Москва",
-    "phone": "+7 (495) 414-49-00",
-    "email": "key.pluss@yandex.ru",
-    "MAX": "https://max.ru/id7730293063_biz",
-    "telegram": "https://t.me/@dircode",
-    "hours": "ежедневно 10:00 - 18:00",
-    "coords": [55.741974, 37.549305],
-    "rating": 4.8,
-    "reviews_count": 25,
-    "products": ["Умные двери", "Умные замки"],
-    "services": ["Монтаж", "Обучение"],
-    "certified": true,
-    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
-    "website": "https://dircode.ru",
-    "description": "Компания работает на рынке более 10 лет. Мы только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
-    "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
-    "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
-    "photos": [
-      "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
-      "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
-      "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
-      "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
-    ],
-    "reviews": [
-      {
-        "author": "Алексей П.",
-        "rating": 5,
-        "date": "2026-03-15",
-        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
-      },
-      {
-        "author": "Елена С.",
-        "rating": 4,
-        "date": "2026-03-10",
-        "text": "Хороший выбор, но пришлось подождать доставки. Монтажники приехали вовремя, установили аккуратно."
+  "id": 1,
+  "name": "ООО Диркод",
+  "address": "ул. Студенческая, д.19 к.3, Москва",
+  "phone": "+7 (495) 414-49-00",
+  "email": "key.pluss@yandex.ru",
+  "MAX": "https://max.ru/id7730293063_biz",
+  "telegram": "https://t.me/@dircode",
+  "hours": "ежедневно 10:00 - 18:00",
+  "coords": [55.741974, 37.549305],
+  "rating": 4.8,
+  "reviews_count": 25,
+  "products": ["Умные двери", "Умные замки"],
+  "services": ["Монтаж", "Обучение"],
+  "certified": true,
+  "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
+  "website": "https://dircode.ru",
+  "description": "Компания работает на рынке более 10 лет. Мы только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
+  "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+  "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
+  "photos": [
+    "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
+  ],
+  "reviews": [
+    {
+      "author": "Алексей П.",
+      "rating": 5,
+      "date": "2026-03-15",
+      "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
+    },
+    {
+      "author": "Елена С.",
+      "rating": 4,
+      "date": "2026-03-10",
+      "text": "Хороший выбор, но пришлось подождать доставки. Монтажники приехали вовремя, установили аккуратно."
+    }
+  ],
+  "catalog": [
+    {
+      "name": "Dircode T850 пуш-пулл умный замок",
+      "price": 39900,
+      "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
+      "images": [
+        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
+        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-2.png.webp",
+        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-3.png.webp"
+      ],
+      "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
+      "url": "https://example.com/product/aqara-d100",
+      "specs": {
+        "Тип": "Пуш-пулл",
+        "Питание": "4xAA",
+        "Цвет": "Черный",
+        "Количество отпечатков": "100"
       }
-    ],
-    "catalog": [
-      {
-        "name": "Dircode T850 пуш-пулл умный замок",
-        "price": 39900,
-        "images": [
-  "https://example.com/photo1.jpg",
-  "https://example.com/photo2.jpg",
-  "https://example.com/photo3.jpg"
-]
-        "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
-        "url": "https://example.com/product/aqara-d100"
-      },
-      {
-        "name": "Готовое решение: умная дверь",
-        "price": 45900,
-        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description": "Комплект: дверь + замок Aqara + доводчик. Установка включена.",
-        "url": "https://example.com/product/smart-door"
-      },
-      {
-        "name": "Навесной замок Xiaomi",
-        "price": 3490,
-        "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
-        "url": "https://example.com/product/xiaomi-padlock"
-      },
-      {
-        "name": "Дверной глазок с камерой",
-        "price": 8900,
-        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description": "Wi-Fi камера, датчик движения, ночное видение.",
-        "url": "https://example.com/product/door-eye"
-      },
-      {
-        "name": "Электронная задвижка Samsung",
-        "price": 21500,
-        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description": "Управление со смартфона, автоматическое запирание.",
-        "url": "https://example.com/product/samsung-bolt"
+    },
+    {
+      "name": "Готовое решение: умная дверь",
+      "price": 45900,
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      ],
+      "description": "Комплект: дверь + замок Aqara + доводчик. Установка включена.",
+      "url": "https://example.com/product/smart-door",
+      "specs": {
+        "Материал двери": "Сталь",
+        "Утеплитель": "Минвата",
+        "Толщина": "80 мм"
       }
-    ],
-    "detailed_services": [
+    },
+    {
+      "name": "Навесной замок Xiaomi",
+      "price": 3490,
+      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      ],
+      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
+      "url": "https://example.com/product/xiaomi-padlock",
+      "specs": {
+        "Тип": "Навесной",
+        "Влагозащита": "IP67",
+        "Способ открытия": "Отпечаток"
+      }
+    },
+    {
+      "name": "Дверной глазок с камерой",
+      "price": 8900,
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+      "description": "Wi-Fi камера, датчик движения, ночное видение.",
+      "url": "https://example.com/product/door-eye",
+      "specs": {
+        "Разрешение": "1080p",
+        "Угол обзора": "160°",
+        "Wi-Fi": "2.4 ГГц"
+      }
+    },
+    {
+      "name": "Электронная задвижка Samsung",
+      "price": 21500,
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
+      "description": "Управление со смартфона, автоматическое запирание.",
+      "url": "https://example.com/product/samsung-bolt",
+      "specs": {
+        "Тип": "Задвижка",
+        "Управление": "Bluetooth",
+        "Автоматическая": "Да"
+      }
+    }
+  ],
+  "detailed_services": [
       {
         "category": "🛠️ Установка и монтаж",
         "price": "от 3 000 ₽",
