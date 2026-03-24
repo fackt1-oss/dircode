@@ -206,57 +206,9 @@
         "date" : "2026-02-28",
         "text" : "Купил умный замок, всё понравилось. Продавец подробно рассказал о характеристиках."
     } ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔑 Продажа и консультация",
-        "price" : "бесплатно",
-        "items" : [ {
-            "name" : "Подбор замка по вашей двери",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Демонстрация работы замков в шоуруме",
-            "price" : "бесплатно"
-        } ]
-    }, {
-        "category" : "🛠️ Установка",
-        "price" : "от 2 500 ₽",
-        "items" : [ {
-            "name" : "Установка накладного замка",
-            "price" : "2 500 ₽"
-        }, {
-            "name" : "Установка врезного замка",
-            "price" : "3 500 ₽"
-        } ]
-    }, {
-        "category" : "🔩 Замена фурнитуры",
-        "price" : "от 800 ₽",
-        "items" : [ {
-            "name" : "Замена цилиндра",
-            "price" : "800 ₽"
-        }, {
-            "name" : "Замена ручек",
-            "price" : "500 ₽"
-        } ]
-    } ]
-}, {
+    "catalog" : [],
+    "detailed_services" : []
+  }, {
     "id" : 3,
     "name" : "компани ООО Лимитед",
     "address" : "Студенческая, д. 19, к.3 Москва",
