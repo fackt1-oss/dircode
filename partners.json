@@ -304,7 +304,7 @@
     "type": ["🏠 Магазин замков"],
     "website": "https://example.com/partner4",
     "description": "Магазин электронных замков в центре Петербурга. Есть демо-стенд. Проводим мастер-классы.",
-    "cover": https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
+    "cover": "https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
     "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
     "photos": ["https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Витрина+СПб"],
     "reviews": [
