@@ -86,6 +86,29 @@
             "exterior_image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png",
             "interior_image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif"
           }
+        ],
+        "additional_options": [
+          {
+            "id": "opt1",
+            "name": "Опция 1: Доводчик двери",
+            "price": 5000,
+            "image": "https://via.placeholder.com/100?text=Доводчик",
+            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
+          },
+          {
+            "id": "opt2",
+            "name": "Опция 2: Скрытые петли",
+            "price": 8000,
+            "image": "https://via.placeholder.com/100?text=Петли",
+            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
+          },
+          {
+            "id": "opt3",
+            "name": "Опция 3: Терморазрыв",
+            "price": 12000,
+            "image": "https://via.placeholder.com/100?text=Терморазрыв",
+            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
+          }
         ]
       }
     ],
@@ -214,6 +237,29 @@
             "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png",
             "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png"
           }
+        ],
+        "additional_options": [
+          {
+            "id": "opt1",
+            "name": "Опция 1: Доводчик двери",
+            "price": 5000,
+            "image": "https://via.placeholder.com/100?text=Доводчик",
+            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
+          },
+          {
+            "id": "opt2",
+            "name": "Опция 2: Скрытые петли",
+            "price": 8000,
+            "image": "https://via.placeholder.com/100?text=Петли",
+            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
+          },
+          {
+            "id": "opt3",
+            "name": "Опция 3: Терморазрыв",
+            "price": 12000,
+            "image": "https://via.placeholder.com/100?text=Терморазрыв",
+            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
+          }
         ]
       }
     ],
@@ -315,6 +361,29 @@
             "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
             "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
           }
+        ],
+        "additional_options": [
+          {
+            "id": "opt1",
+            "name": "Опция 1: Доводчик двери",
+            "price": 5000,
+            "image": "https://via.placeholder.com/100?text=Доводчик",
+            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
+          },
+          {
+            "id": "opt2",
+            "name": "Опция 2: Скрытые петли",
+            "price": 8000,
+            "image": "https://via.placeholder.com/100?text=Петли",
+            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
+          },
+          {
+            "id": "opt3",
+            "name": "Опция 3: Терморазрыв",
+            "price": 12000,
+            "image": "https://via.placeholder.com/100?text=Терморазрыв",
+            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
+          }
         ]
       }
     ],
@@ -412,6 +481,29 @@
             "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
             "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
           }
+        ],
+        "additional_options": [
+          {
+            "id": "opt1",
+            "name": "Опция 1: Доводчик двери",
+            "price": 5000,
+            "image": "https://via.placeholder.com/100?text=Доводчик",
+            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
+          },
+          {
+            "id": "opt2",
+            "name": "Опция 2: Скрытые петли",
+            "price": 8000,
+            "image": "https://via.placeholder.com/100?text=Петли",
+            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
+          },
+          {
+            "id": "opt3",
+            "name": "Опция 3: Терморазрыв",
+            "price": 12000,
+            "image": "https://via.placeholder.com/100?text=Терморазрыв",
+            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
+          }
         ]
       }
     ],
@@ -508,6 +600,29 @@
             "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
             "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
             "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
+          }
+        ],
+        "additional_options": [
+          {
+            "id": "opt1",
+            "name": "Опция 1: Доводчик двери",
+            "price": 5000,
+            "image": "https://via.placeholder.com/100?text=Доводчик",
+            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
+          },
+          {
+            "id": "opt2",
+            "name": "Опция 2: Скрытые петли",
+            "price": 8000,
+            "image": "https://via.placeholder.com/100?text=Петли",
+            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
+          },
+          {
+            "id": "opt3",
+            "name": "Опция 3: Терморазрыв",
+            "price": 12000,
+            "image": "https://via.placeholder.com/100?text=Терморазрыв",
+            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
           }
         ]
       }
