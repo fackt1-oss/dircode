@@ -51,68 +51,7 @@
         "text": "Хороший выбор, но пришлось подождать доставки. Монтажники приехали вовремя, установили аккуратно."
       }
     ],
-    "catalog": [
-      {
-        "name": "Dircode T850 пуш-пулл умный замок",
-        "price": 39900,
-        "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
-        "images": [
-          "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
-          "https://static.tildacdn.com/tild3062-6336-4865-b330-316538383132/T850-.png",
-          "https://optim.tildacdn.com/tild3032-3537-4139-a534-663732326233/-/format/webp/T850-2.png.webp"
-        ],
-        "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
-        "url": "https://example.com/product/dircode-t850",
-        "specs": {
-          "Тип": "Пуш-пулл",
-          "Рабочая Температура": "-20 °C до +60 °C",
-          "Питание": "Аккумулятор 7,5В",
-          "Цвет": "Черный",
-          "Приложение": "Smartlife",
-          "Способы открытия": "Распознавание лица, распознавание ладони, пин-код, отпечаток пальца, RFID-карта, приложение, пульт, механический ключ",
-          "Гарантия": "1 год"
-        },
-        "compatible_locks": ["814735012891", "422788408171", "301559014621"],
-        "side_options": ["Правая", "Левая"],
-        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
-        "exterior_options": [
-          { "name": "Чёрный", "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp" },
-          { "name": "Серебристый", "image": "https://static.tildacdn.com/tild3062-6336-4865-b330-316538383132/T850-.png" }
-        ],
-        "interior_options": [
-          { "name": "Чёрный", "image": "https://optim.tildacdn.com/tild3032-3537-4139-a534-663732326233/-/format/webp/T850-2.png.webp" }
-        ]
-      },
-      {
-        "name": "Готовое решение: умная дверь",
-        "price": 45900,
-        "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
-        "images": [
-          "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
-          "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif",
-          "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif"
-        ],
-        "description": "Комплект: дверь + замок Philips 610.",
-        "url": "https://example.com/product/smart-door",
-        "specs": {
-          "Материал двери": "Сталь",
-          "Утеплитель": "Минвата",
-          "Толщина": "80 мм",
-          "Тип замка": "Умный, врезной",
-          "Доводчик": "В комплекте"
-        },
-        "compatible_locks": ["814735012891", "422788408171", "253438850141"],
-        "side_options": ["Правая", "Левая"],
-        "size_options": ["880×2050 мм", "960×2050 мм"],
-        "exterior_options": [
-          { "name": "Коричневый", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" },
-          { "name": "Белый", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" }
-        ],
-        "interior_options": [
-          { "name": "Белый", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" }
-        ]
-      }
-    ],
+    "catalog": [],
     "detailed_services": [
       {
         "category": "🛠️ Установка и монтаж",
