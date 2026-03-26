@@ -14,7 +14,7 @@
     "certified": true,
     "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
     "website": "https://dircode.ru",
-    "description": "Компания работает на рынке более 10 лет. Мы не только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
+    "description": "Компания работает на рынке более 10 лет...",
     "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
     "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
     "photos": [],
@@ -23,13 +23,13 @@
         "author": "Алексей П.",
         "rating": 5,
         "date": "2026-03-15",
-        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
+        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили."
       }
     ],
     "catalog": [
       {
-        "name": "Умная дверь Dircode Pro",
         "type": "door",
+        "name": "Умная дверь Dircode Pro",
         "price": 45900,
         "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
         "description": "Металлическая дверь с терморазрывом, утепление минватой. Комплект: дверь + замок Philips 610.",
@@ -123,8 +123,8 @@
     ],
     "catalog": [
       {
-        "name": "Входная дверь Не спарта",
         "type": "door",
+        "name": "Входная дверь Не спарта",
         "price": 38000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
         "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
@@ -179,9 +179,10 @@
             ]
           }
         ]
-      },{
-        "name": "Входная дверь Спарта",
+      },
+      {
         "type": "door",
+        "name": "Входная дверь Спарта",
         "price": 38000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
@@ -270,8 +271,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Электронный замок Slim - Чёрный",
         "type": "lock",
+        "name": "Электронный замок Slim - Чёрный",
         "price": 21000,
         "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
         "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой.",
@@ -283,8 +284,8 @@
         }
       },
       {
-        "name": "Wi-Fi модуль для замков",
         "type": "accessory",
+        "name": "Wi-Fi модуль для замков",
         "price": 5000,
         "image": "https://static.tildacdn.com/tild3466-6537-4263-a262-336634313061/f2f40aee0284e9bf9b8d.jpg",
         "description": "Удалённое управление замком через интернет, просмотр истории событий.",
@@ -327,8 +328,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Входная дверь Termo",
         "type": "door",
+        "name": "Входная дверь Termo",
         "price": 52000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Утеплённая дверь с терморазрывом, сталь 2 мм.",
@@ -365,8 +366,8 @@
         ]
       },
       {
-        "name": "Замок-невидимка Utopic Deadbolt",
         "type": "lock",
+        "name": "Замок-невидимка Utopic Deadbolt",
         "price": 19900,
         "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
         "description": "Электронный цилиндр, управление с телефона. Не требует замены замка.",
@@ -409,8 +410,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Замок Samsung SHP-DP728",
         "type": "lock",
+        "name": "Замок Samsung SHP-DP728",
         "price": 18990,
         "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
         "description": "Цифровой замок с отпечатком, кодом, картой и ключом.",
@@ -453,8 +454,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умная дверь Dircode Pro",
         "type": "door",
+        "name": "Умная дверь Dircode Pro",
         "price": 45900,
         "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
         "description": "Металлическая дверь с умным замком.",
@@ -513,8 +514,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Dircode М701 смарт замок - Чёрный",
         "type": "lock",
+        "name": "Dircode М701 смарт замок - Чёрный",
         "price": 21000,
         "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
         "description": "Умный замок с отпечатком пальца, PIN-кодом, картой.",
@@ -557,8 +558,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Входная дверь Стандарт",
         "type": "door",
+        "name": "Входная дверь Стандарт",
         "price": 25000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Эконом-класс, сталь 1,2 мм.",
@@ -606,8 +607,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умная дверь Престиж",
         "type": "door",
+        "name": "Умная дверь Престиж",
         "price": 65000,
         "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png",
         "description": "Дверь премиум-класса, сталь 2 мм, терморазрыв.",
@@ -666,8 +667,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умный замок Dircode U800",
         "type": "lock",
+        "name": "Умный замок Dircode U800",
         "price": 28000,
         "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
         "description": "Замок с распознаванием лица и отпечатком.",
@@ -709,8 +710,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умная дверь Спарта",
         "type": "door",
+        "name": "Умная дверь Спарта",
         "price": 38000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Металлическая дверь с умным замком.",
@@ -758,8 +759,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Philips EasyKey DDL720-MVP",
         "type": "lock",
+        "name": "Philips EasyKey DDL720-MVP",
         "price": 54900,
         "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
         "description": "Замок с распознаванием вен ладони, отпечатком, кодом.",
@@ -801,8 +802,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Входная дверь Сибирь",
         "type": "door",
+        "name": "Входная дверь Сибирь",
         "price": 42000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Утеплённая дверь для сурового климата.",
@@ -850,8 +851,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Электронный цилиндр Utopic R",
         "type": "lock",
+        "name": "Электронный цилиндр Utopic R",
         "price": 26000,
         "image": "https://static.tildacdn.com/tild6264-6663-4634-a563-633161643039/71L2UXfz43L_SL1500_.jpg",
         "description": "Цилиндр с Bluetooth, управление с телефона.",
@@ -893,8 +894,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умный замок Dircode Q2",
         "type": "lock",
+        "name": "Умный замок Dircode Q2",
         "price": 48000,
         "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
         "description": "Замок с распознаванием лица и отпечатком.",
@@ -935,8 +936,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умный замок Lockin G30",
         "type": "lock",
+        "name": "Умный замок Lockin G30",
         "price": 21000,
         "image": "https://static.tildacdn.com/stor6530-3563-4231-a430-333439633933/33779428.gif",
         "description": "Компактный замок с отпечатком и кодом.",
@@ -977,8 +978,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Входная дверь Уфа",
         "type": "door",
+        "name": "Входная дверь Уфа",
         "price": 40000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Утеплённая дверь, сталь 1,5 мм.",
@@ -1026,8 +1027,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Входная дверь Енисей",
         "type": "door",
+        "name": "Входная дверь Енисей",
         "price": 47000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Дверь с терморазрывом, сталь 1,8 мм.",
@@ -1075,8 +1076,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Электронная ручка Dircode P30",
         "type": "lock",
+        "name": "Электронная ручка Dircode P30",
         "price": 17000,
         "image": "https://static.tildacdn.com/stor6532-3461-4963-a562-616330666136/43281232.png",
         "description": "Умная ручка с отпечатком, для межкомнатных дверей.",
@@ -1117,8 +1118,8 @@
     "reviews": [],
     "catalog": [
       {
-        "name": "Умная дверь Юг",
         "type": "door",
+        "name": "Умная дверь Юг",
         "price": 49000,
         "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png",
         "description": "Дверь с терморазрывом, устойчивая к высоким температурам.",
