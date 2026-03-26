@@ -257,16 +257,16 @@
           "Наполнение": "Мин. плита",
           "Гарантия": "1 год"
         },
-        "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"],
+        "compatible_locks": ["809533664671", "930848911812", "460867086092"],
         "side_options": ["Правая", "Левая"],
-        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
+        "size_options": ["860×2050 мм", "960×2050 мм", "Индивидуальный"],
         "exterior_options": [
           { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png" },
           { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
           { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
         ],
         "interior_options": [
-          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/stor6235-6361-4366-b931-363638386439/98709549.jpg" },
           { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
           { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
         ]
