@@ -123,6 +123,63 @@
     ],
     "catalog": [
       {
+        "name": "Входная дверь Не спарта",
+        "type": "door",
+        "price": 38000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
+        "specs": {
+          "Тип коробки": "Закрытый утепленный",
+          "Толщина полотна": "90 мм",
+          "Толщина стали": "1,5 мм",
+          "Петли": "2 шт",
+          "Отделка снаружи": "МДФ 12 мм",
+          "Наполнение": "Мин. плита",
+          "Гарантия": "1 год"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" },
+          { "name": "название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
+          { "name": "название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
+          { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+          { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "930848911812",
+            "name": "Philips EasyKey DDL720-MVP",
+            "price": 54900,
+            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+            "exterior_options": [
+              { "name": "Внешняя 1 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Внешняя 2 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Внутренняя 1 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Внутренняя 2 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+            ]
+          },
+          {
+            "id": "460867086092",
+            "name": "Dircode Q2",
+            "price": 48000,
+            "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
+            "exterior_options": [
+              { "name": "Внешняя 1 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Внешняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Внутренняя 1 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Внутренняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+            ]
+          }
+        ]
+      },{
         "name": "Входная дверь Спарта",
         "type": "door",
         "price": 38000,
