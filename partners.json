@@ -1,1367 +1,176 @@
-[ {
-  "id": 1,
-  "name": "ООО Диркод",
-  "address": "ул. Студенческая, д.19 к.3, Москва",
-  "phone": "+7 (495) 414-49-00",
-  "email": "key.pluss@yandex.ru",
-  "MAX": "https://max.ru/id7730293063_biz",
-  "telegram": "https://t.me/@dircode",
-  "hours": "ежедневно 10:00 - 18:00",
-  "coords": [55.741974, 37.549305],
-  "rating": 4.8,
-  "reviews_count": 25,
-  "products": ["Умные двери", "Умные замки"],
-  "services": ["Монтаж", "Обучение"],
-  "certified": true,
-  "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
-  "website": "https://dircode.ru",
-  "description": "Компания работает на рынке более 10 лет. Мы не только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
-  "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
-  "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
-  "photos": [
-    "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
-  ],
-  "reviews": [
+{
+  "partners": [
     {
-      "author": "Алексей П.",
-      "rating": 5,
-      "date": "2026-03-15",
-      "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
-    },
-    {
-      "author": "Алексей П.",
-      "rating": 5,
-      "date": "2026-05-15",
-      "text": "Отличный магазин2 Помогли с выбором умного замка, быстро установили. Всё работает отлично."
-    },
-    {
-      "author": "Алексей В.",
-      "rating": 5,
-      "date": "2026-03-15",
-      "text": "Отличный магазин3 Помогли с выбором умного замка, быстро установили. Всё работает отлично."
-    },
-    
-    {
-      "author": "Елена С.",
-      "rating": 5,
-      "date": "2026-03-10",
-      "text": "Хороший выбор, но пришлось подождать доставки. Монтажники приехали вовремя, установили аккуратно."
-    }
-  ],
-  "catalog": [
-    {
-      "name": "Dircode T850 пуш-пулл умный замок",
-      "price": 39900,
-      "image": "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
-      "images": [
-        "https://optim.tildacdn.com/tild6465-3564-4564-a666-613732663064/-/format/webp/T850-1.png.webp",
-        "https://static.tildacdn.com/tild3062-6336-4865-b330-316538383132/T850-.png",
-        "https://optim.tildacdn.com/tild3032-3537-4139-a534-663732326233/-/format/webp/T850-2.png.webp"
+      "id": 1,
+      "name": "ООО Диркод",
+      "address": "ул. Студенческая, д.19 к.3, Москва",
+      "phone": "+7 (495) 414-49-00",
+      "email": "key.pluss@yandex.ru",
+      "hours": "ежедневно 10:00 - 18:00",
+      "coords": [55.741974, 37.549305],
+      "rating": 4.8,
+      "products": ["Умные двери", "Умные замки"],
+      "services": ["Монтаж", "Обучение"],
+      "certified": true,
+      "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
+      "website": "https://dircode.ru",
+      "description": "Компания работает на рынке более 10 лет...",
+      "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+      "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
+      "photos": [],
+      "reviews": [],
+      "catalog": [
+        {
+          "name": "Готовое решение: умная дверь",
+          "price": 45900,
+          "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
+          "images": [],
+          "description": "Комплект: дверь + замок Philips 610.",
+          "url": "https://example.com/product/smart-door",
+          "specs": {},
+          "compatible_locks": ["814735012891", "422788408171", "301559014621"]
+        }
       ],
-      "description": "Подходит для Гардиан (Guardian) 32.21 и Kale Kilit 252",
-      "url": "https://example.com/product/dircode-t850",
-      "specs": {
-        "Тип": "Пуш-пулл",
-        "Рабочая Температура": "-20 °C до +60 °C",
-        "Питание": "Аккумулятор 7,5В",
-        "Цвет": "Черный",
-        "Приложение": "Smartlife",
-        "Способы открытия":  "Распознавание лица, распознавание ладони, пин-код, отпечаток пальца, RFID-карта, приложение, пульт, механический ключ",
-        "Гарантия": "1 год"
-      }
+      "detailed_services": []
     },
     {
-      "name": "Готовое решение: умная дверь",
-      "price": 45900,
-      "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
-      "images": [
-        "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
-        "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif",
-        "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif"
+      "id": 2,
+      "name": "Двери Кубани",
+      "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
+      "phone": "+7 (928) 429-89-28",
+      "email": "dverikubani@yandex.ru",
+      "hours": "ежедневно 09:00 - 19:00",
+      "coords": [45.093701, 39.041162],
+      "rating": 0,
+      "products": ["Умные двери", "Умные замки"],
+      "services": ["Монтаж", "Обучение"],
+      "certified": true,
+      "type": ["🏬 Магазин дверей"],
+      "website": "https://dverikubani23.ru/",
+      "description": "Широкий ассортимент входных дверей и замков...",
+      "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
+      "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
+      "photos": [],
+      "reviews": [],
+      "catalog": [
+        {
+          "name": "Спарта",
+          "price": 38000,
+          "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
+          "images": [],
+          "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
+          "url": "https://example.com/product/dircode-t850",
+          "specs": {},
+          "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
+        },
+        {
+          "name": "Спарта",
+          "price": 38000,
+          "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
+          "images": [],
+          "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
+          "url": "https://example.com/product/dircode-t850",
+          "specs": {},
+          "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
+        }
       ],
-      "description": "Комплект: дверь + замок Philips 610.",
-      "url": "https://example.com/product/smart-door",
-      "specs": {
-        "Материал двери": "Сталь",
-        "Утеплитель": "Минвата",
-        "Толщина": "80 мм",
-        "Тип замка": "Умный, врезной",
-        "Доводчик": "В комплекте"
-      }
+      "detailed_services": []
     },
     {
-      "name": "Навесной замок Xiaomi",
-      "price": 3490,
-      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      "id": 3,
+      "name": "компани ООО Лимитед",
+      "address": "Студенческая, д. 19, к.3 Москва",
+      "phone": "+7 (495) 345-67-89",
+      "email": "",
+      "hours": "ежедневно 10:00 - 20:00",
+      "coords": [55.743, 37.534],
+      "rating": 0,
+      "products": ["Умные двери", "Умные замки"],
+      "services": ["Монтаж", "Ремонт", "Обучение"],
+      "certified": true,
+      "type": ["🔧 Монтажная организация", "🏠 Магазин замков"],
+      "website": "https://example.com/partner3",
+      "description": "Специализируемся на цифровых замках и системах контроля доступа...",
+      "cover": "https://static.tildacdn.com/tild3163-6634-4663-a336-313864353763/98497.jpg",
+      "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DK",
+      "photos": [],
+      "reviews": [],
+      "catalog": [
+        {
+          "name": "Программируемый замок Cisa 56930",
+          "price": 32500,
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+          "description": "Электронный замок с функцией временных кодов, для офисов.",
+          "url": "https://example.com/product/cisa-56930",
+          "specs": {},
+          "compatible_locks": ["550281796961", "907788883962", "574998032842"]
+        }
       ],
-      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
-      "url": "https://example.com/product/xiaomi-padlock",
-      "specs": {
-        "Тип": "Навесной",
-        "Влагозащита": "IP67",
-        "Способ открытия": "Отпечаток пальца",
-        "Емкость аккумулятора": "500 мАч",
-        "Материал": "Цинковый сплав"
-      }
+      "detailed_services": []
     },
     {
-      "name": "Дверной глазок с камерой",
-      "price": 8900,
-      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
+      "id": 4,
+      "name": "Факт замки",
+      "address": "Невский пр-т, д. 100, Санкт-Петербург",
+      "phone": "+7 (812) 123-45-67",
+      "email": "fackt1@gmail.com",
+      "hours": "ежедневно 10:00 - 21:00",
+      "coords": [59.935, 30.327],
+      "rating": 4.7,
+      "products": ["Умные двери"],
+      "services": ["Монтаж", "Обучение"],
+      "certified": true,
+      "type": ["🏠 Магазин замков"],
+      "website": "https://example.com/partner4",
+      "description": "Магазин электронных замков в центре Петербурга...",
+      "cover": "https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
+      "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
+      "photos": [],
+      "reviews": [],
+      "catalog": [
+        {
+          "name": "Программируемый замок Cisa 56930",
+          "price": 32500,
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+          "description": "Электронный замок с функцией временных кодов, для офисов.",
+          "url": "https://example.com/product/cisa-56930",
+          "specs": {},
+          "compatible_locks": ["550281796961", "253438850141"]
+        }
       ],
-      "description": "Wi-Fi камера, датчик движения, ночное видение.",
-      "url": "https://example.com/product/door-eye",
-      "specs": {
-        "Разрешение": "1080p",
-        "Угол обзора": "160°",
-        "Wi-Fi": "2.4 ГГц",
-        "Ночное видение": "Да, ИК-подсветка",
-        "Питание": "4xAA"
-      }
+      "detailed_services": []
     },
     {
-      "name": "Навесной замок Xiaomi",
-      "price": 3490,
-      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
+      "id": 5,
+      "name": "замки от Хуснаддина",
+      "address": "Садовая ул., д. 35, Санкт-Петербург",
+      "phone": "+7 (812) 234-56-78",
+      "email": "092903@dircode.ru",
+      "hours": "ежедневно 09:00 - 20:00",
+      "coords": [59.926, 30.318],
+      "rating": 4.3,
+      "products": ["Умные замки"],
+      "services": ["Ремонт"],
+      "certified": false,
+      "type": ["🔧 Ремонтная мастерская"],
+      "website": "https://example.com/partner5",
+      "description": "Ремонт и обслуживание замков любой сложности...",
+      "cover": "https://idivpered.ru/wp-content/uploads/2017/04/banner_hit_result1-1200x400.jpg",
+      "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
+      "photos": [],
+      "reviews": [],
+      "catalog": [
+        {
+          "name": "Замок Samsung SHP-DP728",
+          "price": 18990,
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+          "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+          "url": "https://example.com/product/samsung-dp728",
+          "specs": {},
+          "compatible_locks": ["301559014621", "586939080481", "574998032842"]
+        }
       ],
-      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
-      "url": "https://example.com/product/xiaomi-padlock",
-      "specs": {
-        "Тип": "Навесной",
-        "Влагозащита": "IP67",
-        "Способ открытия": "Отпечаток пальца",
-        "Емкость аккумулятора": "500 мАч",
-        "Материал": "Цинковый сплав"
-      }
-    },
-    {
-      "name": "Навесной замок Xiaomi",
-      "price": 3490,
-      "image": "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop"
-      ],
-      "description": "Водонепроницаемый, открытие по отпечатку, до 6 месяцев работы.",
-      "url": "https://example.com/product/xiaomi-padlock",
-      "specs": {
-        "Тип": "Навесной",
-        "Влагозащита": "IP67",
-        "Способ открытия": "Отпечаток пальца",
-        "Емкость аккумулятора": "500 мАч",
-        "Материал": "Цинковый сплав"
-      }
-    },
-    {
-      "name": "Электронная задвижка Samsung",
-      "price": 21500,
-      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-      "images": [
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop"
-      ],
-      "description": "Управление со смартфона, автоматическое запирание.",
-      "url": "https://example.com/product/samsung-bolt",
-      "specs": {
-        "Тип": "Задвижка",
-        "Управление": "Bluetooth",
-        "Автоматическая": "Да",
-        "Совместимость": "Android, iOS",
-        "Цвет": "Серебристый"
-      }
-    }
-  ],
-  "detailed_services": [
-    {
-      "category": "🛠️ Установка и монтаж",
-      "price": "от 3 000 ₽",
-      "items": [
-        { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
-        { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
-        { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
-      ]
-    },
-    {
-      "category": "🔧 Обслуживание и ремонт",
-      "price": "от 1 500 ₽",
-      "items": [
-        { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
-        { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
-        { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
-      ]
-    },
-    {
-      "category": "💡 Консультации и подбор",
-      "price": "бесплатно",
-      "items": [
-        { "name": "Подбор замка под дверь (выезд мастера)", "price": "бесплатно" },
-        { "name": "Консультация по совместимости с умным домом", "price": "бесплатно" },
-        { "name": "Помощь в настройке приложения", "price": "1 000 ₽/час" }
-      ]
-    },
-    {
-      "category": "🎓 Обучение",
-      "price": "по запросу",
-      "items": [
-        { "name": "Базовый курс по установке умных замков", "price": "15 000 ₽" },
-        { "name": "Настройка интеграций с системами умного дома", "price": "7 500 ₽" }
-      ]
-    },
-    {
-      "category": "🔩 Комплектующие и аксессуары",
-      "price": "от 300 ₽",
-      "items": [
-        { "name": "Магнитные карты и брелоки (1 шт.)", "price": "300 ₽" },
-        { "name": "Батарейки CR123A (4 шт.)", "price": "600 ₽" },
-        { "name": "Установочная пластина / адаптер", "price": "от 800 ₽" }
-      ]
+      "detailed_services": []
     }
   ]
-}, {
-    "id" : 2,
-    "name" : "Двери Кубани",
-    "address" : "ул. Адм. Крузенштерна, д. 5, Краснодар",
-    "phone" : "+7 (928) 429-89-28",
-    "email" : "dverikubani@yandex.ru",
-    "youtube" : "https://youtube.com/@dveri_kubani",
-    "vk" : "https://vk.com/club218272457",
-    "hours" : "ежедневно 09:00 - 19:00",
-    "coords" : [ 45.093701, 39.041162 ],
-    "rating" : 0,
-    "reviews_count" : 4.7,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин дверей" ],
-    "website" : "https://dverikubani23.ru/",
-    "description" : "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
-    "cover" : "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
-    "photos" : [ "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg", "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg" ],
-    "reviews" : [ {
-        "author" : "Наталья",
-        "rating" : 5,
-        "date" : "2023-03-18",
-        "text" : "Богдан отличный специалист, на замер выехал очень оперативно,грамотно все рассказал, дверь заказала , осталась довольна )))"
-    },
-    {
-        "author" : "Юлия",
-        "rating" : 4,
-        "date" : "2023-02-28",
-        "text" : "Спасибо огромное за накладку на дверь и качественную работу! Специалист очень хороший, всем рекомендую!"
-    },
-    {
-        "author" : "Александр",
-        "rating" : 5,
-        "date" : "2022-03-9",
-        "text" : "Быстро и качественно поставили дверь! Цена адекватная. Рекомендую!"
-    }],
-    "catalog" : [ {
-      "name": "Спарта",
-      "price": 38000,
-      "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
-      "images": [
-        "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
-        "https://static.tildacdn.com/tild3966-6438-4130-b534-383530306232/98709549.jpg"
-        ],
-      "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
-      "url": "https://example.com/product/dircode-t850",
-      "specs": {
-        "Тип коробки": "Закрытый (2 цвета - внутр. белый )",
-        "Толщина полотна": "90 мм",
-        "Толщина стали": "1,5 мм",
-        "Петли": "3 шт",
-        "Отделка снаружи": "МДФ 12 мм",
-        "Наполнение":  "Мин. плита",
-        "Гарантия": "1 год"
-      }
-    },
-    {
-      "name": "Спарта",
-      "price": 38000,
-      "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
-      "images": [
-        "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
-        "https://static.tildacdn.com/stor6235-6361-4366-b931-363638386439/98709549.jpg"
-        ],
-      "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
-      "url": "https://example.com/product/dircode-t850",
-      "specs": {
-        "Тип коробки": "Закрытый (2 цвета - внутр. белый )",
-        "Толщина полотна": "90 мм",
-        "Толщина стали": "1,5 мм",
-        "Петли": "3 шт",
-        "Отделка снаружи": "МДФ 12 мм",
-        "Наполнение":  "Мин. плита",
-        "Гарантия": "1 год"
-      }
-    } ],
-    "detailed_services" : [{
-      "category": "🛠️ Установка и монтаж",
-      "price": "от 3 000 ₽",
-      "items": [
-        { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
-        { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
-        { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
-      ]
-    },
-    {
-      "category": "🔧 Обслуживание и ремонт",
-      "price": "от 1 500 ₽",
-      "items": [
-        { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
-        { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
-        { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
-      ]
-    }]
-  }, {
-    "id" : 3,
-    "name" : "Тестовый партнер",
-    "address" : "ул. Фестивальная д.69,Йошкар-Ола ",
-    "phone" : "+7 (495) 345-67-89",
-    "email" : "",
-    "whatsapp" : "+74953456789",
-    "telegram" : "092903@dircode.ru",
-    "hours" : "ежедневно 10:00 - 20:00",
-    "coords" : [ 56.645968, 47.835579 ],
-    "rating" : 0,
-    "reviews_count" : 34,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Ремонт", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🔧 Монтажная организация", "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner3",
-    "description" : "Специализируемся на цифровых замках и системах контроля доступа. Обучающий центр для мастеров.",
-    "cover" : "https://static.tildacdn.com/tild3163-6634-4663-a336-313864353763/98497.jpg",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=DK",
-    "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Шоурум", "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Курсы", "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Мастерская" ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🎓 Обучающие программы",
-        "price" : "от 10 000 ₽",
-        "items" : [ {
-            "name" : "Базовый курс монтажника",
-            "price" : "15 000 ₽"
-        }, {
-            "name" : "Продвинутый курс по СКУД",
-            "price" : "25 000 ₽"
-        }, {
-            "name" : "Сертификация специалистов",
-            "price" : "5 000 ₽"
-        } ]
-    }, {
-        "category" : "🏢 Обслуживание организаций",
-        "price" : "от 5 000 ₽/мес",
-        "items" : [ {
-            "name" : "Абонентское обслуживание (выезд 1 раз в месяц)",
-            "price" : "5 000 ₽"
-        }, {
-            "name" : "Экстренный выезд в течение часа",
-            "price" : "3 000 ₽"
-        } ]
-    }, {
-        "category" : "📱 Интеграция с умным домом",
-        "price" : "от 4 000 ₽",
-        "items" : [ {
-            "name" : "Настройка замка в приложении",
-            "price" : "1 500 ₽"
-        }, {
-            "name" : "Подключение к Яндекс.Алисе / Siri",
-            "price" : "2 500 ₽"
-        }, {
-            "name" : "Создание сценариев автоматизации",
-            "price" : "от 3 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 4,
-    "name" : "Факт замки",
-    "address" : "Невский пр-т, д. 100, Санкт-Петербург",
-    "phone" : "+7 (812) 123-45-67",
-    "email" : "fackt1@gmail.com",
-    "whatsapp" : "+78121234567",
-    "telegram" : "direct_spb",
-    "hours" : "ежедневно 10:00 - 21:00",
-    "coords" : [ 59.935, 30.327 ],
-    "rating" : 4.7,
-    "reviews_count" : 18,
-    "products" : [ "Умные двери" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner4",
-    "description" : "Магазин электронных замков в центре Петербурга. Есть демо-стенд. Проводим мастер-классы.",
-    "cover" : "https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
-    "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Витрина+СПб" ],
-    "reviews" : [ {
-        "author" : "Максим Л.",
-        "rating" : 4,
-        "date" : "2026-02-14",
-        "text" : "Хороший выбор, вежливый персонал. Цены чуть выше среднего, но качество соответствующее."
-    } ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🧑‍🏫 Мастер-классы",
-        "price" : "бесплатно",
-        "items" : [ {
-            "name" : "Как выбрать умный замок",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Установка своими руками",
-            "price" : "бесплатно"
-        } ]
-    }, {
-        "category" : "🔧 Установка и настройка",
-        "price" : "от 3 000 ₽",
-        "items" : [ {
-            "name" : "Монтаж замка в стандартную дверь",
-            "price" : "3 000 ₽"
-        }, {
-            "name" : "Монтаж в нестандартную дверь",
-            "price" : "4 500 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 5,
-    "name" : "замки от Хуснаддина",
-    "address" : "Садовая ул., д. 35, Санкт-Петербург",
-    "phone" : "+7 (812) 234-56-78",
-    "email" : "092903@dircode.ru",
-    "whatsapp" : "+78122345678",
-    "telegram" : "safeservice_spb",
-    "hours" : "ежедневно 09:00 - 20:00",
-    "coords" : [ 59.926, 30.318 ],
-    "rating" : 4.3,
-    "reviews_count" : 9,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Ремонт" ],
-    "certified" : false,
-    "type" : [ "🔧 Ремонтная мастерская" ],
-    "website" : "https://example.com/partner5",
-    "description" : "Ремонт и обслуживание замков любой сложности. Выезд мастера на дом.",
-    "cover" : "https://idivpered.ru/wp-content/uploads/2017/04/banner_hit_result1-1200x400.jpg",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
-    "photos" : [ "https://via.placeholder.com/400x300/4b5563/ffffff?text=Мастерская" ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔧 Ремонт замков",
-        "price" : "от 1 500 ₽",
-        "items" : [ {
-            "name" : "Ремонт механической части",
-            "price" : "от 1 500 ₽"
-        }, {
-            "name" : "Ремонт электроники",
-            "price" : "от 2 500 ₽"
-        }, {
-            "name" : "Вскрытие замка без повреждений",
-            "price" : "от 2 000 ₽"
-        } ]
-    }, {
-        "category" : "🔄 Замена комплектующих",
-        "price" : "от 500 ₽",
-        "items" : [ {
-            "name" : "Замена батарейного отсека",
-            "price" : "800 ₽"
-        }, {
-            "name" : "Замена сенсорной панели",
-            "price" : "от 2 000 ₽"
-        }, {
-            "name" : "Перепрошивка контроллера",
-            "price" : "1 500 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 6,
-    "name" : "Код Замки на Ленина",
-    "address" : "ул. Ленина, д. 10, Йошкар-Ола",
-    "phone" : "+7 (8362) 12-34-56",
-    "email" : "info@kod-zamki.ru",
-    "whatsapp" : "+78362123456",
-    "telegram" : "kod_zamki",
-    "hours" : "ежедневно 09:00 - 19:00",
-    "coords" : [ 56.632, 47.891 ],
-    "rating" : 4.6,
-    "reviews_count" : 14,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин" ],
-    "website" : "https://example.com/partner6",
-    "description" : "Продажа и установка электронных замков. Большой опыт работы с частными клиентами.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
-    "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Магазин+Йошкар-Ола" ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🏠 Установка под ключ",
-        "price" : "от 3 000 ₽",
-        "items" : [ {
-            "name" : "Установка умного замка",
-            "price" : "3 000 ₽"
-        }, {
-            "name" : "Комплексная установка (дверь + замок)",
-            "price" : "от 8 000 ₽"
-        } ]
-    }, {
-        "category" : "📞 Техподдержка по телефону",
-        "price" : "бесплатно",
-        "items" : [ {
-            "name" : "Консультация по настройке",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Дистанционная помощь",
-            "price" : "бесплатно"
-        } ]
-    } ]
-}, {
-    "id" : 7,
-    "name" : "Техно Двери на Комсомольской",
-    "address" : "ул. Комсомольская, д. 25, Йошкар-Ола",
-    "phone" : "+7 (8362) 23-45-67",
-    "email" : "pechnikov.a.v@dircode.ru",
-    "whatsapp" : "+78362234567",
-    "telegram" : "tehno_dveri",
-    "hours" : "ежедневно 10:00 - 20:00",
-    "coords" : [ 56.636, 47.884 ],
-    "rating" : 4.4,
-    "reviews_count" : 7,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : false,
-    "type" : [ "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner7",
-    "description" : "Специализируемся на умных замках и системах видеонаблюдения. Есть обучающие курсы.",
-    "cover" : "https://bandesign.ru/wp-content/uploads/2019/12/1200_ozon_0200-1.jpg",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🎥 Установка видеонаблюдения",
-        "price" : "от 4 000 ₽",
-        "items" : [ {
-            "name" : "Монтаж IP-камеры (1 шт.)",
-            "price" : "3 500 ₽"
-        }, {
-            "name" : "Настройка записи и удалённого доступа",
-            "price" : "2 500 ₽"
-        } ]
-    }, {
-        "category" : "🔧 Монтаж и настройка",
-        "price" : "от 3 000 ₽",
-        "items" : [ {
-            "name" : "Установка замка с подключением к Wi-Fi",
-            "price" : "3 500 ₽"
-        }, {
-            "name" : "Интеграция с видеодомофоном",
-            "price" : "от 5 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 8,
-    "name" : "Замок-Мастер на Советской",
-    "address" : "ул. Советская, д. 5, Йошкар-Ола",
-    "phone" : "+7 (8362) 34-56-78",
-    "email" : "zamokmaster@yandex.ru",
-    "whatsapp" : "+78362345678",
-    "telegram" : "zamok_master",
-    "hours" : "ежедневно 09:00 - 18:00",
-    "coords" : [ 56.629, 47.889 ],
-    "rating" : 4.2,
-    "reviews_count" : 5,
-    "products" : [ "Умные двери" ],
-    "services" : [ "Ремонт" ],
-    "certified" : false,
-    "type" : [ "🔧 Ремонтная мастерская" ],
-    "website" : "https://example.com/partner8",
-    "description" : "Ремонт замков всех типов. Вскрытие дверей без повреждений.",
-    "cover" : "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Замок-Мастер",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=ZM",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔓 Аварийное вскрытие",
-        "price" : "от 2 000 ₽",
-        "items" : [ {
-            "name" : "Вскрытие входной двери",
-            "price" : "2 500 ₽"
-        }, {
-            "name" : "Вскрытие сейфа",
-            "price" : "от 4 000 ₽"
-        } ]
-    }, {
-        "category" : "🛠️ Ремонт и замена",
-        "price" : "от 1 000 ₽",
-        "items" : [ {
-            "name" : "Замена личинки",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Ремонт заедающего замка",
-            "price" : "1 500 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 9,
-    "name" : "Цифровой замок на Красноармейской",
-    "address" : "ул. Красноармейская, д. 40, Йошкар-Ола",
-    "phone" : "+7 (8362) 45-67-89",
-    "email" : "digital@zamki.ru",
-    "whatsapp" : "+78362456789",
-    "telegram" : "digital_zamok",
-    "hours" : "ежедневно 10:00 - 21:00",
-    "coords" : [ 56.634, 47.879 ],
-    "rating" : 4.8,
-    "reviews_count" : 21,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин", "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner9",
-    "description" : "Современные цифровые замки и системы умного дома. Консультации и обучение.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
-    "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Интерьер" ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🏠 Комплекты умного дома",
-        "price" : "от 15 000 ₽",
-        "items" : [ {
-            "name" : "Стартовый комплект (замок + хаб)",
-            "price" : "25 000 ₽"
-        }, {
-            "name" : "Расширенный комплект (замок + датчики)",
-            "price" : "35 000 ₽"
-        } ]
-    }, {
-        "category" : "📱 Настройка сценариев",
-        "price" : "от 2 000 ₽",
-        "items" : [ {
-            "name" : "Автоматическое закрытие двери по времени",
-            "price" : "2 000 ₽"
-        }, {
-            "name" : "Интеграция с системой охраны",
-            "price" : "3 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 10,
-    "name" : "Безопасность+ на Машиностроителей",
-    "address" : "ул. Машиностроителей, д. 12, Йошкар-Ола",
-    "phone" : "+7 (8362) 56-78-90",
-    "email" : "bezopasnost@plus.ru",
-    "whatsapp" : "+78362567890",
-    "telegram" : "bezopasnost_plus",
-    "hours" : "ежедневно 09:00 - 20:00",
-    "coords" : [ 56.638, 47.874 ],
-    "rating" : 4.5,
-    "reviews_count" : 11,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Монтаж", "Ремонт" ],
-    "certified" : true,
-    "type" : [ "🔧 Монтажная организация" ],
-    "website" : "https://example.com/partner10",
-    "description" : "Установка и обслуживание систем безопасности, замков, домофонов.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Безопасность%2B",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=B%2B",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🏢 Обслуживание офисов",
-        "price" : "от 7 000 ₽/мес",
-        "items" : [ {
-            "name" : "Ежемесячная проверка замков и домофонов",
-            "price" : "7 000 ₽"
-        }, {
-            "name" : "Экстренный выезд в течение 2 часов",
-            "price" : "включено"
-        } ]
-    }, {
-        "category" : "🔧 Ремонт и замена",
-        "price" : "от 1 500 ₽",
-        "items" : [ {
-            "name" : "Ремонт домофона",
-            "price" : "1 500 ₽"
-        }, {
-            "name" : "Замена кнопки вызова",
-            "price" : "800 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 11,
-    "name" : "ЗамкиПро в Казани",
-    "address" : "ул. Баумана, д. 20, Казань",
-    "phone" : "+7 (843) 123-45-67",
-    "email" : "kazan@zamkipro.ru",
-    "whatsapp" : "+78431234567",
-    "telegram" : "zamkipro_kazan",
-    "hours" : "ежедневно 10:00 - 21:00",
-    "coords" : [ 55.788, 49.122 ],
-    "rating" : 4.6,
-    "reviews_count" : 16,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин" ],
-    "website" : "https://example.com/partner11",
-    "description" : "Филиал сети ЗамкиПро в Казани. Широкий ассортимент, качественный монтаж.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Казань",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🏠 Установка замков",
-        "price" : "от 2 500 ₽",
-        "items" : [ {
-            "name" : "Накладной замок",
-            "price" : "2 500 ₽"
-        }, {
-            "name" : "Врезной замок",
-            "price" : "3 500 ₽"
-        } ]
-    }, {
-        "category" : "📦 Доставка и подъём",
-        "price" : "от 500 ₽",
-        "items" : [ {
-            "name" : "Доставка по городу",
-            "price" : "500 ₽"
-        }, {
-            "name" : "Подъём на этаж (без лифта)",
-            "price" : "300 ₽/этаж"
-        } ]
-    } ]
-}, {
-    "id" : 12,
-    "name" : "Умный Дом в Екатеринбурге",
-    "address" : "ул. Ленина, д. 50, Екатеринбург",
-    "phone" : "+7 (343) 123-45-67",
-    "email" : "smart@ekb.ru",
-    "whatsapp" : "+73431234567",
-    "telegram" : "smart_ekb",
-    "hours" : "ежедневно 09:00 - 21:00",
-    "coords" : [ 56.838, 60.605 ],
-    "rating" : 4.3,
-    "reviews_count" : 8,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Обучение" ],
-    "certified" : false,
-    "type" : [ "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner12",
-    "description" : "Умные замки и системы управления домом. Проводим консультации и обучение.",
-    "cover" : "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Умный+Дом",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=UD",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "📘 Онлайн-курсы",
-        "price" : "от 3 000 ₽",
-        "items" : [ {
-            "name" : "Основы умного дома",
-            "price" : "5 000 ₽"
-        }, {
-            "name" : "Установка и настройка умных замков",
-            "price" : "7 000 ₽"
-        } ]
-    }, {
-        "category" : "💬 Консультации",
-        "price" : "1 000 ₽/час",
-        "items" : [ {
-            "name" : "Подбор оборудования",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Помощь в проектировании",
-            "price" : "2 000 ₽/час"
-        } ]
-    } ]
-}, {
-    "id" : 13,
-    "name" : "Директ Замки в Новосибирске",
-    "address" : "ул. Красный пр-т, д. 30, Новосибирск",
-    "phone" : "+7 (383) 123-45-67",
-    "email" : "nsk@direct-locks.ru",
-    "whatsapp" : "+73831234567",
-    "telegram" : "direct_nsk",
-    "hours" : "ежедневно 10:00 - 20:00",
-    "coords" : [ 55.03, 82.92 ],
-    "rating" : 4.7,
-    "reviews_count" : 22,
-    "products" : [ "Умные двери" ],
-    "services" : [ "Монтаж", "Ремонт" ],
-    "certified" : true,
-    "type" : [ "🔧 Монтажная организация" ],
-    "website" : "https://example.com/partner13",
-    "description" : "Профессиональный монтаж и ремонт замков. В наличии склад комплектующих.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки+НСК",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔧 Срочный ремонт",
-        "price" : "от 2 000 ₽",
-        "items" : [ {
-            "name" : "Выезд мастера в течение часа",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Ремонт замка любой сложности",
-            "price" : "от 2 500 ₽"
-        } ]
-    }, {
-        "category" : "🔩 Комплектующие",
-        "price" : "от 200 ₽",
-        "items" : [ {
-            "name" : "Пружины и фиксаторы",
-            "price" : "200 ₽"
-        }, {
-            "name" : "Запасные ключи (электронные)",
-            "price" : "500 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 14,
-    "name" : "Сейф Сервис в Нижнем",
-    "address" : "ул. Большая Покровская, д. 15, Нижний Новгород",
-    "phone" : "+7 (831) 123-45-67",
-    "email" : "safe@nnov.ru",
-    "whatsapp" : "+78311234567",
-    "telegram" : "safe_nnov",
-    "hours" : "ежедневно 09:00 - 20:00",
-    "coords" : [ 56.326, 44.006 ],
-    "rating" : 4.4,
-    "reviews_count" : 6,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Монтаж" ],
-    "certified" : false,
-    "type" : [ "🔧 Монтажная организация" ],
-    "website" : "https://example.com/partner14",
-    "description" : "Монтаж и сервисное обслуживание замков и сейфов.",
-    "cover" : "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔐 Обслуживание сейфов",
-        "price" : "от 1 500 ₽",
-        "items" : [ {
-            "name" : "Смена кода",
-            "price" : "1 500 ₽"
-        }, {
-            "name" : "Ремонт замка сейфа",
-            "price" : "от 3 000 ₽"
-        } ]
-    }, {
-        "category" : "🔧 Монтаж сейфов",
-        "price" : "от 2 500 ₽",
-        "items" : [ {
-            "name" : "Установка сейфа в стену",
-            "price" : "4 000 ₽"
-        }, {
-            "name" : "Установка сейфа в пол",
-            "price" : "5 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 15,
-    "name" : "Код Замки в Самаре",
-    "address" : "ул. Ленинградская, д. 40, Самара",
-    "phone" : "+7 (846) 123-45-67",
-    "email" : "samara@kod-zamki.ru",
-    "whatsapp" : "+78461234567",
-    "telegram" : "kod_samara",
-    "hours" : "ежедневно 10:00 - 21:00",
-    "coords" : [ 53.241, 50.221 ],
-    "rating" : 4.5,
-    "reviews_count" : 10,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин" ],
-    "website" : "https://example.com/partner15",
-    "description" : "Магазин электронных замков и сопутствующих товаров. Проводим мастер-классы.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки+Самара",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🎓 Мастер-классы",
-        "price" : "бесплатно",
-        "items" : [ {
-            "name" : "Как работает умный замок",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Установка своими руками",
-            "price" : "бесплатно"
-        } ]
-    }, {
-        "category" : "🔧 Установка",
-        "price" : "от 3 000 ₽",
-        "items" : [ {
-            "name" : "Стандартный монтаж",
-            "price" : "3 000 ₽"
-        }, {
-            "name" : "Сложный монтаж (доработка двери)",
-            "price" : "от 5 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 16,
-    "name" : "Техно Двери в Омске",
-    "address" : "ул. Ленина, д. 22, Омск",
-    "phone" : "+7 (3812) 12-34-56",
-    "email" : "omsk@tehno.ru",
-    "whatsapp" : "+73812123456",
-    "telegram" : "tehno_omsk",
-    "hours" : "ежедневно 09:00 - 19:00",
-    "coords" : [ 54.988, 73.324 ],
-    "rating" : 4.2,
-    "reviews_count" : 4,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Ремонт" ],
-    "certified" : false,
-    "type" : [ "🔧 Ремонтная мастерская" ],
-    "website" : "https://example.com/partner16",
-    "description" : "Ремонт и обслуживание замков, вскрытие дверей.",
-    "cover" : "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔓 Аварийное вскрытие",
-        "price" : "от 2 500 ₽",
-        "items" : [ {
-            "name" : "Вскрытие двери (любой тип)",
-            "price" : "2 500 ₽"
-        }, {
-            "name" : "Вскрытие автомобиля",
-            "price" : "от 3 000 ₽"
-        } ]
-    }, {
-        "category" : "🛠️ Ремонт",
-        "price" : "от 1 500 ₽",
-        "items" : [ {
-            "name" : "Ремонт сувальдного замка",
-            "price" : "1 800 ₽"
-        }, {
-            "name" : "Ремонт цилиндрового замка",
-            "price" : "1 500 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 17,
-    "name" : "Замок-Мастер в Уфе",
-    "address" : "ул. Октябрьской революции, д. 10, Уфа",
-    "phone" : "+7 (347) 123-45-67",
-    "email" : "ufa@master.ru",
-    "whatsapp" : "+73471234567",
-    "telegram" : "master_ufa",
-    "hours" : "ежедневно 10:00 - 20:00",
-    "coords" : [ 54.734, 55.957 ],
-    "rating" : 4.6,
-    "reviews_count" : 13,
-    "products" : [ "Умные двери" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏠 Магазин замков" ],
-    "website" : "https://example.com/partner17",
-    "description" : "Большой выбор готовых решений для дома и офиса. Проводим обучение.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Замок-Мастер",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZM",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🏠 Готовые решения",
-        "price" : "от 10 000 ₽",
-        "items" : [ {
-            "name" : "Комплект 'Умная квартира'",
-            "price" : "25 000 ₽"
-        }, {
-            "name" : "Комплект 'Офисная безопасность'",
-            "price" : "30 000 ₽"
-        } ]
-    }, {
-        "category" : "🎓 Обучение",
-        "price" : "от 8 000 ₽",
-        "items" : [ {
-            "name" : "Курс по установке",
-            "price" : "8 000 ₽"
-        }, {
-            "name" : "Курс по настройке ПО",
-            "price" : "5 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 18,
-    "name" : "Цифровой замок в Красноярске",
-    "address" : "пр. Мира, д. 80, Красноярск",
-    "phone" : "+7 (391) 123-45-67",
-    "email" : "krasnoyarsk@digital-lock.ru",
-    "whatsapp" : "+73911234567",
-    "telegram" : "digital_krsk",
-    "hours" : "ежедневно 09:00 - 21:00",
-    "coords" : [ 56.015, 92.893 ],
-    "rating" : 4.7,
-    "reviews_count" : 19,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Ремонт" ],
-    "certified" : true,
-    "type" : [ "🔧 Монтажная организация" ],
-    "website" : "https://example.com/partner18",
-    "description" : "Цифровые замки и системы безопасности. Монтаж и гарантийное обслуживание.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🔧 Гарантийное обслуживание",
-        "price" : "бесплатно",
-        "items" : [ {
-            "name" : "Плановый осмотр (раз в год)",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Замена бракованных деталей",
-            "price" : "бесплатно"
-        } ]
-    }, {
-        "category" : "🛠️ Ремонт",
-        "price" : "от 2 000 ₽",
-        "items" : [ {
-            "name" : "Диагностика",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Замена мотора замка",
-            "price" : "3 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 19,
-    "name" : "Безопасность+ в Воронеже",
-    "address" : "ул. Плехановская, д. 30, Воронеж",
-    "phone" : "+7 (473) 123-45-67",
-    "email" : "voronezh@bezopasnost.ru",
-    "whatsapp" : "+74731234567",
-    "telegram" : "bezopasnost_vrn",
-    "hours" : "ежедневно 10:00 - 20:00",
-    "coords" : [ 51.66, 39.2 ],
-    "rating" : 4.4,
-    "reviews_count" : 7,
-    "products" : [ "Умные замки" ],
-    "services" : [ "Монтаж" ],
-    "certified" : false,
-    "type" : [ "🔧 Монтажная организация" ],
-    "website" : "https://example.com/partner19",
-    "description" : "Монтаж систем безопасности и замков. Выезд по городу и области.",
-    "cover" : "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Безопасность%2B",
-    "logo" : "https://via.placeholder.com/100/4b5563/ffffff?text=B%2B",
-    "photos" : [ ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Замок Samsung SHP-DP728",
-        "price" : 18990,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-        "url" : "https://example.com/product/samsung-dp728"
-    }, {
-        "name" : "Дверная ручка с замком Xiaomi",
-        "price" : 9900,
-        "image" : "https://images.unsplash.com/photo-1563013544-824ae1b704d4?w=400&h=300&fit=crop",
-        "description" : "Умная ручка с поддержкой Mi Home, отпирание по отпечатку.",
-        "url" : "https://example.com/product/xiaomi-handle"
-    }, {
-        "name" : "Замок-задвижка Lockin",
-        "price" : 13400,
-        "image" : "https://images.unsplash.com/photo-1584470293733-6cd6b66f09b3?w=400&h=300&fit=crop",
-        "description" : "Автоматическая задвижка, управление через приложение.",
-        "url" : "https://example.com/product/lockin"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🚗 Выездная установка",
-        "price" : "от 4 000 ₽",
-        "items" : [ {
-            "name" : "Выезд мастера в пределах города",
-            "price" : "бесплатно"
-        }, {
-            "name" : "Выезд в область (до 50 км)",
-            "price" : "1 000 ₽"
-        } ]
-    }, {
-        "category" : "🔧 Установка замков",
-        "price" : "от 3 500 ₽",
-        "items" : [ {
-            "name" : "Умный замок",
-            "price" : "3 500 ₽"
-        }, {
-            "name" : "Электромеханический замок",
-            "price" : "4 000 ₽"
-        } ]
-    } ]
-}, {
-    "id" : 20,
-    "name" : "ЗамкиПро в Ростове",
-    "address" : "ул. Большая Садовая, д. 45, Ростов-на-Дону",
-    "phone" : "+7 (863) 123-45-67",
-    "email" : "rostov@zamkipro.ru",
-    "whatsapp" : "+78631234567",
-    "telegram" : "zamkipro_rostov",
-    "hours" : "ежедневно 09:00 - 21:00",
-    "coords" : [ 47.235, 39.701 ],
-    "rating" : 4.8,
-    "reviews_count" : 27,
-    "products" : [ "Умные двери", "Умные замки" ],
-    "services" : [ "Монтаж", "Обучение" ],
-    "certified" : true,
-    "type" : [ "🏬 Магазин" ],
-    "website" : "https://example.com/partner20",
-    "description" : "Крупнейший магазин электронных замков на юге России. Обучение и сервисный центр.",
-    "cover" : "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Ростов",
-    "logo" : "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
-    "photos" : [ "https://via.placeholder.com/400x300/1f2a3a/ffffff?text=Зал" ],
-    "reviews" : [ ],
-    "catalog" : [ {
-        "name" : "Программируемый замок Cisa 56930",
-        "price" : 32500,
-        "image" : "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-        "description" : "Электронный замок с функцией временных кодов, для офисов.",
-        "url" : "https://example.com/product/cisa-56930"
-    } ],
-    "detailed_services" : [ {
-        "category" : "🎓 Сертифицированное обучение",
-        "price" : "от 12 000 ₽",
-        "items" : [ {
-            "name" : "Курс 'Мастер по умным замкам'",
-            "price" : "15 000 ₽"
-        }, {
-            "name" : "Курс 'Системы контроля доступа'",
-            "price" : "20 000 ₽"
-        } ]
-    }, {
-        "category" : "🔧 Сервисный центр",
-        "price" : "от 1 500 ₽",
-        "items" : [ {
-            "name" : "Диагностика",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Замена прошивки",
-            "price" : "2 000 ₽"
-        }, {
-            "name" : "Ремонт сенсорной панели",
-            "price" : "от 2 500 ₽"
-        } ]
-    }, {
-        "category" : "🔩 Комплектующие и аксессуары",
-        "price" : "от 500 ₽",
-        "items" : [ {
-            "name" : "Карты доступа Mifare (5 шт.)",
-            "price" : "1 000 ₽"
-        }, {
-            "name" : "Брелок-ключ",
-            "price" : "700 ₽"
-        }, {
-            "name" : "Умный датчик открытия двери",
-            "price" : "1 200 ₽"
-        } ]
-    } ]
-} ]
+}
