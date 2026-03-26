@@ -137,14 +137,14 @@
         "side_options": ["Правая", "Левая"],
         "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
         "exterior_options": [
-          { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
-          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
-          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+          { "name": "название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
+          { "name": "название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
         ],
         "interior_options": [
-          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
-          { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
-          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+          { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+          { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
         ]
       }
     ],
