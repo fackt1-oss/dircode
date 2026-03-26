@@ -1,176 +1,169 @@
-{
-  "partners": [
-    {
-      "id": 1,
-      "name": "ООО Диркод",
-      "address": "ул. Студенческая, д.19 к.3, Москва",
-      "phone": "+7 (495) 414-49-00",
-      "email": "key.pluss@yandex.ru",
-      "hours": "ежедневно 10:00 - 18:00",
-      "coords": [55.741974, 37.549305],
-      "rating": 4.8,
-      "products": ["Умные двери", "Умные замки"],
-      "services": ["Монтаж", "Обучение"],
-      "certified": true,
-      "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
-      "website": "https://dircode.ru",
-      "description": "Компания работает на рынке более 10 лет...",
-      "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
-      "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
-      "photos": [],
-      "reviews": [],
-      "catalog": [
-        {
-          "name": "Готовое решение: умная дверь",
-          "price": 45900,
-          "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
-          "images": [],
-          "description": "Комплект: дверь + замок Philips 610.",
-          "url": "https://example.com/product/smart-door",
-          "specs": {},
-          "compatible_locks": ["814735012891", "422788408171", "301559014621"]
-        }
-      ],
-      "detailed_services": []
-    },
-    {
-      "id": 2,
-      "name": "Двери Кубани",
-      "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
-      "phone": "+7 (928) 429-89-28",
-      "email": "dverikubani@yandex.ru",
-      "hours": "ежедневно 09:00 - 19:00",
-      "coords": [45.093701, 39.041162],
-      "rating": 0,
-      "products": ["Умные двери", "Умные замки"],
-      "services": ["Монтаж", "Обучение"],
-      "certified": true,
-      "type": ["🏬 Магазин дверей"],
-      "website": "https://dverikubani23.ru/",
-      "description": "Широкий ассортимент входных дверей и замков...",
-      "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
-      "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
-      "photos": [],
-      "reviews": [],
-      "catalog": [
-        {
-          "name": "Спарта",
-          "price": 38000,
-          "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
-          "images": [],
-          "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
-          "url": "https://example.com/product/dircode-t850",
-          "specs": {},
-          "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
-        },
-        {
-          "name": "Спарта",
-          "price": 38000,
-          "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
-          "images": [],
-          "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
-          "url": "https://example.com/product/dircode-t850",
-          "specs": {},
-          "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
-        }
-      ],
-      "detailed_services": []
-    },
-    {
-      "id": 3,
-      "name": "компани ООО Лимитед",
-      "address": "Студенческая, д. 19, к.3 Москва",
-      "phone": "+7 (495) 345-67-89",
-      "email": "",
-      "hours": "ежедневно 10:00 - 20:00",
-      "coords": [55.743, 37.534],
-      "rating": 0,
-      "products": ["Умные двери", "Умные замки"],
-      "services": ["Монтаж", "Ремонт", "Обучение"],
-      "certified": true,
-      "type": ["🔧 Монтажная организация", "🏠 Магазин замков"],
-      "website": "https://example.com/partner3",
-      "description": "Специализируемся на цифровых замках и системах контроля доступа...",
-      "cover": "https://static.tildacdn.com/tild3163-6634-4663-a336-313864353763/98497.jpg",
-      "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DK",
-      "photos": [],
-      "reviews": [],
-      "catalog": [
-        {
-          "name": "Программируемый замок Cisa 56930",
-          "price": 32500,
-          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-          "description": "Электронный замок с функцией временных кодов, для офисов.",
-          "url": "https://example.com/product/cisa-56930",
-          "specs": {},
-          "compatible_locks": ["550281796961", "907788883962", "574998032842"]
-        }
-      ],
-      "detailed_services": []
-    },
-    {
-      "id": 4,
-      "name": "Факт замки",
-      "address": "Невский пр-т, д. 100, Санкт-Петербург",
-      "phone": "+7 (812) 123-45-67",
-      "email": "fackt1@gmail.com",
-      "hours": "ежедневно 10:00 - 21:00",
-      "coords": [59.935, 30.327],
-      "rating": 4.7,
-      "products": ["Умные двери"],
-      "services": ["Монтаж", "Обучение"],
-      "certified": true,
-      "type": ["🏠 Магазин замков"],
-      "website": "https://example.com/partner4",
-      "description": "Магазин электронных замков в центре Петербурга...",
-      "cover": "https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
-      "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
-      "photos": [],
-      "reviews": [],
-      "catalog": [
-        {
-          "name": "Программируемый замок Cisa 56930",
-          "price": 32500,
-          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-          "description": "Электронный замок с функцией временных кодов, для офисов.",
-          "url": "https://example.com/product/cisa-56930",
-          "specs": {},
-          "compatible_locks": ["550281796961", "253438850141"]
-        }
-      ],
-      "detailed_services": []
-    },
-    {
-      "id": 5,
-      "name": "замки от Хуснаддина",
-      "address": "Садовая ул., д. 35, Санкт-Петербург",
-      "phone": "+7 (812) 234-56-78",
-      "email": "092903@dircode.ru",
-      "hours": "ежедневно 09:00 - 20:00",
-      "coords": [59.926, 30.318],
-      "rating": 4.3,
-      "products": ["Умные замки"],
-      "services": ["Ремонт"],
-      "certified": false,
-      "type": ["🔧 Ремонтная мастерская"],
-      "website": "https://example.com/partner5",
-      "description": "Ремонт и обслуживание замков любой сложности...",
-      "cover": "https://idivpered.ru/wp-content/uploads/2017/04/banner_hit_result1-1200x400.jpg",
-      "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
-      "photos": [],
-      "reviews": [],
-      "catalog": [
-        {
-          "name": "Замок Samsung SHP-DP728",
-          "price": 18990,
-          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
-          "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
-          "url": "https://example.com/product/samsung-dp728",
-          "specs": {},
-          "compatible_locks": ["301559014621", "586939080481", "574998032842"]
-        }
-      ],
-      "detailed_services": []
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "ООО Диркод",
+    "address": "ул. Студенческая, д.19 к.3, Москва",
+    "phone": "+7 (495) 414-49-00",
+    "hours": "ежедневно 10:00 - 18:00",
+    "coords": [55.741974, 37.549305],
+    "rating": 4.8,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
+    "website": "https://dircode.ru",
+    "description": "Компания работает на рынке более 10 лет...",
+    "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+    "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Готовое решение: умная дверь",
+        "price": 45900,
+        "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
+        "images": [],
+        "description": "Комплект: дверь + замок Philips 610.",
+        "url": "https://example.com/product/smart-door",
+        "specs": {},
+        "compatible_locks": ["814735012891", "422788408171", "301559014621"]
+      }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 2,
+    "name": "Двери Кубани",
+    "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
+    "phone": "+7 (928) 429-89-28",
+    "hours": "ежедневно 09:00 - 19:00",
+    "coords": [45.093701, 39.041162],
+    "rating": 0,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей"],
+    "website": "https://dverikubani23.ru/",
+    "description": "Широкий ассортимент входных дверей и замков...",
+    "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Спарта",
+        "price": 38000,
+        "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
+        "images": [],
+        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
+        "url": "https://example.com/product/dircode-t850",
+        "specs": {},
+        "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
+      },
+      {
+        "name": "Спарта",
+        "price": 38000,
+        "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
+        "images": [],
+        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка.",
+        "url": "https://example.com/product/dircode-t850",
+        "specs": {},
+        "compatible_locks": ["814735012891", "422788408171", "301559014621", "586939080481"]
+      }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 3,
+    "name": "компани ООО Лимитед",
+    "address": "Студенческая, д. 19, к.3 Москва",
+    "phone": "+7 (495) 345-67-89",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [55.743, 37.534],
+    "rating": 0,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Ремонт", "Обучение"],
+    "certified": true,
+    "type": ["🔧 Монтажная организация", "🏠 Магазин замков"],
+    "website": "https://example.com/partner3",
+    "description": "Специализируемся на цифровых замках...",
+    "cover": "https://static.tildacdn.com/tild3163-6634-4663-a336-313864353763/98497.jpg",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DK",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930",
+        "specs": {},
+        "compatible_locks": ["550281796961", "907788883962", "574998032842"]
+      }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 4,
+    "name": "Факт замки",
+    "address": "Невский пр-т, д. 100, Санкт-Петербург",
+    "phone": "+7 (812) 123-45-67",
+    "hours": "ежедневно 10:00 - 21:00",
+    "coords": [59.935, 30.327],
+    "rating": 4.7,
+    "products": ["Умные двери"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏠 Магазин замков"],
+    "website": "https://example.com/partner4",
+    "description": "Магазин электронных замков в центре Петербурга...",
+    "cover": "https://idivpered.ru/wp-content/uploads/2017/04/sale-1200x400.jpg",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Программируемый замок Cisa 56930",
+        "price": 32500,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Электронный замок с функцией временных кодов, для офисов.",
+        "url": "https://example.com/product/cisa-56930",
+        "specs": {},
+        "compatible_locks": ["550281796961", "253438850141"]
+      }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 5,
+    "name": "замки от Хуснаддина",
+    "address": "Садовая ул., д. 35, Санкт-Петербург",
+    "phone": "+7 (812) 234-56-78",
+    "hours": "ежедневно 09:00 - 20:00",
+    "coords": [59.926, 30.318],
+    "rating": 4.3,
+    "products": ["Умные замки"],
+    "services": ["Ремонт"],
+    "certified": false,
+    "type": ["🔧 Ремонтная мастерская"],
+    "website": "https://example.com/partner5",
+    "description": "Ремонт и обслуживание замков любой сложности...",
+    "cover": "https://idivpered.ru/wp-content/uploads/2017/04/banner_hit_result1-1200x400.jpg",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с картой доступа, отпечатком и PIN-кодом.",
+        "url": "https://example.com/product/samsung-dp728",
+        "specs": {},
+        "compatible_locks": ["301559014621", "586939080481", "574998032842"]
+      }
+    ],
+    "detailed_services": []
+  }
+]
