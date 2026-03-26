@@ -97,7 +97,26 @@
       { "title": "Гарантия", "content": "<strong>Гарантия</strong><br>Гарантия на дверь – 5 лет, на фурнитуру – 2 года. Гарантия на замок – от 1 года в зависимости от модели." },
       { "title": "Возврат", "content": "<strong>Возврат и обмен</strong><br>Товар надлежащего качества можно вернуть в течение 14 дней, если он не был в использовании и сохранён товарный вид." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
+          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
+          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Обслуживание и ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
+          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -176,24 +195,24 @@
             "name": "Philips EasyKey DDL720-MVP",
             "price": 54900,
             "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
-            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
-            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png"
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png"
           },
           {
             "id": "460867086092",
             "name": "Dircode Q2",
             "price": 48000,
             "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
-            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png",
-            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png"
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png"
           },
           {
             "id": "809533664671",
             "name": "Dircode U800",
             "price": 28000,
             "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
-            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
-            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png"
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png"
           }
         ]
       }
@@ -206,7 +225,26 @@
       { "title": "Гарантия", "content": "<strong>Гарантия</strong><br>Гарантия на дверь – 5 лет, на фурнитуру – 2 года." },
       { "title": "Возврат", "content": "<strong>Возврат и обмен</strong><br>Товар надлежащего качества можно вернуть в течение 14 дней." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
+          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
+          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Обслуживание и ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
+          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -268,6 +306,14 @@
             "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
             "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
             "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
+          },
+          {
+            "id": "574998032842",
+            "name": "Utopic Ok - Дверной замок на шток цилиндра - Чёрный",
+            "price": 18000,
+            "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
+            "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+            "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
           }
         ]
       }
@@ -280,7 +326,25 @@
       { "title": "Гарантия", "content": "Гарантия на замок – 2 года." },
       { "title": "Возврат", "content": "Возврат в течение 14 дней при сохранении товарного вида." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🎓 Обучающие программы",
+        "price": "от 10 000 ₽",
+        "items": [
+          { "name": "Базовый курс монтажника", "price": "15 000 ₽" },
+          { "name": "Продвинутый курс по СКУД", "price": "25 000 ₽" },
+          { "name": "Сертификация специалистов", "price": "5 000 ₽" }
+        ]
+      },
+      {
+        "category": "🏢 Обслуживание организаций",
+        "price": "от 5 000 ₽/мес",
+        "items": [
+          { "name": "Абонентское обслуживание (выезд 1 раз в месяц)", "price": "5 000 ₽" },
+          { "name": "Экстренный выезд в течение часа", "price": "3 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -359,7 +423,24 @@
       { "title": "Гарантия", "content": "Гарантия на замок – 2 года." },
       { "title": "Возврат", "content": "Возврат в течение 14 дней при сохранении товарного вида." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🧑‍🏫 Мастер-классы",
+        "price": "бесплатно",
+        "items": [
+          { "name": "Как выбрать умный замок", "price": "бесплатно" },
+          { "name": "Установка своими руками", "price": "бесплатно" }
+        ]
+      },
+      {
+        "category": "🔧 Установка и настройка",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Монтаж замка в стандартную дверь", "price": "3 000 ₽" },
+          { "name": "Монтаж в нестандартную дверь", "price": "4 500 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -419,6 +500,14 @@
             "image": "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png",
             "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
             "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
+          },
+          {
+            "id": "574998032842",
+            "name": "Utopic Ok - Дверной замок на шток цилиндра - Чёрный",
+            "price": 18000,
+            "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
+            "exterior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+            "interior_image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop"
           }
         ]
       }
@@ -431,6 +520,25 @@
       { "title": "Гарантия", "content": "Гарантия на работы – 1 год, на замок – 2 года." },
       { "title": "Возврат", "content": "Возврат в течение 14 дней при сохранении товарного вида." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🔧 Ремонт замков",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Ремонт механической части", "price": "от 1 500 ₽" },
+          { "name": "Ремонт электроники", "price": "от 2 500 ₽" },
+          { "name": "Вскрытие замка без повреждений", "price": "от 2 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔄 Замена комплектующих",
+        "price": "от 500 ₽",
+        "items": [
+          { "name": "Замена батарейного отсека", "price": "800 ₽" },
+          { "name": "Замена сенсорной панели", "price": "от 2 000 ₽" },
+          { "name": "Перепрошивка контроллера", "price": "1 500 ₽" }
+        ]
+      }
+    ]
   }
 ]
