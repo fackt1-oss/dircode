@@ -1,12 +1,105 @@
 [
   {
+    "id": 1,
+    "name": "ООО Диркод",
+    "address": "ул. Студенческая, д.19 к.3, Москва",
+    "phone": "+7 (495) 414-49-00",
+    "email": "key.pluss@yandex.ru",
+    "hours": "ежедневно 10:00 - 18:00",
+    "coords": [55.741974, 37.549305],
+    "rating": 4.8,
+    "reviews_count": 25,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
+    "website": "https://dircode.ru",
+    "description": "Компания работает на рынке более 10 лет. Мы не только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
+    "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+    "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
+    "photos": [],
+    "reviews": [
+      {
+        "author": "Алексей П.",
+        "rating": 5,
+        "date": "2026-03-15",
+        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
+      }
+    ],
+    "catalog": [
+      {
+        "name": "Умная дверь Dircode Pro",
+        "type": "door",
+        "price": 45900,
+        "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
+        "description": "Металлическая дверь с терморазрывом, утепление минватой. Комплект: дверь + замок Philips 610.",
+        "specs": {
+          "Материал двери": "Сталь",
+          "Утеплитель": "Минвата",
+          "Толщина": "80 мм",
+          "Тип замка": "Умный, врезной",
+          "Доводчик": "В комплекте"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
+          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+        ],
+        "interior_options": [
+          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+          { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
+          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "814735012891",
+            "name": "Электронный замок Slim - Чёрный",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+            "exterior_options": [
+              { "name": "Коричневый МДФ (с замком)", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+              { "name": "Серый металлик (с замком)", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" }
+            ],
+            "interior_options": [
+              { "name": "Белый МДФ (с замком)", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+              { "name": "Дуб венге (с замком)", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" }
+            ]
+          },
+          {
+            "id": "422788408171",
+            "name": "Электронный замок Slim - Серебряный",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png",
+            "exterior_options": [
+              { "name": "Коричневый МДФ (серебр. замок)", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+              { "name": "Белый глянец (серебр. замок)", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+            ],
+            "interior_options": [
+              { "name": "Светлый ясень (серебр. замок)", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" },
+              { "name": "Белый МДФ (серебр. замок)", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" }
+            ]
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по Москве – 1–2 дня, бесплатно от 50 000 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
+      { "title": "Установка", "content": "Профессиональный монтаж – от 5 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет на дверь, 2 года на фурнитуру." },
+      { "title": "Возврат", "content": "14 дней, товарный вид." }
+    ],
+    "detailed_services": []
+  },
+  {
     "id": 2,
     "name": "Двери Кубани",
     "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
     "phone": "+7 (928) 429-89-28",
-    "email": "key.pluss@yandex.ru",
-    "youtube": "https://youtube.com/@dveri_kubani",
-    "vk": "https://vk.com/club218272457",
+    "email": "dverikubani@yandex.ru",
     "hours": "ежедневно 09:00 - 19:00",
     "coords": [45.093701, 39.041162],
     "rating": 0,
@@ -19,33 +112,19 @@
     "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
-    "photos": [
-      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg",
-      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg"
-    ],
+    "photos": [],
     "reviews": [
       {
         "author": "Наталья",
         "rating": 5,
         "date": "2023-03-18",
         "text": "Богдан отличный специалист, на замер выехал очень оперативно,грамотно все рассказал, дверь заказала , осталась довольна )))"
-      },
-      {
-        "author": "Юлия",
-        "rating": 4,
-        "date": "2023-02-28",
-        "text": "Спасибо огромное за накладку на дверь и качественную работу! Специалист очень хороший, всем рекомендую!"
-      },
-      {
-        "author": "Александр",
-        "rating": 5,
-        "date": "2022-03-09",
-        "text": "Быстро и качественно поставили дверь! Цена адекватная. Рекомендую!"
       }
     ],
     "catalog": [
       {
-        "name": "Входная дверь - Заебись",
+        "name": "Входная дверь Спарта",
+        "type": "door",
         "price": 38000,
         "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
         "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
@@ -60,6 +139,16 @@
         },
         "side_options": ["Правая", "Левая"],
         "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
+          { "name": "название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+          { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+          { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+        ],
         "compatible_locks": [
           {
             "id": "930848911812",
@@ -82,82 +171,931 @@
             "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
             "exterior_options": [
               { "name": "Внешняя 1 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Внешняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
-              { "name": "Внешняя 3 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+              { "name": "Внешняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
             ],
             "interior_options": [
               { "name": "Внутренняя 1 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-              { "name": "Внутренняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
-              { "name": "Внутренняя 3 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+              { "name": "Внутренняя 2 (Q2)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
             ]
-          },
-          {
-            "id": "809533664671",
-            "name": "Dircode U800",
-            "price": 28000,
-            "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
-            "exterior_options": [
-              { "name": "Внешняя 1 (U800)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Внешняя 2 (U800)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
-            ],
-            "interior_options": [
-              { "name": "Внутренняя 1 (U800)", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-              { "name": "Внутренняя 2 (U800)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
-            ]
-          }
-        ],
-        "additional_options": [
-          {
-            "id": "opt1",
-            "name": "Опция 1: Доводчик двери",
-            "price": 5000,
-            "image": "https://via.placeholder.com/100?text=Доводчик",
-            "description": "Плавное закрывание двери без хлопка, повышает комфорт и продлевает срок службы замка."
-          },
-          {
-            "id": "opt2",
-            "name": "Опция 2: Скрытые петли",
-            "price": 8000,
-            "image": "https://via.placeholder.com/100?text=Петли",
-            "description": "Эстетичные невидимые петли, защита от взлома и аккуратный внешний вид двери."
-          },
-          {
-            "id": "opt3",
-            "name": "Опция 3: Терморазрыв",
-            "price": 12000,
-            "image": "https://via.placeholder.com/100?text=Терморазрыв",
-            "description": "Специальная термовставка, предотвращающая промерзание двери и образование конденсата."
           }
         ]
       }
     ],
     "tabs": [
-      { "title": "Замер", "content": "<strong>Замер</strong><br>Бесплатный выезд замерщика. Специалист проконсультирует по всем параметрам." },
-      { "title": "Доставка", "content": "<strong>Доставка</strong><br>Доставка по Краснодару и краю. Бесплатно при заказе от 40 000 ₽." },
-      { "title": "Оплата", "content": "<strong>Оплата</strong><br>Наличными, картой, безналичный расчёт. Рассрочка от банков-партнёров." },
-      { "title": "Установка", "content": "<strong>Установка</strong><br>Профессиональный монтаж силами сертифицированных мастеров. Стоимость – от 4 500 ₽." },
-      { "title": "Гарантия", "content": "<strong>Гарантия</strong><br>Гарантия на дверь – 5 лет, на фурнитуру – 2 года." },
-      { "title": "Возврат", "content": "<strong>Возврат и обмен</strong><br>Товар надлежащего качества можно вернуть в течение 14 дней." }
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по Краснодару и краю. Бесплатно от 40 000 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
+      { "title": "Установка", "content": "Профессиональный монтаж – от 4 500 ₽." },
+      { "title": "Гарантия", "content": "5 лет на дверь, 2 года на фурнитуру." },
+      { "title": "Возврат", "content": "14 дней." }
     ],
-    "detailed_services": [
+    "detailed_services": []
+  },
+  {
+    "id": 3,
+    "name": "Цифровые замки Москва",
+    "address": "ул. Тверская, д. 12, Москва",
+    "phone": "+7 (495) 777-88-99",
+    "email": "info@digital-locks.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [55.764, 37.609],
+    "rating": 4.5,
+    "reviews_count": 42,
+    "products": ["Умные замки", "Комплектующие"],
+    "services": ["Монтаж", "Ремонт"],
+    "certified": true,
+    "type": ["🏠 Магазин замков", "🔧 Монтажная организация"],
+    "website": "https://digital-locks.ru",
+    "description": "Цифровые замки, доводчики, RFID-карты. Установка и ремонт.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Digital+Locks",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DL",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
       {
-        "category": "🛠️ Установка и монтаж",
-        "price": "от 3 000 ₽",
-        "items": [
-          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
-          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
-          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        "name": "Электронный замок Slim - Чёрный",
+        "type": "lock",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой.",
+        "specs": {
+          "Цвет": "Чёрный",
+          "Способы открытия": "Отпечаток, PIN, карта, ключ",
+          "Питание": "4xAA",
+          "Гарантия": "2 года"
+        }
+      },
+      {
+        "name": "Wi-Fi модуль для замков",
+        "type": "accessory",
+        "price": 5000,
+        "image": "https://static.tildacdn.com/tild3466-6537-4263-a262-336634313061/f2f40aee0284e9bf9b8d.jpg",
+        "description": "Удалённое управление замком через интернет, просмотр истории событий.",
+        "specs": {
+          "Протокол": "Wi-Fi 2.4 ГГц",
+          "Совместимость": "Замки Sciener",
+          "Питание": "USB"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд мастера – 500 ₽." },
+      { "title": "Доставка", "content": "Доставка по Москве – 300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
+      { "title": "Установка", "content": "Установка замка – 2 500 ₽." },
+      { "title": "Гарантия", "content": "2 года на замок." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 4,
+    "name": "ЗамкиПро в Санкт-Петербурге",
+    "address": "Невский пр-т, д. 88, Санкт-Петербург",
+    "phone": "+7 (812) 333-44-55",
+    "email": "spb@zamkipro.ru",
+    "hours": "ежедневно 10:00 - 21:00",
+    "coords": [59.935, 30.327],
+    "rating": 4.7,
+    "reviews_count": 64,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей", "🏠 Магазин замков"],
+    "website": "https://zamkipro.ru/spb",
+    "description": "Крупнейший магазин умных замков и дверей в центре Петербурга.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+СПб",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Входная дверь Termo",
+        "type": "door",
+        "price": 52000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Утеплённая дверь с терморазрывом, сталь 2 мм.",
+        "specs": {
+          "Толщина стали": "2 мм",
+          "Утеплитель": "ППУ",
+          "Петли": "3 шт"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм"],
+        "exterior_options": [
+          { "name": "Антрацит", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+          { "name": "Ясень", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "301559014621",
+            "name": "Dircode М701",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+            "exterior_options": [
+              { "name": "Антрацит с М701", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Белый с М701", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Дуб с М701", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Ясень с М701", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+            ]
+          }
         ]
       },
       {
-        "category": "🔧 Обслуживание и ремонт",
-        "price": "от 1 500 ₽",
-        "items": [
-          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
-          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
-          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        "name": "Замок-невидимка Utopic Deadbolt",
+        "type": "lock",
+        "price": 19900,
+        "image": "https://static.tildacdn.com/stor6535-3535-4961-b834-633566333766/44420163.jpg",
+        "description": "Электронный цилиндр, управление с телефона. Не требует замены замка.",
+        "specs": {
+          "Управление": "Bluetooth",
+          "Совместимость": "Стандартные цилиндры",
+          "Питание": "2xAAA"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по СПб – 200 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, рассрочка." },
+      { "title": "Установка", "content": "Монтаж двери – 5 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет на дверь, 2 года на замок." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 5,
+    "name": "Замки от Хуснаддина",
+    "address": "Садовая ул., д. 35, Санкт-Петербург",
+    "phone": "+7 (812) 234-56-78",
+    "email": "service@zamki-spb.ru",
+    "hours": "ежедневно 09:00 - 20:00",
+    "coords": [59.926, 30.318],
+    "rating": 4.3,
+    "reviews_count": 9,
+    "products": ["Умные замки"],
+    "services": ["Ремонт"],
+    "certified": false,
+    "type": ["🔧 Ремонтная мастерская"],
+    "website": "https://zamki-spb.ru",
+    "description": "Ремонт и обслуживание замков любой сложности. Выезд мастера на дом.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Замки+СПб",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=ZS",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Замок Samsung SHP-DP728",
+        "type": "lock",
+        "price": 18990,
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+        "description": "Цифровой замок с отпечатком, кодом, картой и ключом.",
+        "specs": {
+          "Управление": "Отпечаток, код, карта, ключ",
+          "Питание": "4xAA",
+          "Гарантия": "1 год"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд мастера – 500 ₽." },
+      { "title": "Доставка", "content": "Доставка по СПб – 300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "Установка замка – 2 500 ₽." },
+      { "title": "Гарантия", "content": "1 год на работы." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 6,
+    "name": "Код Замки в Йошкар-Оле",
+    "address": "ул. Ленина, д. 10, Йошкар-Ола",
+    "phone": "+7 (8362) 12-34-56",
+    "email": "info@kod-zamki.ru",
+    "hours": "ежедневно 09:00 - 19:00",
+    "coords": [56.632, 47.891],
+    "rating": 4.6,
+    "reviews_count": 14,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж"],
+    "certified": true,
+    "type": ["🏬 Магазин"],
+    "website": "https://kod-zamki.ru",
+    "description": "Продажа и установка электронных замков. Большой опыт работы с частными клиентами.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умная дверь Dircode Pro",
+        "type": "door",
+        "price": 45900,
+        "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
+        "description": "Металлическая дверь с умным замком.",
+        "specs": { "Материал": "Сталь", "Толщина": "80 мм" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм"],
+        "exterior_options": [
+          { "name": "Коричневый", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+          { "name": "Серый", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" }
+        ],
+        "interior_options": [
+          { "name": "Белый", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+          { "name": "Венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "814735012891",
+            "name": "Slim Чёрный",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+            "exterior_options": [],
+            "interior_options": []
+          }
         ]
       }
-    ]
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатный выезд." },
+      { "title": "Доставка", "content": "По городу – 300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "Монтаж – 4 000 ₽." },
+      { "title": "Гарантия", "content": "3 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 7,
+    "name": "Техно Двери на Комсомольской",
+    "address": "ул. Комсомольская, д. 25, Йошкар-Ола",
+    "phone": "+7 (8362) 23-45-67",
+    "email": "tehno@dveri.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [56.636, 47.884],
+    "rating": 4.4,
+    "reviews_count": 7,
+    "products": ["Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": false,
+    "type": ["🏠 Магазин замков"],
+    "website": "https://tehno-dveri.ru",
+    "description": "Специализируемся на умных замках и системах видеонаблюдения.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Dircode М701 смарт замок - Чёрный",
+        "type": "lock",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+        "description": "Умный замок с отпечатком пальца, PIN-кодом, картой.",
+        "specs": {
+          "Способы открытия": "Отпечаток, код, карта, ключ",
+          "Питание": "4xAA",
+          "Гарантия": "2 года"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд мастера – 300 ₽." },
+      { "title": "Доставка", "content": "Доставка по городу – 200 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "Монтаж – 2 500 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 8,
+    "name": "Замок-Мастер на Советской",
+    "address": "ул. Советская, д. 5, Йошкар-Ола",
+    "phone": "+7 (8362) 34-56-78",
+    "email": "master@zamok.ru",
+    "hours": "ежедневно 09:00 - 18:00",
+    "coords": [56.629, 47.889],
+    "rating": 4.2,
+    "reviews_count": 5,
+    "products": ["Умные двери"],
+    "services": ["Ремонт"],
+    "certified": false,
+    "type": ["🔧 Ремонтная мастерская"],
+    "website": "https://zamok-master.ru",
+    "description": "Ремонт замков всех типов. Вскрытие дверей без повреждений.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Замок-Мастер",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=ZM",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Входная дверь Стандарт",
+        "type": "door",
+        "price": 25000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Эконом-класс, сталь 1,2 мм.",
+        "specs": { "Сталь": "1,2 мм", "Утеплитель": "Минвата" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм"],
+        "exterior_options": [
+          { "name": "Стандарт", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Стандарт", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+        ],
+        "compatible_locks": []
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд – 500 ₽." },
+      { "title": "Доставка", "content": "200 ₽." },
+      { "title": "Оплата", "content": "Наличными." },
+      { "title": "Установка", "content": "3 000 ₽." },
+      { "title": "Гарантия", "content": "1 год." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 9,
+    "name": "Цифровой замок на Красноармейской",
+    "address": "ул. Красноармейская, д. 40, Йошкар-Ола",
+    "phone": "+7 (8362) 45-67-89",
+    "email": "digital@zamki.ru",
+    "hours": "ежедневно 10:00 - 21:00",
+    "coords": [56.634, 47.879],
+    "rating": 4.8,
+    "reviews_count": 21,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин", "🏠 Магазин замков"],
+    "website": "https://digital-zamki.ru",
+    "description": "Современные цифровые замки и системы умного дома. Консультации и обучение.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умная дверь Престиж",
+        "type": "door",
+        "price": 65000,
+        "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png",
+        "description": "Дверь премиум-класса, сталь 2 мм, терморазрыв.",
+        "specs": { "Сталь": "2 мм", "Терморазрыв": "Да" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["960×2050 мм", "1020×2050 мм"],
+        "exterior_options": [
+          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" },
+          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" }
+        ],
+        "interior_options": [
+          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" },
+          { "name": "Венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "253438850141",
+            "name": "Philips EasyKey DDL608-5HWS",
+            "price": 28000,
+            "image": "https://static.tildacdn.com/stor6630-3266-4462-a636-303032653332/45595144.jpg",
+            "exterior_options": [],
+            "interior_options": []
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "Бесплатно от 50 000 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, рассрочка." },
+      { "title": "Установка", "content": "6 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 10,
+    "name": "Безопасность+ на Машиностроителей",
+    "address": "ул. Машиностроителей, д. 12, Йошкар-Ола",
+    "phone": "+7 (8362) 56-78-90",
+    "email": "bezopasnost@plus.ru",
+    "hours": "ежедневно 09:00 - 20:00",
+    "coords": [56.638, 47.874],
+    "rating": 4.5,
+    "reviews_count": 11,
+    "products": ["Умные замки"],
+    "services": ["Монтаж", "Ремонт"],
+    "certified": true,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://bezopasnost-plus.ru",
+    "description": "Установка и обслуживание систем безопасности, замков, домофонов.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Безопасность%2B",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=B%2B",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умный замок Dircode U800",
+        "type": "lock",
+        "price": 28000,
+        "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
+        "description": "Замок с распознаванием лица и отпечатком.",
+        "specs": {
+          "Способы открытия": "Лицо, отпечаток, код, карта",
+          "Питание": "Аккумулятор"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд – 300 ₽." },
+      { "title": "Доставка", "content": "200 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "3 000 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 11,
+    "name": "ЗамкиПро в Казани",
+    "address": "ул. Баумана, д. 20, Казань",
+    "phone": "+7 (843) 123-45-67",
+    "email": "kazan@zamkipro.ru",
+    "hours": "ежедневно 10:00 - 21:00",
+    "coords": [55.788, 49.122],
+    "rating": 4.6,
+    "reviews_count": 16,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж"],
+    "certified": true,
+    "type": ["🏬 Магазин"],
+    "website": "https://zamkipro.ru/kazan",
+    "description": "Филиал сети ЗамкиПро в Казани. Широкий ассортимент, качественный монтаж.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Казань",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умная дверь Спарта",
+        "type": "door",
+        "price": 38000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Металлическая дверь с умным замком.",
+        "specs": { "Толщина стали": "1,5 мм" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм"],
+        "exterior_options": [
+          { "name": "Коричневый", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+        ],
+        "compatible_locks": []
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "4 500 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 12,
+    "name": "Умный Дом в Екатеринбурге",
+    "address": "ул. Ленина, д. 50, Екатеринбург",
+    "phone": "+7 (343) 123-45-67",
+    "email": "smart@ekb.ru",
+    "hours": "ежедневно 09:00 - 21:00",
+    "coords": [56.838, 60.605],
+    "rating": 4.3,
+    "reviews_count": 8,
+    "products": ["Умные замки"],
+    "services": ["Обучение"],
+    "certified": false,
+    "type": ["🏠 Магазин замков"],
+    "website": "https://smart-ekb.ru",
+    "description": "Умные замки и системы управления домом. Проводим консультации и обучение.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Умный+Дом",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=UD",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Philips EasyKey DDL720-MVP",
+        "type": "lock",
+        "price": 54900,
+        "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+        "description": "Замок с распознаванием вен ладони, отпечатком, кодом.",
+        "specs": {
+          "Способы открытия": "Ладонь, отпечаток, код, карта",
+          "Питание": "Аккумулятор"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Выезд – 500 ₽." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, рассрочка." },
+      { "title": "Установка", "content": "3 500 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 13,
+    "name": "Директ Замки в Новосибирске",
+    "address": "ул. Красный пр-т, д. 30, Новосибирск",
+    "phone": "+7 (383) 123-45-67",
+    "email": "nsk@direct-locks.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [55.03, 82.92],
+    "rating": 4.7,
+    "reviews_count": 22,
+    "products": ["Умные двери"],
+    "services": ["Монтаж", "Ремонт"],
+    "certified": true,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://direct-locks.ru",
+    "description": "Профессиональный монтаж и ремонт замков. В наличии склад комплектующих.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Директ+Замки+НСК",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Входная дверь Сибирь",
+        "type": "door",
+        "price": 42000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Утеплённая дверь для сурового климата.",
+        "specs": { "Терморазрыв": "Да", "Утеплитель": "ППУ" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм"],
+        "exterior_options": [
+          { "name": "Тёмный дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Светлый дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+        ],
+        "compatible_locks": []
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "500 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "5 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 14,
+    "name": "Сейф Сервис в Нижнем",
+    "address": "ул. Большая Покровская, д. 15, Нижний Новгород",
+    "phone": "+7 (831) 123-45-67",
+    "email": "safe@nnov.ru",
+    "hours": "ежедневно 09:00 - 20:00",
+    "coords": [56.326, 44.006],
+    "rating": 4.4,
+    "reviews_count": 6,
+    "products": ["Умные замки"],
+    "services": ["Монтаж"],
+    "certified": false,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://safe-nnov.ru",
+    "description": "Монтаж и сервисное обслуживание замков и сейфов.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Сейф+Сервис",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=SS",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Электронный цилиндр Utopic R",
+        "type": "lock",
+        "price": 26000,
+        "image": "https://static.tildacdn.com/tild6264-6663-4634-a563-633161643039/71L2UXfz43L_SL1500_.jpg",
+        "description": "Цилиндр с Bluetooth, управление с телефона.",
+        "specs": {
+          "Управление": "Bluetooth",
+          "Питание": "2xAAA"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "300 ₽." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "2 500 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 15,
+    "name": "Код Замки в Самаре",
+    "address": "ул. Ленинградская, д. 40, Самара",
+    "phone": "+7 (846) 123-45-67",
+    "email": "samara@kod-zamki.ru",
+    "hours": "ежедневно 10:00 - 21:00",
+    "coords": [53.241, 50.221],
+    "rating": 4.5,
+    "reviews_count": 10,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин"],
+    "website": "https://kod-zamki.ru/samara",
+    "description": "Магазин электронных замков и сопутствующих товаров. Проводим мастер-классы.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Код+Замки+Самара",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=KZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умный замок Dircode Q2",
+        "type": "lock",
+        "price": 48000,
+        "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
+        "description": "Замок с распознаванием лица и отпечатком.",
+        "specs": {
+          "Способы открытия": "Лицо, отпечаток, код, карта"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "3 500 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 16,
+    "name": "Техно Двери в Омске",
+    "address": "ул. Ленина, д. 22, Омск",
+    "phone": "+7 (3812) 12-34-56",
+    "email": "omsk@tehno.ru",
+    "hours": "ежедневно 09:00 - 19:00",
+    "coords": [54.988, 73.324],
+    "rating": 4.2,
+    "reviews_count": 4,
+    "products": ["Умные замки"],
+    "services": ["Ремонт"],
+    "certified": false,
+    "type": ["🔧 Ремонтная мастерская"],
+    "website": "https://tehno-omsk.ru",
+    "description": "Ремонт и обслуживание замков, вскрытие дверей.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Техно+Двери",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=TD",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умный замок Lockin G30",
+        "type": "lock",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor6530-3563-4231-a430-333439633933/33779428.gif",
+        "description": "Компактный замок с отпечатком и кодом.",
+        "specs": {
+          "Способы открытия": "Отпечаток, код, карта"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "400 ₽." },
+      { "title": "Доставка", "content": "200 ₽." },
+      { "title": "Оплата", "content": "Наличными." },
+      { "title": "Установка", "content": "2 000 ₽." },
+      { "title": "Гарантия", "content": "1 год." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 17,
+    "name": "Замок-Мастер в Уфе",
+    "address": "ул. Октябрьской революции, д. 10, Уфа",
+    "phone": "+7 (347) 123-45-67",
+    "email": "ufa@master.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [54.734, 55.957],
+    "rating": 4.6,
+    "reviews_count": 13,
+    "products": ["Умные двери"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏠 Магазин замков"],
+    "website": "https://zamok-master-ufa.ru",
+    "description": "Большой выбор готовых решений для дома и офиса. Проводим обучение.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Замок-Мастер",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZM",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Входная дверь Уфа",
+        "type": "door",
+        "price": 40000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Утеплённая дверь, сталь 1,5 мм.",
+        "specs": { "Сталь": "1,5 мм", "Утеплитель": "Минвата" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм"],
+        "exterior_options": [
+          { "name": "Коричневый", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+        ],
+        "compatible_locks": []
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "4 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 18,
+    "name": "Цифровой замок в Красноярске",
+    "address": "пр. Мира, д. 80, Красноярск",
+    "phone": "+7 (391) 123-45-67",
+    "email": "krasnoyarsk@digital-lock.ru",
+    "hours": "ежедневно 09:00 - 21:00",
+    "coords": [56.015, 92.893],
+    "rating": 4.7,
+    "reviews_count": 19,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Ремонт"],
+    "certified": true,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://digital-lock-kras.ru",
+    "description": "Цифровые замки и системы безопасности. Монтаж и гарантийное обслуживание.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Цифровой+замок",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=CZ",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Входная дверь Енисей",
+        "type": "door",
+        "price": 47000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "description": "Дверь с терморазрывом, сталь 1,8 мм.",
+        "specs": { "Сталь": "1,8 мм", "Терморазрыв": "Да" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм"],
+        "exterior_options": [
+          { "name": "Серый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Светлый ясень", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+        ],
+        "compatible_locks": []
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "400 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "5 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 19,
+    "name": "Безопасность+ в Воронеже",
+    "address": "ул. Плехановская, д. 30, Воронеж",
+    "phone": "+7 (473) 123-45-67",
+    "email": "voronezh@bezopasnost.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [51.66, 39.2],
+    "rating": 4.4,
+    "reviews_count": 7,
+    "products": ["Умные замки"],
+    "services": ["Монтаж"],
+    "certified": false,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://bezopasnost-vrn.ru",
+    "description": "Монтаж систем безопасности и замков. Выезд по городу и области.",
+    "cover": "https://via.placeholder.com/1200x250/4b5563/ffffff?text=Безопасность%2B",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=B%2B",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Электронная ручка Dircode P30",
+        "type": "lock",
+        "price": 17000,
+        "image": "https://static.tildacdn.com/stor6532-3461-4963-a562-616330666136/43281232.png",
+        "description": "Умная ручка с отпечатком, для межкомнатных дверей.",
+        "specs": {
+          "Способы открытия": "Отпечаток, код, карта"
+        }
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "300 ₽." },
+      { "title": "Доставка", "content": "200 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой." },
+      { "title": "Установка", "content": "2 000 ₽." },
+      { "title": "Гарантия", "content": "2 года." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 20,
+    "name": "ЗамкиПро в Ростове",
+    "address": "ул. Большая Садовая, д. 45, Ростов-на-Дону",
+    "phone": "+7 (863) 123-45-67",
+    "email": "rostov@zamkipro.ru",
+    "hours": "ежедневно 09:00 - 21:00",
+    "coords": [47.235, 39.701],
+    "rating": 4.8,
+    "reviews_count": 27,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
+    "certified": true,
+    "type": ["🏬 Магазин"],
+    "website": "https://zamkipro.ru/rostov",
+    "description": "Крупнейший магазин электронных замков на юге России. Обучение и сервисный центр.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=ЗамкиПро+Ростов",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=ZP",
+    "photos": [],
+    "reviews": [],
+    "catalog": [
+      {
+        "name": "Умная дверь Юг",
+        "type": "door",
+        "price": 49000,
+        "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png",
+        "description": "Дверь с терморазрывом, устойчивая к высоким температурам.",
+        "specs": { "Терморазрыв": "Да", "Сталь": "1,8 мм" },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм"],
+        "exterior_options": [
+          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" },
+          { "name": "Серый", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" }
+        ],
+        "interior_options": [
+          { "name": "Венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
+          { "name": "Ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "809533664671",
+            "name": "Dircode U800",
+            "price": 28000,
+            "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
+            "exterior_options": [],
+            "interior_options": []
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатно." },
+      { "title": "Доставка", "content": "300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, рассрочка." },
+      { "title": "Установка", "content": "5 500 ₽." },
+      { "title": "Гарантия", "content": "5 лет." },
+      { "title": "Возврат", "content": "14 дней." }
+    ],
+    "detailed_services": []
   }
 ]
