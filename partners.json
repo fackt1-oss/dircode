@@ -79,9 +79,6 @@
     "name": "Двери Кубани",
     "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
     "phone": "+7 (928) 429-89-28",
-    "email": "key.pluss@yandex.ru",
-    "youtube": "https://youtube.com/@dveri_kubani",
-    "vk": "https://vk.com/club218272457",
     "hours": "ежедневно 09:00 - 19:00",
     "coords": [45.093701, 39.041162],
     "rating": 0,
@@ -94,30 +91,8 @@
     "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
     "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
-    "photos": [
-      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg",
-      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg"
-    ],
-    "reviews": [
-      {
-        "author": "Наталья",
-        "rating": 5,
-        "date": "2023-03-18",
-        "text": "Богдан отличный специалист, на замер выехал очень оперативно,грамотно все рассказал, дверь заказала , осталась довольна )))"
-      },
-      {
-        "author": "Юлия",
-        "rating": 4,
-        "date": "2023-02-28",
-        "text": "Спасибо огромное за накладку на дверь и качественную работу! Специалист очень хороший, всем рекомендую!"
-      },
-      {
-        "author": "Александр",
-        "rating": 5,
-        "date": "2022-03-09",
-        "text": "Быстро и качественно поставили дверь! Цена адекватная. Рекомендую!"
-      }
-    ],
+    "photos": [],
+    "reviews": [],
     "catalog": [
       {
         "name": "Входная дверь - Заебись",
@@ -133,7 +108,6 @@
           "Наполнение": "Мин. плита",
           "Гарантия": "1 год"
         },
-        "compatible_locks": ["930848911812", "460867086092", "809533664671"],
         "side_options": ["Правая", "Левая"],
         "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
         "exterior_options": [
@@ -145,34 +119,32 @@
           { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
           { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
           { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
-        ]
-      },
-      {
-        "name": "Входная дверь - Не заебись",
-        "price": 38000,
-        "image": "https://190601.selcdn.ru/torex.ru/iblock/23c/23cd0ca5c96f90ed7fd6a31fdc526171/c596270720fc7e8de38c69996b6fe966_outside.png",
-        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
-        "specs": {
-          "Тип коробки": "Закрытый утепленный",
-          "Толщина полотна": "90 мм",
-          "Толщина стали": "1,5 мм",
-          "Петли": "2 шт",
-          "Отделка снаружи": "МДФ 12 мм",
-          "Наполнение": "Мин. плита",
-          "Гарантия": "1 год"
-        },
-        "compatible_locks": ["930848911812", "460867086092", "809533664671"],
-        "side_options": ["Правая", "Левая"],
-        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
-        "exterior_options": [
-          { "name": "название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-          { "name": "название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
-          { "name": "название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
         ],
-        "interior_options": [
-          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-          { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
-          { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+        "compatible_locks": [
+          {
+            "id": "930848911812",
+            "name": "Philips EasyKey DDL720-MVP",
+            "price": 54900,
+            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png"
+          },
+          {
+            "id": "460867086092",
+            "name": "Dircode Q2",
+            "price": 48000,
+            "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png"
+          },
+          {
+            "id": "809533664671",
+            "name": "Dircode U800",
+            "price": 28000,
+            "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
+            "exterior_image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png",
+            "interior_image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png"
+          }
         ]
       }
     ],
