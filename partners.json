@@ -145,13 +145,10 @@
     ],
     "catalog": [
       {
-        "name": "Спарта",
+        "name": "Входная дверь Заебись",
         "price": 38000,
-        "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
-        "images": [
-          "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png",
-          "https://static.tildacdn.com/tild3966-6438-4130-b534-383530306232/98709549.jpg"
-        ],
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "images": [],
         "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с терморазрывом.",
         "url": "https://example.com/product/dircode-t850",
         "specs": {
@@ -167,47 +164,14 @@
         "side_options": ["Правая", "Левая"],
         "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
         "exterior_options": [
-          { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
-          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
-          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+          { "name": "Название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "Название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/839/83911605a69a4700058eda00f38df3c8/730f75f5f9ff386441896dc586fb1d18_outside.png" },
+          { "name": "Название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/c06/c0630321ec0be5e08e97051821409696/69298a2a4704294d1cf095477d882c95_outside.png" }
         ],
         "interior_options": [
-          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
-          { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
-          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
-        ]
-      },
-      {
-        "name": "Спарта",
-        "price": 38000,
-        "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
-        "images": [
-          "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png",
-          "https://static.tildacdn.com/stor6235-6361-4366-b931-363638386439/98709549.jpg"
-        ],
-        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с терморазрывом.",
-        "url": "https://example.com/product/dircode-t850",
-        "specs": {
-          "Тип коробки": "Закрытый (2 цвета)",
-          "Толщина полотна": "90 мм",
-          "Толщина стали": "1,5 мм",
-          "Петли": "3 шт",
-          "Отделка снаружи": "МДФ 12 мм",
-          "Наполнение": "Мин. плита",
-          "Гарантия": "1 год"
-        },
-        "compatible_locks": ["809533664671", "930848911812", "460867086092"],
-        "side_options": ["Правая", "Левая"],
-        "size_options": ["860×2050 мм", "960×2050 мм", "Индивидуальный"],
-        "exterior_options": [
-          { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/stor6237-3263-4462-b336-373464623664/21473425.png" },
-          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
-          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
-        ],
-        "interior_options": [
-          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/stor6235-6361-4366-b931-363638386439/98709549.jpg" },
-          { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
-          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
+          { "name": "Название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a3b/a3b4ea9f5478c500a35b255874a97c0e/6a3545e9d31bb31c9e33e26ef8ff2376_inside.png" },
+          { "name": "Название с зеркалом", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+          { "name": "Название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/1dc/1dcba8cf5496dbdd470e15933101fcc2/a6f2ac4248570c801cb36f1b0dded9e4_inside.png" }
         ]
       }
     ],
