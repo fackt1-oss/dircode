@@ -17,7 +17,12 @@
     "description": "Магазин умных замков. Представлены все виды электронных замков: от накладных до врезных с биометрией. Работаем с 2012 года, помогаем подобрать идеальное решение для вашей двери.",
     "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
     "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
-    "photos": [],
+    "photos": [
+    "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
+  ],
     "reviews": [
       {
         "author": "Алексей П.",
@@ -515,8 +520,8 @@
     "coords": [45.035, 38.975],
     "rating": 4.6,
     "reviews_count": 34,
-    "products": ["Умные замки", "Системы умного дома"],
-    "services": ["Монтаж", "Обучение"],
+    "products": ["Умные замки",],
+    "services": ["Монтаж", "Ремонт", "Обучение"],
     "certified": true,
     "type": ["🏠 Магазин замков", "🔧 Монтажная организация"],
     "website": "https://smart-tehno.ru",
