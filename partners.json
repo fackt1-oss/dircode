@@ -4,350 +4,124 @@
     "name": "ООО Диркод",
     "address": "ул. Студенческая, д.19 к.3, Москва",
     "phone": "+7 (495) 414-49-00",
-    "email": "info@dircode.ru",
-    "hours": "ежедневно 10:00 - 20:00",
+    "email": "key.pluss@yandex.ru",
+    "hours": "ежедневно 10:00 - 18:00",
     "coords": [55.741974, 37.549305],
     "rating": 4.8,
-    "reviews_count": 156,
-    "products": ["Умные замки"],
-    "services": ["Монтаж", "Настройка"],
+    "reviews_count": 25,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
-    "type": ["🏠 Магазин замков"],
+    "type": ["🏬 Магазин дверей", "🔧 Монтажная организация"],
     "website": "https://dircode.ru",
-    "description": "Магазин умных замков. Представлены все виды электронных замков: от накладных до врезных с биометрией. Работаем с 2012 года, помогаем подобрать идеальное решение для вашей двери.",
+    "description": "Компания работает на рынке более 10 лет. Мы не только выпускаем продукцию под собственной торговой маркой, но и выступаем официальным дилером/дистрибьютором мировых брендов, таких как Philips, Desi и Lockin",
     "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
     "logo": "https://static.tildacdn.com/tild6333-3931-4063-a532-303964623732/__300-300.png",
     "photos": [
-    "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL",
-    "https://avatars.mds.yandex.net/get-altay/215317/2a00000191224d89554d0832164d7df5593f/XXXL"
-  ],
+      "https://avatars.mds.yandex.net/get-altay/13419691/2a00000191224d82c3de378bba6c5d0ed202/XXXL",
+      "https://avatars.mds.yandex.net/get-altay/4916794/2a00000191224d8799330150a727dfe191e4/XXXL",
+      "https://avatars.mds.yandex.net/get-altay/14021655/2a00000191224d83c0b4c986543bb3bcc918/XXXL"
+    ],
     "reviews": [
       {
         "author": "Алексей П.",
         "rating": 5,
         "date": "2026-03-15",
-        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Рекомендую."
+        "text": "Отличный магазин! Помогли с выбором умного замка, быстро установили. Всё работает отлично."
       },
       {
-        "author": "Марина К.",
+        "author": "Елена С.",
         "rating": 5,
         "date": "2026-03-10",
-        "text": "Купила замок Dircode M701, установили за час, всё объяснили. Очень удобно."
+        "text": "Хороший выбор, но пришлось подождать доставки. Монтажники приехали вовремя, установили аккуратно."
       }
     ],
     "catalog": [
       {
-        "type": "lock",
-        "id": "814735012891",
-        "name": "Электронный замок Slim - Чёрный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
-        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Подходит для квартир и офисов.",
-        "url": "https://dircode.ru/dircode/sciener/slim?editionuid=814735012891",
+        "type": "door",
+        "name": "Умная дверь Dircode Pro",
+        "price": 45900,
+        "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif",
+        "description": "Металлическая дверь с терморазрывом, утепление минватой. Комплект: дверь + замок Philips 610.",
         "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Материал": "Цинковый сплав",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "422788408171",
-        "name": "Электронный замок Slim - Серебряный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png",
-        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Серебристое покрытие.",
-        "url": "https://dircode.ru/dircode/sciener/slim?editionuid=422788408171",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Материал": "Цинковый сплав",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "550281796961",
-        "name": "Электронный цилиндр Utopic R",
-        "price": 26000,
-        "image": "https://static.tildacdn.com/tild6264-6663-4634-a563-633161643039/71L2UXfz43L_SL1500_.jpg",
-        "description": "Умный цилиндр, встраиваемый в существующий замок. Управление через Bluetooth со смартфона.",
-        "url": "https://dircode.ru/desi/utopicr",
-        "specs": {
-          "Способы открытия": "Bluetooth, ключ",
-          "Питание": "2xAAA",
-          "Совместимость": "Стандартные цилиндры",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "301559014621",
-        "name": "Dircode М701 смарт замок - Чёрный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
-        "description": "Врезной замок с отпечатком, кодом и картой. Современный дизайн, надёжная защита.",
-        "url": "https://dircode.ru/dircode/sciener/m701?editionuid=301559014621",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Класс защиты": "IP54",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "586939080481",
-        "name": "Dircode М701 смарт замок - Серебряный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png",
-        "description": "Врезной замок с отпечатком, кодом и картой. Серебряное исполнение.",
-        "url": "https://dircode.ru/dircode/sciener/m701?editionuid=586939080481",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Класс защиты": "IP54",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "659240966391",
-        "name": "Электронная ручка Dircode Smart Handle SH7 - Чёрный",
-        "price": 13500,
-        "image": "https://static.tildacdn.com/stor6336-3364-4236-b263-636365316139/88034005.jpg",
-        "description": "Умная ручка с отпечатком пальца для межкомнатных и входных дверей. Простая установка.",
-        "url": "https://dircode.ru/dircode/sciener/smarthandle?editionuid=659240966391",
-        "specs": {
-          "Способы открытия": "Отпечаток, код",
-          "Питание": "4xAAA",
-          "Тип": "Накладная",
-          "Гарантия": "1 год"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "829688891861",
-        "name": "Электронная ручка Dircode Smart Handle SH7 - Серебряный",
-        "price": 13500,
-        "image": "https://static.tildacdn.com/stor3936-6134-4466-a637-313137646437/38209222.jpg",
-        "description": "Умная ручка с отпечатком пальца. Серебряное покрытие.",
-        "url": "https://dircode.ru/dircode/sciener/smarthandle?editionuid=829688891861",
-        "specs": {
-          "Способы открытия": "Отпечаток, код",
-          "Питание": "4xAAA",
-          "Тип": "Накладная",
-          "Гарантия": "1 год"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "577774315131",
-        "name": "Цифровой замок Philips Easykey 7300 - Чёрный",
-        "price": 54000,
-        "image": "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
-        "description": "Премиальный замок с распознаванием отпечатка, кодом, картой и ключом. Встроенный Wi-Fi модуль.",
-        "url": "https://dircode.ru/philips/7300-5hb?editionuid=577774315131",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "Аккумулятор 5000 мАч",
-          "Подключение": "Wi-Fi, Bluetooth",
-          "Гарантия": "3 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "348633674841",
-        "name": "Цифровой замок Philips Easykey 7300 - Бронза",
-        "price": 54000,
-        "image": "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg",
-        "description": "Премиальный замок с распознаванием отпечатка, кодом, картой и ключом. Бронзовое покрытие.",
-        "url": "https://dircode.ru/philips/7300-5hb?editionuid=348633674841",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "Аккумулятор 5000 мАч",
-          "Подключение": "Wi-Fi, Bluetooth",
-          "Гарантия": "3 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "451621041902",
-        "name": "Philips Easykey Alpha-5HB - Чёрный",
-        "price": 59000,
-        "image": "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png",
-        "description": "Флагманский замок с распознаванием лица, отпечатком и кодом. Удалённое управление.",
-        "url": "https://dircode.ru/philips/alpha-5hb?editionuid=451621041902",
-        "specs": {
-          "Способы открытия": "Лицо, отпечаток, PIN, карта, ключ",
-          "Питание": "Аккумулятор 5000 мАч",
-          "Датчики": "3D-распознавание лица",
-          "Гарантия": "3 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "970737304232",
-        "name": "Philips Easykey Alpha-5HB - Золото",
-        "price": 59000,
-        "image": "https://static.tildacdn.com/stor3161-6332-4236-b032-666439323034/78501740.png",
-        "description": "Флагманский замок с распознаванием лица, отпечатком и кодом. Золотое исполнение.",
-        "url": "https://dircode.ru/philips/alpha-5hb?editionuid=970737304232",
-        "specs": {
-          "Способы открытия": "Лицо, отпечаток, PIN, карта, ключ",
-          "Питание": "Аккумулятор 5000 мАч",
-          "Датчики": "3D-распознавание лица",
-          "Гарантия": "3 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "493285306131",
-        "name": "Dircode Street",
-        "price": 18900,
-        "image": "https://static.tildacdn.com/stor3439-3637-4137-b131-346130663038/69293346.jpg",
-        "description": "Уличный умный замок с высокой степенью защиты от влаги и пыли. Подходит для калиток и уличных дверей.",
-        "url": "https://dircode.ru/dircode/sciener/street",
-        "specs": {
-          "Способы открытия": "Код, карта, ключ",
-          "Питание": "4xAA",
-          "Защита": "IP66",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "331147026731",
-        "name": "Dircode S10 Sciener",
-        "price": 15000,
-        "image": "https://static.tildacdn.com/stor3464-3130-4331-b538-383832633431/48156324.png",
-        "description": "Бюджетный врезной замок с отпечатком и кодом. Простая установка, надёжная работа.",
-        "url": "https://dircode.ru/dircode/sciener/s-10",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Тип": "Врезной",
-          "Гарантия": "1 год"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "830312019671",
-        "name": "Dircode Glass Sciener",
-        "price": 18000,
-        "image": "https://static.tildacdn.com/stor3535-6131-4661-b532-336539346630/66032043.jpg",
-        "description": "Замок со стеклянной сенсорной панелью. Современный дизайн, устойчивость к царапинам.",
-        "url": "https://dircode.ru/dircode/sciener/glass",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Панель": "Стекло",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "264791731431",
-        "name": "Philips EasyKey DDL709-FVP",
-        "price": 93000,
-        "image": "https://static.tildacdn.com/stor6461-3062-4433-b533-303966386238/69977701.png",
-        "description": "Топовый замок с распознаванием лица, отпечатком и видеоглазком. Полная безопасность.",
-        "url": "https://dircode.ru/philips/ddl709-fvp-7hws",
-        "specs": {
-          "Способы открытия": "Лицо, отпечаток, PIN, карта, ключ",
-          "Видеоглазок": "HD, ночное видение",
-          "Питание": "Аккумулятор",
-          "Гарантия": "3 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "809533664671",
-        "name": "Dircode U800",
-        "price": 28000,
-        "image": "https://static.tildacdn.com/stor6638-6633-4530-b365-383365663566/10517529.png",
-        "description": "Замок с распознаванием лица и отпечатком. Удалённое управление через приложение.",
-        "url": "https://dircode.ru/dircode/usmart/u800",
-        "specs": {
-          "Способы открытия": "Лицо, отпечаток, PIN, карта",
-          "Питание": "Аккумулятор",
-          "Подключение": "Wi-Fi, Bluetooth",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "253438850141",
-        "name": "Philips EasyKey DDL608-5HWS",
-        "price": 28000,
-        "image": "https://static.tildacdn.com/stor6630-3266-4462-a636-303032653332/45595144.jpg",
-        "description": "Надёжный врезной замок с отпечатком и кодом. Компактный дизайн.",
-        "url": "https://dircode.ru/philips/ddl608-5hws",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Материал": "Цинковый сплав",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "382607013611",
-        "name": "Aqara A100 - Умный замок",
-        "price": 34990,
-        "image": "https://static.tildacdn.com/stor3936-3561-4365-b832-313433643837/85905940.jpg",
-        "description": "Замок с интеграцией в экосистему Apple HomeKit. Отпечаток, код, карта.",
-        "url": "https://dircode.ru/aqara/a100",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Интеграция": "HomeKit, Zigbee",
-          "Питание": "4xAA",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "549489916341",
-        "name": "Lockin G30 3 in 1 (EU version)",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor6530-3563-4231-a430-333439633933/33779428.gif",
-        "description": "Компактный замок с отпечатком, кодом и картой. Европейский стандарт установки.",
-        "url": "https://dircode.ru/lockin/g30-3in1",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта",
-          "Питание": "4xAA",
-          "Тип": "Врезной",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "464964800651",
-        "name": "Электронная ручка Dircode P30",
-        "price": 17000,
-        "image": "https://static.tildacdn.com/stor6532-3461-4963-a562-616330666136/43281232.png",
-        "description": "Умная ручка с отпечатком пальца. Подходит для межкомнатных и входных дверей.",
-        "url": "https://dircode.ru/dircode/smartlife/p30",
-        "specs": {
-          "Способы открытия": "Отпечаток, код, карта",
-          "Питание": "4xAAA",
-          "Тип": "Накладная",
-          "Гарантия": "1 год"
-        }
+          "Материал двери": "Сталь",
+          "Утеплитель": "Минвата",
+          "Толщина": "80 мм",
+          "Тип замка": "Умный, врезной",
+          "Доводчик": "В комплекте"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "Коричневый МДФ", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+          { "name": "Серый металлик", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" },
+          { "name": "Белый глянец", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+        ],
+        "interior_options": [
+          { "name": "Белый МДФ", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+          { "name": "Дуб венге", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" },
+          { "name": "Светлый ясень", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "814735012891",
+            "name": "Электронный замок Slim - Чёрный",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+            "exterior_options": [
+              { "name": "Коричневый МДФ (с замком)", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+              { "name": "Серый металлик (с замком)", "image": "https://static.tildacdn.com/tild3065-3736-4335-a462-346464366563/40520473.png" }
+            ],
+            "interior_options": [
+              { "name": "Белый МДФ (с замком)", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" },
+              { "name": "Дуб венге (с замком)", "image": "https://static.tildacdn.com/tild6331-6339-4438-a464-623630643363/2.gif" }
+            ]
+          },
+          {
+            "id": "422788408171",
+            "name": "Электронный замок Slim - Серебряный",
+            "price": 21000,
+            "image": "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png",
+            "exterior_options": [
+              { "name": "Коричневый МДФ (серебр. замок)", "image": "https://static.tildacdn.com/tild3435-6666-4932-b036-636332393161/21473425_1_1.png" },
+              { "name": "Белый глянец (серебр. замок)", "image": "https://static.tildacdn.com/tild3266-6530-4331-b661-336434656365/13532984.png" }
+            ],
+            "interior_options": [
+              { "name": "Светлый ясень (серебр. замок)", "image": "https://static.tildacdn.com/tild6430-3733-4662-b538-333565376536/4.gif" },
+              { "name": "Белый МДФ (серебр. замок)", "image": "https://static.tildacdn.com/tild3766-3863-4436-b930-376331393230/1.gif" }
+            ]
+          }
+        ]
       }
     ],
     "tabs": [
-      { "title": "Замер", "content": "Бесплатный выезд замерщика по Москве и области." },
-      { "title": "Доставка", "content": "Доставка по Москве – 300 ₽, бесплатно от 50 000 ₽." },
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по Москве – 1–2 дня, бесплатно от 50 000 ₽." },
       { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
-      { "title": "Установка", "content": "Установка замка – от 2 500 ₽, сложный монтаж – от 5 000 ₽." },
-      { "title": "Гарантия", "content": "2 года на замки, 1 год на работы." },
+      { "title": "Установка", "content": "Профессиональный монтаж – от 5 000 ₽." },
+      { "title": "Гарантия", "content": "5 лет на дверь, 2 года на фурнитуру." },
       { "title": "Возврат", "content": "14 дней, товарный вид." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
+          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
+          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Обслуживание и ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
+          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -355,92 +129,39 @@
     "address": "ул. Адм. Крузенштерна, д. 5, Краснодар",
     "phone": "+7 (928) 429-89-28",
     "email": "dverikubani@yandex.ru",
+    "youtube": "https://youtube.com/@dveri_kubani",
+    "vk": "https://vk.com/club218272457",
     "hours": "ежедневно 09:00 - 19:00",
     "coords": [45.093701, 39.041162],
-    "rating": 4.7,
-    "reviews_count": 42,
-    "products": ["Умные двери"],
-    "services": ["Монтаж", "Замер"],
+    "rating": 0,
+    "reviews_count": 4.7,
+    "products": ["Умные двери", "Умные замки"],
+    "services": ["Монтаж", "Обучение"],
     "certified": true,
     "type": ["🏬 Магазин дверей"],
     "website": "https://dverikubani23.ru/",
-    "description": "Магазин умных дверей в Краснодаре. Предлагаем входные двери с терморазрывом, готовые к установке умных замков. Работаем с физическими и юридическими лицами.",
+    "description": "Широкий ассортимент входных дверей и замков. Индивидуальный подход к каждому клиенту.",
     "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
-    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DK",
-    "photos": [],
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
+    "photos": [
+      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg",
+      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg"
+    ],
     "reviews": [
       {
         "author": "Наталья",
         "rating": 5,
-        "date": "2026-03-18",
-        "text": "Богдан отличный специалист, на замер выехал очень оперативно, грамотно все рассказал, дверь заказала, осталась довольна!"
+        "date": "2023-03-18",
+        "text": "Богдан отличный специалист, на замер выехал очень оперативно,грамотно все рассказал, дверь заказала , осталась довольна )))"
       },
       {
-        "author": "Дмитрий В.",
-        "rating": 5,
-        "date": "2026-03-05",
-        "text": "Купил дверь Спарта, установили быстро, качественно. Дверь очень тёплая, шумоизоляция отличная."
+        "author": "Юлия",
+        "rating": 4,
+        "date": "2023-02-28",
+        "text": "Спасибо огромное за накладку на дверь и качественную работу! Специалист очень хороший, всем рекомендую!"
       }
     ],
     "catalog": [
-      {
-        "type": "door",
-        "name": "Входная дверь Не спарта",
-        "price": 38000,
-        "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
-        "description": "Рассрочка 0 % до 10 месяцев. Замер, доставка, установка. Металлическая входная дверь с умным замком.",
-        "specs": {
-          "Тип коробки": "Закрытый утепленный",
-          "Толщина полотна": "90 мм",
-          "Толщина стали": "1,5 мм",
-          "Петли": "2 шт",
-          "Отделка снаружи": "МДФ 12 мм",
-          "Наполнение": "Мин. плита",
-          "Гарантия": "1 год"
-        },
-        "side_options": ["Правая", "Левая"],
-        "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
-        "exterior_options": [
-          { "name": "Коричневый дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" },
-          { "name": "Серый металлик", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
-          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
-        ],
-        "interior_options": [
-          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
-          { "name": "Дуб венге", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
-          { "name": "Ясень светлый", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
-        ],
-        "compatible_locks": [
-          {
-            "id": "930848911812",
-            "name": "Philips EasyKey DDL720-MVP",
-            "price": 54900,
-            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
-            "exterior_options": [
-              { "name": "Коричневый дуб с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Серый металлик с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
-            ],
-            "interior_options": [
-              { "name": "Зеркало с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-              { "name": "Дуб венге с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
-            ]
-          },
-          {
-            "id": "460867086092",
-            "name": "Dircode Q2",
-            "price": 48000,
-            "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
-            "exterior_options": [
-              { "name": "Коричневый дуб с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Белый с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
-            ],
-            "interior_options": [
-              { "name": "Ясень светлый с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
-              { "name": "Зеркало с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
-            ]
-          }
-        ]
-      },
       {
         "type": "door",
         "name": "Входная дверь Спарта",
@@ -459,14 +180,14 @@
         "side_options": ["Правая", "Левая"],
         "size_options": ["880×2050 мм", "960×2050 мм", "1020×2050 мм", "Индивидуальный"],
         "exterior_options": [
-          { "name": "Антрацит", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
-          { "name": "Серый", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+          { "name": "название 1", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "название 2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
+          { "name": "название 3", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
         ],
         "interior_options": [
-          { "name": "Дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-          { "name": "Ясень", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
-          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+          { "name": "название 4", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+          { "name": "название 5", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
         ],
         "compatible_locks": [
           {
@@ -475,75 +196,120 @@
             "price": 54900,
             "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
             "exterior_options": [
-              { "name": "Антрацит с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Серый с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+              { "name": "Внешняя 1 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Внешняя 2 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
             ],
             "interior_options": [
-              { "name": "Дуб с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
-              { "name": "Ясень с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
-            ]
-          },
-          {
-            "id": "460867086092",
-            "name": "Dircode Q2",
-            "price": 48000,
-            "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
-            "exterior_options": [
-              { "name": "Антрацит с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
-              { "name": "Белый с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
-            ],
-            "interior_options": [
-              { "name": "Зеркало с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
-              { "name": "Дуб с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+              { "name": "Внутренняя 1 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Внутренняя 2 (Philips)", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
             ]
           }
+        ]
+      },
+      {
+        "type": "lock",
+        "name": "Электронный замок Slim - Чёрный",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Управление через приложение.",
+        "specs": {
+          "Цвет": "Чёрный",
+          "Способы открытия": "Отпечаток, PIN, карта, ключ",
+          "Питание": "4xAA",
+          "Гарантия": "2 года"
+        },
+        "images": [
+          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+          "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png"
         ]
       }
     ],
     "tabs": [
-      { "title": "Замер", "content": "Бесплатный выезд замерщика по Краснодару и краю." },
-      { "title": "Доставка", "content": "Доставка по Краснодару – 300 ₽, бесплатно от 40 000 ₽." },
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по Краснодару и краю. Бесплатно от 40 000 ₽." },
       { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
-      { "title": "Установка", "content": "Монтаж двери – от 4 500 ₽." },
+      { "title": "Установка", "content": "Профессиональный монтаж – от 4 500 ₽." },
       { "title": "Гарантия", "content": "5 лет на дверь, 2 года на фурнитуру." },
       { "title": "Возврат", "content": "14 дней." }
     ],
-    "detailed_services": []
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 3 000 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного/врезного)", "price": "от 3 500 ₽" },
+          { "name": "Монтаж доводчика двери", "price": "2 500 ₽" },
+          { "name": "Установка системы контроля доступа (СКУД)", "price": "от 8 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Обслуживание и ремонт",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Замена элементов питания (батарей, аккумуляторов)", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма замка", "price": "1 500 ₽" },
+          { "name": "Ремонт электроники (замена платы, датчиков)", "price": "от 2 000 ₽" }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
-    "name": "Умный Дом Техно",
-    "address": "ул. Красная, д. 55, Краснодар",
-    "phone": "+7 (861) 123-45-67",
-    "email": "info@smart-tehno.ru",
-    "hours": "ежедневно 09:00 - 20:00",
-    "coords": [45.035, 38.975],
-    "rating": 4.6,
-    "reviews_count": 34,
-    "products": ["Умные замки"],
-    "services": ["Монтаж", "Ремонт", "Обучение"],
+    "name": "Цифровые замки Москва",
+    "address": "ул. Тверская, д. 12, Москва",
+    "phone": "+7 (495) 777-88-99",
+    "email": "info@digital-locks.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [55.764, 37.609],
+    "rating": 4.5,
+    "reviews_count": 42,
+    "products": ["Умные замки", "Комплектующие"],
+    "services": ["Монтаж", "Ремонт"],
     "certified": true,
     "type": ["🏠 Магазин замков", "🔧 Монтажная организация"],
-    "website": "https://smart-tehno.ru",
-    "description": "Магазин и монтажная организация. Предлагаем широкий выбор умных замков, датчиков и контроллеров. Выполняем проекты любой сложности.",
-    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Умный+Дом+Техно",
-    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=УДТ",
+    "website": "https://digital-locks.ru",
+    "description": "Цифровые замки, доводчики, RFID-карты. Установка и ремонт.",
+    "cover": "https://via.placeholder.com/1200x250/1f2a3a/ffffff?text=Digital+Locks",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=DL",
     "photos": [],
-    "reviews": [
+    "reviews": [],
+    "catalog": [
       {
-        "author": "Анна С.",
-        "rating": 5,
-        "date": "2026-03-14",
-        "text": "Купили замок Aqara A100, установили быстро, всё работает. Спасибо!"
+        "type": "lock",
+        "name": "Электронный замок Slim - Чёрный",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой.",
+        "specs": {
+          "Цвет": "Чёрный",
+          "Способы открытия": "Отпечаток, PIN, карта, ключ",
+          "Питание": "4xAA",
+          "Гарантия": "2 года"
+        },
+        "images": [
+          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+          "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png"
+        ]
+      },
+      {
+        "type": "accessory",
+        "name": "Wi-Fi модуль для замков",
+        "price": 5000,
+        "image": "https://static.tildacdn.com/tild3466-6537-4263-a262-336634313061/f2f40aee0284e9bf9b8d.jpg",
+        "description": "Удалённое управление замком через интернет, просмотр истории событий.",
+        "specs": {
+          "Протокол": "Wi-Fi 2.4 ГГц",
+          "Совместимость": "Замки Sciener",
+          "Питание": "USB"
+        }
       }
     ],
-    "catalog": [],
     "tabs": [
-      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
-      { "title": "Доставка", "content": "Доставка по Краснодару – 200 ₽, бесплатно от 30 000 ₽." },
-      { "title": "Оплата", "content": "Наличными, картой, рассрочка." },
-      { "title": "Установка", "content": "Монтаж замка – от 3 000 ₽." },
-      { "title": "Гарантия", "content": "2 года на оборудование, 1 год на работы." },
+      { "title": "Замер", "content": "Выезд мастера – 500 ₽." },
+      { "title": "Доставка", "content": "Доставка по Москве – 300 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
+      { "title": "Установка", "content": "Установка замка – 2 500 ₽." },
+      { "title": "Гарантия", "content": "2 года на замок." },
       { "title": "Возврат", "content": "14 дней." }
     ],
     "detailed_services": []
