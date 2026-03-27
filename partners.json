@@ -42,7 +42,10 @@
         "id": "814735012891",
         "name": "Электронный замок Slim - Чёрный",
         "price": 21000,
-        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+        "image": [ 
+          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
+        ]
         "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Подходит для квартир и офисов.",
         "url": "https://dircode.ru/dircode/sciener/slim?editionuid=814735012891",
         "specs": {
