@@ -39,64 +39,6 @@
     "catalog": [
       {
         "type": "lock",
-        "id": "814735012891",
-        "name": "Электронный замок Slim - Чёрный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
-        "images": [
-          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png",
-          "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png"
-        ],
-        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Подходит для квартир и офисов.",
-        "url": "https://dircode.ru/dircode/sciener/slim?editionuid=814735012891",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Материал": "Цинковый сплав",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "422788408171",
-        "name": "Электронный замок Slim - Серебряный",
-        "price": 21000,
-        "image": "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png",
-        "images": [
-          "https://static.tildacdn.com/stor6238-3432-4664-b564-333132393333/61298598.png",
-          "https://static.tildacdn.com/stor3035-3766-4638-b735-363434393237/47277850.png"
-        ],
-        "description": "Компактный умный замок с отпечатком пальца, PIN-кодом и картой. Серебристое покрытие.",
-        "url": "https://dircode.ru/dircode/sciener/slim?editionuid=422788408171",
-        "specs": {
-          "Способы открытия": "Отпечаток, PIN, карта, ключ",
-          "Питание": "4xAA",
-          "Материал": "Цинковый сплав",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
-        "id": "550281796961",
-        "name": "Электронный цилиндр Utopic R",
-        "price": 26000,
-        "image": "https://static.tildacdn.com/tild6264-6663-4634-a563-633161643039/71L2UXfz43L_SL1500_.jpg",
-        "images": [
-          "https://static.tildacdn.com/tild6264-6663-4634-a563-633161643039/71L2UXfz43L_SL1500_.jpg",
-          "https://static.tildacdn.com/tild3933-3135-4263-a134-313962386665/RF_1.png",
-          "https://static.tildacdn.com/tild3466-6537-4263-a262-336634313061/f2f40aee0284e9bf9b8d.jpg"
-        ],
-        "description": "Умный цилиндр, встраиваемый в существующий замок. Управление через Bluetooth со смартфона.",
-        "url": "https://dircode.ru/desi/utopicr",
-        "specs": {
-          "Способы открытия": "Bluetooth, ключ",
-          "Питание": "2xAAA",
-          "Совместимость": "Стандартные цилиндры",
-          "Гарантия": "2 года"
-        }
-      },
-      {
-        "type": "lock",
         "id": "301559014621",
         "name": "Dircode М701 смарт замок - Чёрный",
         "price": 21000,
