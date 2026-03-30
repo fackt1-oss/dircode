@@ -550,5 +550,474 @@
         ]
       }
     ]
+  },
+  {
+    "id": 3,
+    "name": "Двери Марий Эл",
+    "address": "ул. Красноармейская, д. 45, Йошкар-Ола",
+    "phone": "+7 (8362) 45-88-99",
+    "email": "info@dveri12.ru",
+    "hours": "ежедневно 10:00 - 19:00",
+    "coords": [56.6399, 47.8906],
+    "rating": 4.6,
+    "reviews_count": 87,
+    "products": ["Входные двери"],
+    "services": ["Замер", "Доставка", "Установка"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей"],
+    "website": "https://dveri12.ru",
+    "description": "Широкий выбор входных и межкомнатных дверей. Бесплатный замер. Установка в день доставки.",
+    "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DM",
+    "photos": [
+      "https://static.tildacdn.com/tild6262-3732-4134-b537-383030336538/photo_2026-03-19_12-.jpg"
+    ],
+    "reviews": [
+      {
+        "author": "Сергей",
+        "rating": 5,
+        "date": "2025-12-10",
+        "text": "Заказывал дверь в квартиру. Приехали на замер быстро, подобрали идеальный вариант. Установили аккуратно."
+      }
+    ],
+    "catalog": [
+      {
+        "type": "door",
+        "name": "Входная дверь «Классика»",
+        "price": 35000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+        "images": [
+          "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+          "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png"
+        ],
+        "description": "Надёжная металлическая дверь с терморазрывом и шумоизоляцией. Подходит для установки умного замка.",
+        "specs": {
+          "Толщина стали": "1,5 мм",
+          "Толщина полотна": "80 мм",
+          "Наполнение": "Минвата",
+          "Утепление": "2 контура уплотнителя"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["860×2050 мм", "960×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "Венге", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" },
+          { "name": "Серый", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
+          { "name": "Дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "930848911812",
+            "name": "Philips EasyKey DDL720-MVP",
+            "price": 54900,
+            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+            "exterior_options": [
+              { "name": "Венге с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Серый с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Зеркало с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Дуб с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+            ]
+          },
+          {
+            "id": "460867086092",
+            "name": "Dircode Q2",
+            "price": 48000,
+            "image": "https://static.tildacdn.com/stor6239-3132-4136-a339-333362616662/48708623.png",
+            "exterior_options": [
+              { "name": "Венге с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Белый с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Дуб с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+              { "name": "Зеркало с Q2", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "door",
+        "name": "Входная дверь «Премьер»",
+        "price": 52000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+        "images": [
+          "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png",
+          "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png"
+        ],
+        "description": "Усиленная дверь с терморазрывом и многослойной защитой. Готова к установке любого умного замка.",
+        "specs": {
+          "Толщина стали": "2 мм",
+          "Толщина полотна": "100 мм",
+          "Наполнение": "ППУ 50 мм",
+          "Утепление": "3 контура уплотнителя"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["860×2050 мм", "960×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "Антрацит", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" },
+          { "name": "Дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "930848911812",
+            "name": "Philips EasyKey DDL720-MVP",
+            "price": 54900,
+            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+            "exterior_options": [
+              { "name": "Антрацит с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Белый с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Зеркало с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" },
+              { "name": "Дуб с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" }
+            ]
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатный выезд замерщика по городу." },
+      { "title": "Доставка", "content": "Доставка по Йошкар-Оле – 500 ₽, бесплатно от 40 000 ₽." },
+      { "title": "Установка", "content": "Профессиональная установка – от 3 500 ₽." }
+    ],
+    "detailed_services": [
+      {
+        "category": "🛠️ Монтаж",
+        "price": "от 3 500 ₽",
+        "items": [
+          { "name": "Установка входной двери", "price": "от 3 500 ₽" },
+          { "name": "Установка умного замка", "price": "2 500 ₽" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "МонтажСервис СПб",
+    "address": "пр. Невский, д. 88, Санкт-Петербург",
+    "phone": "+7 (812) 123-45-67",
+    "email": "info@montazhspb.ru",
+    "hours": "пн-пт 09:00 - 20:00, сб-вс 10:00 - 18:00",
+    "coords": [59.9343, 30.3351],
+    "rating": 4.9,
+    "reviews_count": 213,
+    "products": [],
+    "services": ["Монтаж замков", "Установка дверей", "Ремонт", "Настройка"],
+    "certified": true,
+    "type": ["🔧 Монтажная организация"],
+    "website": "https://montazhspb.ru",
+    "description": "Профессиональный монтаж умных замков и дверей. Выезд по Санкт-Петербургу и области. Гарантия на работы 2 года.",
+    "cover": "https://static.tildacdn.com/tild3034-3566-4865-b636-613064656165/photo.jpg",
+    "logo": "https://via.placeholder.com/100/1f2a3a/ffffff?text=MS",
+    "photos": [],
+    "reviews": [
+      {
+        "author": "Дмитрий",
+        "rating": 5,
+        "date": "2026-02-20",
+        "text": "Оперативно установили умный замок, всё объяснили, даже настроили приложение. Рекомендую!"
+      }
+    ],
+    "catalog": [],
+    "tabs": [
+      { "title": "Услуги", "content": "Монтаж любых типов замков, замена, ремонт, настройка умных систем." },
+      { "title": "Цены", "content": "Выезд мастера – 500 ₽ (бесплатно при заказе работ). Установка замка – от 2 500 ₽." },
+      { "title": "Гарантия", "content": "На все виды работ – 2 года." }
+    ],
+    "detailed_services": [
+      {
+        "category": "🛠️ Установка и монтаж",
+        "price": "от 2 500 ₽",
+        "items": [
+          { "name": "Установка умного замка (накладного)", "price": "2 500 ₽" },
+          { "name": "Установка врезного замка", "price": "3 500 ₽" },
+          { "name": "Установка входной двери", "price": "от 4 000 ₽" },
+          { "name": "Монтаж доводчика", "price": "2 000 ₽" }
+        ]
+      },
+      {
+        "category": "🔧 Ремонт и обслуживание",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Диагностика замка", "price": "бесплатно при ремонте" },
+          { "name": "Замена батарей / аккумуляторов", "price": "500 ₽" },
+          { "name": "Ремонт электронной платы", "price": "от 2 000 ₽" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Замки Екатеринбург",
+    "address": "ул. Малышева, д. 51, Екатеринбург",
+    "phone": "+7 (343) 345-67-89",
+    "email": "shop@lock-ekb.ru",
+    "hours": "ежедневно 10:00 - 20:00",
+    "coords": [56.8380, 60.5975],
+    "rating": 4.7,
+    "reviews_count": 98,
+    "products": ["Умные замки", "Электронные замки"],
+    "services": ["Продажа", "Консультация", "Настройка"],
+    "certified": true,
+    "type": ["🏠 Магазин замков"],
+    "website": "https://lock-ekb.ru",
+    "description": "Широкий выбор умных замков. Работаем с физическими и юридическими лицами. Доставка по городу и области.",
+    "cover": "https://optim.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=LE",
+    "photos": [],
+    "reviews": [
+      {
+        "author": "Иван",
+        "rating": 5,
+        "date": "2026-01-15",
+        "text": "Купил замок Dircode M701, помогли с выбором, доставили на следующий день. Всё работает отлично."
+      }
+    ],
+    "catalog": [
+      {
+        "type": "lock",
+        "id": "301559014621-ekb",
+        "name": "Dircode М701 смарт замок",
+        "price": 21000,
+        "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+        "images": [
+          "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+          "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png"
+        ],
+        "description": "Врезной замок с отпечатком, кодом и картой.",
+        "url": "https://dircode.ru/dircode/sciener/m701",
+        "specs": {
+          "Способы открытия": "Отпечаток, PIN, карта, ключ",
+          "Питание": "4xAA",
+          "Класс защиты": "IP54"
+        },
+        "color_options": [
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png"
+            ]
+          },
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png",
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "404818629651",
+            "name": "Врезная часть - Квадратные - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6463-6361-4362-a134-616566346361/10995404.png"
+          },
+          {
+            "id": "217531038591",
+            "name": "Врезная часть - Квадратные - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3566-3161-4162-b163-343265373231/32262456.png"
+          }
+        ]
+      },
+      {
+        "type": "lock",
+        "id": "577774315131-ekb",
+        "name": "Philips Easykey 7300",
+        "price": 54000,
+        "image": "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
+        "images": [
+          "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
+          "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg"
+        ],
+        "description": "Премиальный замок с распознаванием отпечатка и встроенным Wi-Fi.",
+        "url": "https://dircode.ru/philips/7300-5hb",
+        "specs": {
+          "Способы открытия": "Отпечаток, PIN, карта, ключ",
+          "Питание": "Аккумулятор 5000 мАч",
+          "Подключение": "Wi-Fi, Bluetooth"
+        },
+        "color_options": [
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
+              "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg"
+            ]
+          },
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg",
+              "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "545078876391",
+            "name": "Врезная часть - Круглые - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6435-3936-4164-b566-326233656336/86243613.png"
+          },
+          {
+            "id": "931561156221",
+            "name": "Врезная часть - Круглые - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3165-6535-4361-b063-343234343238/22284295.png"
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Доставка", "content": "Доставка по Екатеринбургу – 300 ₽, бесплатно от 30 000 ₽." },
+      { "title": "Оплата", "content": "Наличными, картой, безналичный расчёт." },
+      { "title": "Гарантия", "content": "2 года на замки." }
+    ],
+    "detailed_services": []
+  },
+  {
+    "id": 6,
+    "name": "Сервисный центр Диркод Владивосток",
+    "address": "ул. Светланская, д. 20, Владивосток",
+    "phone": "+7 (423) 222-33-44",
+    "email": "service@dircode-vl.ru",
+    "hours": "пн-пт 10:00 - 18:00, сб по записи",
+    "coords": [43.1155, 131.8855],
+    "rating": 4.5,
+    "reviews_count": 34,
+    "products": [],
+    "services": ["Ремонт", "Обслуживание", "Настройка", "Замена комплектующих"],
+    "certified": true,
+    "type": ["🔧 Сервисная служба"],
+    "website": "https://dircode-vl.ru",
+    "description": "Ремонт и обслуживание умных замков любых брендов. Выезд по городу и пригороду. Оригинальные запчасти.",
+    "cover": "https://static.tildacdn.com/tild6364-3937-4566-b238-373265653537/-/format/webp/191547.jpg.webp",
+    "logo": "https://via.placeholder.com/100/2d3b4f/ffffff?text=SV",
+    "photos": [],
+    "reviews": [
+      {
+        "author": "Олег",
+        "rating": 5,
+        "date": "2025-11-05",
+        "text": "Быстро нашли причину неполадки, заменили плату, замок работает как новый."
+      }
+    ],
+    "catalog": [],
+    "tabs": [
+      { "title": "Услуги", "content": "Диагностика, ремонт, настройка, замена батарей и аккумуляторов, обновление прошивки." },
+      { "title": "Цены", "content": "Диагностика – бесплатно при ремонте. Ремонт электроники – от 2 000 ₽." },
+      { "title": "Гарантия", "content": "На выполненные работы – 6 месяцев." }
+    ],
+    "detailed_services": [
+      {
+        "category": "🔧 Ремонт и обслуживание",
+        "price": "от 1 500 ₽",
+        "items": [
+          { "name": "Диагностика", "price": "бесплатно при ремонте" },
+          { "name": "Ремонт электроники", "price": "от 2 000 ₽" },
+          { "name": "Замена батарей / аккумуляторов", "price": "500 ₽" },
+          { "name": "Чистка и смазка механизма", "price": "1 500 ₽" },
+          { "name": "Обновление прошивки", "price": "1 000 ₽" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Двери Камчатки",
+    "address": "ул. Ленинская, д. 56, Петропавловск-Камчатский",
+    "phone": "+7 (4152) 55-66-77",
+    "email": "info@kamdoors.ru",
+    "hours": "ежедневно 10:00 - 19:00",
+    "coords": [53.0241, 158.6440],
+    "rating": 4.6,
+    "reviews_count": 62,
+    "products": ["Входные двери"],
+    "services": ["Замер", "Доставка", "Установка"],
+    "certified": true,
+    "type": ["🏬 Магазин дверей"],
+    "website": "https://kamdoors.ru",
+    "description": "Входные металлические двери, в том числе с умными замками. Бесплатный замер. Установка в день доставки.",
+    "cover": "https://static.insales-cdn.com/r/MnOAIv-l1tg/rs:fit:1920:0:1/q:100/plain/files/1/1013/26584053/original/banner.jpg@jpg",
+    "logo": "https://via.placeholder.com/100/4b5563/ffffff?text=DK",
+    "photos": [],
+    "reviews": [
+      {
+        "author": "Анна",
+        "rating": 5,
+        "date": "2026-03-01",
+        "text": "Заказала дверь с умным замком, всё привезли и установили за один день. Спасибо!"
+      }
+    ],
+    "catalog": [
+      {
+        "type": "door",
+        "name": "Входная дверь «Север»",
+        "price": 49000,
+        "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+        "images": [
+          "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png",
+          "https://190601.selcdn.ru/torex.ru/iblock/905/9050740b197a5facd8c5674dfa765b3b/192f792c0d8739c5f7be97c5ce033161_outside.png"
+        ],
+        "description": "Утеплённая дверь для сурового климата. Усиленная конструкция, готовность к установке умного замка.",
+        "specs": {
+          "Толщина стали": "1,8 мм",
+          "Толщина полотна": "90 мм",
+          "Наполнение": "ППУ 50 мм",
+          "Утепление": "3 контура уплотнителя"
+        },
+        "side_options": ["Правая", "Левая"],
+        "size_options": ["860×2050 мм", "960×2050 мм", "Индивидуальный"],
+        "exterior_options": [
+          { "name": "Антрацит", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+          { "name": "Белый", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+        ],
+        "interior_options": [
+          { "name": "Дуб", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+          { "name": "Зеркало", "image": "https://190601.selcdn.ru/torex.ru/iblock/1ae/1ae8a56d31c2933fefdcdeeb5c414f2c/ccd65cafeb3b949aae5595afe821ec64_inside.png" }
+        ],
+        "compatible_locks": [
+          {
+            "id": "930848911812",
+            "name": "Philips EasyKey DDL720-MVP",
+            "price": 54900,
+            "image": "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+            "exterior_options": [
+              { "name": "Антрацит с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a4d/a4d1be9a7f8fae9aea058c4653b47eae/8daac57fae51ebf2f3b395d9c602e650_outside.png" },
+              { "name": "Белый с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/ed2/ed2306f06a68014e0e014ff2b090485f/e20b761886fe2d0275363df9ba4ee784_outside.png" }
+            ],
+            "interior_options": [
+              { "name": "Дуб с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/a17/a17d2862849b27ae0ce6f38b6e7d2424/7f2655088a1c0980ae233e2a0977ac31_inside.png" },
+              { "name": "Зеркало с Philips", "image": "https://190601.selcdn.ru/torex.ru/iblock/9f7/9f7815d417cd39a7c0f5819b89f00aec/ecf9e7ecc05ae00c434ceacc9dc09699_inside.png" }
+            ]
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      { "title": "Замер", "content": "Бесплатный выезд замерщика." },
+      { "title": "Доставка", "content": "Доставка по городу – 500 ₽, бесплатно от 50 000 ₽." },
+      { "title": "Установка", "content": "Профессиональная установка – от 4 000 ₽." }
+    ],
+    "detailed_services": []
   }
 ]
