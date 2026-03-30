@@ -40,7 +40,7 @@
       {
         "type": "lock",
         "id": "301559014621",
-        "name": "Dircode М701 смарт замок - Чёрный",
+        "name": "Dircode М701 смарт замок",
         "price": 21000,
         "image": "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
         "images": [
@@ -54,7 +54,47 @@
           "Питание": "4xAA",
           "Класс защиты": "IP54",
           "Гарантия": "2 года"
-        }
+        },
+        "color_options": [
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png"
+            ]
+          },
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png",
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "404818629651",
+            "name": "Врезная часть - Квадратные - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6463-6361-4362-a134-616566346361/10995404.png"
+          },
+          {
+            "id": "217531038591",
+            "name": "Врезная часть - Квадратные - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3566-3161-4162-b163-343265373231/32262456.png"
+          },
+          {
+            "id": "447962504831",
+            "name": "Врезная часть Dircode 321",
+            "price": 2800,
+            "image": "https://static.tildacdn.com/stor3237-3830-4162-b765-653330356663/56922849.jpg"
+          }
+        ]
       },
       {
         "type": "lock",
@@ -74,12 +114,52 @@
           "Питание": "4xAA",
           "Класс защиты": "IP54",
           "Гарантия": "2 года"
-        }
+        },
+        "color_options": [
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png",
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png"
+            ]
+          },
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6136-3331-4261-a432-616337653135/85214533.png",
+              "https://static.tildacdn.com/stor6466-3039-4539-b236-336432656139/21298458.png"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "404818629651",
+            "name": "Врезная часть - Квадратные - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6463-6361-4362-a134-616566346361/10995404.png"
+          },
+          {
+            "id": "217531038591",
+            "name": "Врезная часть - Квадратные - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3566-3161-4162-b163-343265373231/32262456.png"
+          },
+          {
+            "id": "447962504831",
+            "name": "Врезная часть Dircode 321",
+            "price": 2800,
+            "image": "https://static.tildacdn.com/stor3237-3830-4162-b765-653330356663/56922849.jpg"
+          }
+        ]
       },
       {
         "type": "lock",
         "id": "577774315131",
-        "name": "Цифровой замок Philips Easykey 7300 - Чёрный",
+        "name": "Цифровой замок Philips Easykey 7300",
         "price": 54000,
         "image": "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
         "images": [
@@ -94,12 +174,61 @@
           "Питание": "Аккумулятор 5000 мАч",
           "Подключение": "Wi-Fi, Bluetooth",
           "Гарантия": "3 года"
-        }
+        },
+        "color_options": [
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg",
+              "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg"
+            ]
+          },
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png",
+              "https://static.tildacdn.com/tild3139-3163-4736-b136-333466326664/photo.jpg"
+            ]
+          },
+          {
+            "name": "Золотой",
+            "value": "#FFD700",
+            "price": 2000,
+            "images": [
+              "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png",
+              "https://static.tildacdn.com/tild6531-3831-4237-a131-656631353339/photo.jpg"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "545078876391",
+            "name": "Врезная часть - Круглые - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6435-3936-4164-b566-326233656336/86243613.png"
+          },
+          {
+            "id": "931561156221",
+            "name": "Врезная часть - Круглые - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3165-6535-4361-b063-343234343238/22284295.png"
+          },
+          {
+            "id": "858550225062",
+            "name": "Врезная часть Dircode 252",
+            "price": 2800,
+            "image": "https://static.tildacdn.com/stor3163-3338-4433-b032-626661636465/62747271.jpg"
+          }
+        ]
       },
       {
         "type": "lock",
         "id": "451621041902",
-        "name": "Philips Easykey Alpha-5HB - Чёрный",
+        "name": "Philips Easykey Alpha-5HB",
         "price": 59000,
         "image": "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png",
         "images": [
@@ -114,7 +243,56 @@
           "Питание": "Аккумулятор 5000 мАч",
           "Датчики": "3D-распознавание лица",
           "Гарантия": "3 года"
-        }
+        },
+        "color_options": [
+          {
+            "name": "Чёрный",
+            "value": "#000000",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png",
+              "https://static.tildacdn.com/stor3161-6332-4236-b032-666439323034/78501740.png"
+            ]
+          },
+          {
+            "name": "Серебряный",
+            "value": "#C0C0C0",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png",
+              "https://static.tildacdn.com/stor6535-6463-4937-a261-646638356630/80698666.png"
+            ]
+          },
+          {
+            "name": "Белый",
+            "value": "#FFFFFF",
+            "price": 0,
+            "images": [
+              "https://static.tildacdn.com/stor3161-6332-4236-b032-666439323034/78501740.png",
+              "https://static.tildacdn.com/stor6466-3736-4536-b237-626665643464/87148350.png"
+            ]
+          }
+        ],
+        "mortise_options": [
+          {
+            "id": "545078876391",
+            "name": "Врезная часть - Круглые - 60",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor6435-3936-4164-b566-326233656336/86243613.png"
+          },
+          {
+            "id": "931561156221",
+            "name": "Врезная часть - Круглые - 70",
+            "price": 3000,
+            "image": "https://static.tildacdn.com/stor3165-6535-4361-b063-343234343238/22284295.png"
+          },
+          {
+            "id": "442392608612",
+            "name": "Врезная часть Dircode 321",
+            "price": 2800,
+            "image": "https://static.tildacdn.com/stor3237-3830-4162-b765-653330356663/56922849.jpg"
+          }
+        ]
       },
       {
         "type": "accessory",
