@@ -6,8 +6,8 @@ let filteredOffices = [];
 let cities = [];
 
 let filters = {
-    products: { smart: false, doors: false },
-    services: { montazh: false, remont: false, obuchenie: false },
+    products: {},   // динамически заполняется
+    services: {},   // динамически
     certified: false
 };
 
@@ -17,11 +17,13 @@ let filterTimeout = null;
 
 // === Вспомогательные функции ===
 function computeAverageRating(partner) {
+    // Если есть отзывы и массив не пуст
     if (partner.reviews && Array.isArray(partner.reviews) && partner.reviews.length > 0) {
         const total = partner.reviews.reduce((sum, review) => sum + (review.rating || 0), 0);
         const avg = total / partner.reviews.length;
         return Math.round(avg * 10) / 10;
     }
+    // Иначе используем поле rating, если есть
     return typeof partner.rating === 'number' ? partner.rating : 0;
 }
 
@@ -58,6 +60,93 @@ function escapeHtml(str) {
         if (m === '>') return '&gt;';
         return m;
     });
+}
+
+// === Сбор уникальных товаров и услуг ===
+function collectFilterOptions(partners) {
+    const productsSet = new Set();
+    const servicesSet = new Set();
+    partners.forEach(p => {
+        (p.products || []).forEach(prod => productsSet.add(prod));
+        (p.services || []).forEach(serv => servicesSet.add(serv));
+    });
+    return {
+        products: Array.from(productsSet).sort(),
+        services: Array.from(servicesSet).sort()
+    };
+}
+
+// === Динамическое создание кнопок фильтров ===
+function renderFilterButtons(options) {
+    const containerProducts = document.querySelector('.filter-group-products .filter-buttons');
+    const containerServices = document.querySelector('.filter-group-services .filter-buttons');
+    if (!containerProducts || !containerServices) return;
+
+    containerProducts.innerHTML = '';
+    containerServices.innerHTML = '';
+
+    options.products.forEach(prod => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.textContent = prod;
+        btn.dataset.type = 'product';
+        btn.dataset.value = prod;
+        btn.addEventListener('click', () => toggleProduct(prod));
+        containerProducts.appendChild(btn);
+        filters.products[prod] = false;
+    });
+
+    options.services.forEach(serv => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.textContent = serv;
+        btn.dataset.type = 'service';
+        btn.dataset.value = serv;
+        btn.addEventListener('click', () => toggleService(serv));
+        containerServices.appendChild(btn);
+        filters.services[serv] = false;
+    });
+}
+
+// === Переключение фильтров ===
+function toggleProduct(name) {
+    filters.products[name] = !filters.products[name];
+    updateFilterButtons();
+    debouncedApplyFilters();
+}
+
+function toggleService(name) {
+    filters.services[name] = !filters.services[name];
+    updateFilterButtons();
+    debouncedApplyFilters();
+}
+
+function toggleCertified() {
+    filters.certified = !filters.certified;
+    updateFilterButtons();
+    debouncedApplyFilters();
+}
+
+function updateFilterButtons() {
+    // Обновляем кнопки товаров
+    for (const [prod, isActive] of Object.entries(filters.products)) {
+        const btn = document.querySelector(`.filter-btn[data-type="product"][data-value="${prod.replace(/"/g, '&quot;')}"]`);
+        if (btn) btn.classList.toggle('active', isActive);
+    }
+    // Обновляем кнопки услуг
+    for (const [serv, isActive] of Object.entries(filters.services)) {
+        const btn = document.querySelector(`.filter-btn[data-type="service"][data-value="${serv.replace(/"/g, '&quot;')}"]`);
+        if (btn) btn.classList.toggle('active', isActive);
+    }
+    // Сертификация
+    const certBtn = document.getElementById('filter-certified');
+    if (certBtn) certBtn.classList.toggle('active', filters.certified);
+
+    let activeCount = Object.values(filters.products).filter(Boolean).length +
+                      Object.values(filters.services).filter(Boolean).length +
+                      (filters.certified ? 1 : 0);
+    const countSpan = document.getElementById('active-filters-count');
+    if (countSpan) countSpan.textContent = activeCount;
 }
 
 // === Работа с картой и кластеризацией ===
@@ -117,7 +206,7 @@ function rebuildClusterer() {
 
 function centerMapOnOffices(offices) {
     if (!myMap || !offices.length) return;
-    const coords = offices.filter(o => o.coords && o.coords.length === 2).map(o => o.coords);
+    const coords = offices.filter(o => o.coords && o.coords.length === 2 && typeof o.coords[0] === 'number' && isFinite(o.coords[0])).map(o => o.coords);
     if (coords.length === 0) return;
     if (coords.length === 1) {
         myMap.setCenter(coords[0], 15, { duration: 300 });
@@ -238,14 +327,25 @@ function applyAllFilters() {
     filteredOffices = officesData.filter(office => {
         if (cityFilter && extractCity(office.address).toLowerCase() !== cityFilter.toLowerCase()) return false;
         if (nameFilter && !office.name.toLowerCase().includes(nameFilter.toLowerCase())) return false;
-        if (filters.products.smart && !office.products.includes('Умные замки')) return false;
-        if (filters.products.doors && !office.products.includes('Умные двери')) return false;
-        if (filters.services.montazh && !office.services.includes('Монтаж')) return false;
-        if (filters.services.remont && !office.services.includes('Ремонт')) return false;
-        if (filters.services.obuchenie && !office.services.includes('Обучение')) return false;
+
+        // Фильтр по товарам (ИЛИ внутри выбранных)
+        const selectedProducts = Object.keys(filters.products).filter(k => filters.products[k]);
+        if (selectedProducts.length > 0) {
+            const hasProduct = office.products.some(p => selectedProducts.includes(p));
+            if (!hasProduct) return false;
+        }
+
+        // Фильтр по услугам (ИЛИ внутри выбранных)
+        const selectedServices = Object.keys(filters.services).filter(k => filters.services[k]);
+        if (selectedServices.length > 0) {
+            const hasService = office.services.some(s => selectedServices.includes(s));
+            if (!hasService) return false;
+        }
+
         if (filters.certified && !office.certified) return false;
         return true;
     });
+
     filteredOffices.sort((a, b) => b.avgRating - a.avgRating);
     rebuildClusterer();
     if (filteredOffices.length) centerMapOnOffices(filteredOffices);
@@ -257,28 +357,13 @@ function debouncedApplyFilters() {
     filterTimeout = setTimeout(() => applyAllFilters(), 100);
 }
 
-// === Обновление кнопок фильтров ===
-function updateFilterButtons() {
-    document.getElementById('filter-product-smart')?.classList.toggle('active', filters.products.smart);
-    document.getElementById('filter-product-doors')?.classList.toggle('active', filters.products.doors);
-    document.getElementById('filter-service-montazh')?.classList.toggle('active', filters.services.montazh);
-    document.getElementById('filter-service-remont')?.classList.toggle('active', filters.services.remont);
-    document.getElementById('filter-service-obuchenie')?.classList.toggle('active', filters.services.obuchenie);
-    document.getElementById('filter-certified')?.classList.toggle('active', filters.certified);
-    let activeCount = Object.values(filters.products).filter(Boolean).length +
-                     Object.values(filters.services).filter(Boolean).length +
-                     (filters.certified ? 1 : 0);
-    document.getElementById('active-filters-count').textContent = activeCount;
-}
-
-function toggleProduct(name) { filters.products[name] = !filters.products[name]; updateFilterButtons(); debouncedApplyFilters(); }
-function toggleService(name) { filters.services[name] = !filters.services[name]; updateFilterButtons(); debouncedApplyFilters(); }
-function toggleCertified() { filters.certified = !filters.certified; updateFilterButtons(); debouncedApplyFilters(); }
-
 function resetAllFilters() {
     document.getElementById('city-search').value = '';
     document.getElementById('name-search').value = '';
-    filters = { products: { smart: false, doors: false }, services: { montazh: false, remont: false, obuchenie: false }, certified: false };
+    // Сброс товаров и услуг
+    for (let prod in filters.products) filters.products[prod] = false;
+    for (let serv in filters.services) filters.services[serv] = false;
+    filters.certified = false;
     updateFilterButtons();
     filteredOffices = [...officesData];
     filteredOffices.sort((a, b) => b.avgRating - a.avgRating);
@@ -296,7 +381,7 @@ function search() {
         alert(`Город "${cityInput}" не найден. Доступные города: ${cities.join(', ')}`);
         return;
     }
-    if (document.querySelector('.mode-list-active')) setMode('map');
+    // Не переключаем принудительно на карту, чтобы не раздражать пользователя
     applyAllFilters();
 }
 
@@ -355,8 +440,9 @@ async function loadDataAndStart() {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         let rawData = await response.json();
         if (!Array.isArray(rawData)) throw new Error('Данные не массив');
+        
         officesData = rawData.map(partner => {
-            let coords = [55.75, 37.62];
+            let coords = [55.75, 37.62]; // Москва по умолчанию
             if (Array.isArray(partner.coords) && partner.coords.length === 2 && typeof partner.coords[0] === 'number' && typeof partner.coords[1] === 'number') {
                 coords = partner.coords;
             }
@@ -375,6 +461,11 @@ async function loadDataAndStart() {
                 avgRating: computeAverageRating(partner)
             };
         });
+        
+        // Собираем уникальные товары и услуги
+        const options = collectFilterOptions(officesData);
+        renderFilterButtons(options);
+        
         filteredOffices = [...officesData].sort((a, b) => b.avgRating - a.avgRating);
         cities = [...new Set(officesData.map(o => extractCity(o.address)))].sort();
         const datalist = document.getElementById('city-datalist');
@@ -386,19 +477,16 @@ async function loadDataAndStart() {
                 datalist.appendChild(option);
             });
         }
+        
         ymaps.ready(initMap);
-        // Привязка обработчиков (перенесено из HTML)
+        
+        // Привязка обработчиков событий
         document.getElementById('search-btn')?.addEventListener('click', search);
         document.getElementById('reset-btn')?.addEventListener('click', resetAllFilters);
         document.getElementById('city-search')?.addEventListener('keypress', (e) => { if (e.key === 'Enter') search(); });
         document.getElementById('name-search')?.addEventListener('keypress', (e) => { if (e.key === 'Enter') search(); });
         document.getElementById('mode-list')?.addEventListener('click', () => setMode('list'));
         document.getElementById('mode-map')?.addEventListener('click', () => setMode('map'));
-        document.getElementById('filter-product-smart')?.addEventListener('click', () => toggleProduct('smart'));
-        document.getElementById('filter-product-doors')?.addEventListener('click', () => toggleProduct('doors'));
-        document.getElementById('filter-service-montazh')?.addEventListener('click', () => toggleService('montazh'));
-        document.getElementById('filter-service-remont')?.addEventListener('click', () => toggleService('remont'));
-        document.getElementById('filter-service-obuchenie')?.addEventListener('click', () => toggleService('obuchenie'));
         document.getElementById('filter-certified')?.addEventListener('click', toggleCertified);
         document.getElementById('city-search')?.addEventListener('input', toggleClearIcon);
         document.getElementById('clear-city')?.addEventListener('click', () => {
@@ -410,6 +498,7 @@ async function loadDataAndStart() {
                 cityInput.focus();
             }
         });
+        
         toggleClearIcon();
         setMode('map');
         updateFilterButtons();
