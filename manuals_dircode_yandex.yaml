@@ -1,0 +1,531 @@
+# =============================================================================
+# ПОЛНЫЕ PDF-ИНСТРУКЦИИ DIRCODE, загруженные из публичной папки Яндекс.Диска
+# =============================================================================
+
+- id: manual-yandex-dircode_bio_2_0
+  category: setup
+  title: Полная PDF-инструкция — Dircode Bio 2.0
+  keywords:
+  - Bio 2.0 инструкция
+  - Bio 2.0 руководство пользователя
+  - Bio 2.0 мануал
+  - Dircode Bio 2.0 инструкция
+  - Dircode Bio 2.0 руководство пользователя
+  - dircode bio 2 0 инструкция
+  applicable_models:
+  - Dircode Bio 2.0
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Bio 2.0.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Bio 2.0, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode Bio 2.0 - Руководство пользователя .pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_bio_2_0
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_bio_2_0_manual.pdf
+
+- id: manual-yandex-dircode_glass
+  category: setup
+  title: Полная PDF-инструкция — Dircode Glass
+  keywords:
+  - Glass инструкция
+  - Glass руководство пользователя
+  - Glass мануал
+  - Dircode Glass инструкция
+  - Dircode Glass руководство пользователя
+  - dircode glass инструкция
+  applicable_models:
+  - Dircode Glass
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Glass.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Glass, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Инструкция Glass.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_glass
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_glass_manual.pdf
+
+- id: manual-yandex-dircode_m701
+  category: setup
+  title: Полная PDF-инструкция — Dircode M701
+  keywords:
+  - M701 инструкция
+  - M701 руководство пользователя
+  - M701 мануал
+  - Dircode M701 инструкция
+  - Dircode M701 руководство пользователя
+  - dircode m701 инструкция
+  applicable_models:
+  - Dircode M701
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode M701.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по M701, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Руководство пользователя Dircode_M701.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_m701
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_m701_manual.pdf
+
+- id: manual-yandex-dircode_max
+  category: setup
+  title: Полная PDF-инструкция — Dircode Max
+  keywords:
+  - Max инструкция
+  - Max руководство пользователя
+  - Max мануал
+  - Dircode Max инструкция
+  - Dircode Max руководство пользователя
+  - dircode max инструкция
+  applicable_models:
+  - Dircode Max
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Max.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Max, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode Max - Руководство пользователя.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_max
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_max_manual.pdf
+
+- id: manual-yandex-dircode_p30
+  category: setup
+  title: Полная PDF-инструкция — Dircode P30
+  keywords:
+  - P30 инструкция
+  - P30 руководство пользователя
+  - P30 мануал
+  - Dircode P30 инструкция
+  - Dircode P30 руководство пользователя
+  - dircode p30 инструкция
+  applicable_models:
+  - Dircode P30
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode P30.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по P30, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Руководство пользователя Dircode P30.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_p30
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_p30_manual.pdf
+
+- id: manual-yandex-dircode_q2
+  category: setup
+  title: Полная PDF-инструкция — Dircode Q2
+  keywords:
+  - Q2 инструкция
+  - Q2 руководство пользователя
+  - Q2 мануал
+  - Dircode Q2 инструкция
+  - Dircode Q2 руководство пользователя
+  - dircode q2 инструкция
+  applicable_models:
+  - Dircode Q2
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Q2.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Q2, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Руководство пользователя Dircode Q2.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_q2
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_q2_manual.pdf
+
+- id: manual-yandex-dircode_r3
+  category: setup
+  title: Полная PDF-инструкция — Dircode R3
+  keywords:
+  - R3 инструкция
+  - R3 руководство пользователя
+  - R3 мануал
+  - Dircode R3 инструкция
+  - Dircode R3 руководство пользователя
+  - dircode r3 инструкция
+  applicable_models:
+  - Dircode R3
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode R3.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по R3, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «R3_инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_r3
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_r3_manual.pdf
+
+- id: manual-yandex-dircode_s10
+  category: setup
+  title: Полная PDF-инструкция — Dircode S10
+  keywords:
+  - S10 инструкция
+  - S10 руководство пользователя
+  - S10 мануал
+  - Dircode S10 инструкция
+  - Dircode S10 руководство пользователя
+  - dircode s10 инструкция
+  applicable_models:
+  - Dircode S10
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode S10.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по S10, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «V2 Руководство пользователя Dircode S-10.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_s10
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_s10_manual.pdf
+
+- id: manual-yandex-dircode_s11
+  category: setup
+  title: Полная PDF-инструкция — Dircode S-11
+  keywords:
+  - S11 инструкция
+  - S11 руководство пользователя
+  - S11 мануал
+  - Dircode S-11 инструкция
+  - Dircode S-11 руководство пользователя
+  - dircode s11 инструкция
+  applicable_models:
+  - Dircode S-11
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode S-11.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по S11, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode S-11.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_s11
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_s11_manual.pdf
+
+- id: manual-yandex-dircode_s800
+  category: setup
+  title: Полная PDF-инструкция — Dircode S800
+  keywords:
+  - S800 инструкция
+  - S800 руководство пользователя
+  - S800 мануал
+  - Dircode S800 инструкция
+  - Dircode S800 руководство пользователя
+  - dircode s800 инструкция
+  applicable_models:
+  - Dircode S800
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode S800.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по S800, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «S800_инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_s800
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_s800_manual.pdf
+
+- id: manual-yandex-dircode_sl10
+  category: setup
+  title: Полная PDF-инструкция — Dircode SL10
+  keywords:
+  - SL10 инструкция
+  - SL10 руководство пользователя
+  - SL10 мануал
+  - Dircode SL10 инструкция
+  - Dircode SL10 руководство пользователя
+  - dircode sl10 инструкция
+  applicable_models:
+  - Dircode SL10
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode SL10.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по SL10, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «SL-10_инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_sl10
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_sl10_manual.pdf
+
+- id: manual-yandex-dircode_slim
+  category: setup
+  title: Полная PDF-инструкция — Dircode Slim
+  keywords:
+  - Slim инструкция
+  - Slim руководство пользователя
+  - Slim мануал
+  - Dircode Slim инструкция
+  - Dircode Slim руководство пользователя
+  - dircode slim инструкция
+  applicable_models:
+  - Dircode Slim
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Slim.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Slim, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Slim_инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_slim
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_slim_manual.pdf
+
+- id: manual-yandex-dircode_smart_handle
+  category: setup
+  title: Полная PDF-инструкция — Dircode Smart Handle
+  keywords:
+  - Smart Handle инструкция
+  - Smart Handle руководство пользователя
+  - Smart Handle мануал
+  - Dircode Smart Handle инструкция
+  - Dircode Smart Handle руководство пользователя
+  - dircode smart handle инструкция
+  applicable_models:
+  - Dircode Smart Handle
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Smart Handle.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Smart Handle, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Smart handle_инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_smart_handle
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_smart_handle_manual.pdf
+
+- id: manual-yandex-dircode_t850
+  category: setup
+  title: Полная PDF-инструкция — Dircode T850
+  keywords:
+  - T850 инструкция
+  - T850 руководство пользователя
+  - T850 мануал
+  - Dircode T850 инструкция
+  - Dircode T850 руководство пользователя
+  - dircode t850 инструкция
+  applicable_models:
+  - Dircode T850
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode T850.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по T850, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «руководство польз Dircode T850.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_t850
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_t850_manual.pdf
+
+- id: manual-yandex-dircode_ts1
+  category: setup
+  title: Полная PDF-инструкция — Dircode TS1
+  keywords:
+  - TS1 инструкция
+  - TS1 руководство пользователя
+  - TS1 мануал
+  - Dircode TS1 инструкция
+  - Dircode TS1 руководство пользователя
+  - dircode ts1 инструкция
+  applicable_models:
+  - Dircode TS1
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode TS1.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по TS1, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Инструкция TS-1, TS-2, TS-5 (EN, V1).pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_ts1
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_ts1_manual.pdf
+
+- id: manual-yandex-dircode_ts2
+  category: setup
+  title: Полная PDF-инструкция — Dircode TS2
+  keywords:
+  - TS2 инструкция
+  - TS2 руководство пользователя
+  - TS2 мануал
+  - Dircode TS2 инструкция
+  - Dircode TS2 руководство пользователя
+  - dircode ts2 инструкция
+  applicable_models:
+  - Dircode TS2
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode TS2.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по TS2, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Инструкция TS-1, TS-2, TS-5 (EN, V1).pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_ts2
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_ts2_manual.pdf
+
+- id: manual-yandex-dircode_touch
+  category: setup
+  title: Полная PDF-инструкция — Dircode Touch
+  keywords:
+  - Touch инструкция
+  - Touch руководство пользователя
+  - Touch мануал
+  - Dircode Touch инструкция
+  - Dircode Touch руководство пользователя
+  - dircode touch инструкция
+  applicable_models:
+  - Dircode Touch
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Touch.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Touch, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode Touch - Руководство пользователя.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_touch
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_touch_manual.pdf
+
+- id: manual-yandex-dircode_u7
+  category: setup
+  title: Полная PDF-инструкция — Dircode U7
+  keywords:
+  - U7 инструкция
+  - U7 руководство пользователя
+  - U7 мануал
+  - Dircode U7 инструкция
+  - Dircode U7 руководство пользователя
+  - dircode u7 инструкция
+  applicable_models:
+  - Dircode U7
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode U7.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по U7, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode U7 _ инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_u7
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_u7_manual.pdf
+
+- id: manual-yandex-dircode_u800
+  category: setup
+  title: Полная PDF-инструкция — Dircode U800
+  keywords:
+  - U800 инструкция
+  - U800 руководство пользователя
+  - U800 мануал
+  - Dircode U800 инструкция
+  - Dircode U800 руководство пользователя
+  - dircode u800 инструкция
+  applicable_models:
+  - Dircode U800
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode U800.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по U800, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Руководство пользователя Dircode U800.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_u800
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_u800_manual.pdf
+
+- id: manual-yandex-dircode_vision_t15
+  category: setup
+  title: Полная PDF-инструкция — Dircode Vision T15 видеодомофон
+  keywords:
+  - Vision T15 видеодомофон инструкция
+  - Vision T15 видеодомофон руководство пользователя
+  - Vision T15 видеодомофон мануал
+  - Dircode Vision T15 видеодомофон инструкция
+  - Dircode Vision T15 видеодомофон руководство пользователя
+  - dircode vision t15 инструкция
+  applicable_models:
+  - Dircode Vision T15 видеодомофон
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Vision T15 видеодомофон.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Vision T15 видеодомофон, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Вызывная панель Dircode - инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_vision_t15
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_vision_t15_manual.pdf
+
+- id: manual-yandex-dircode_vision_t15-2
+  category: setup
+  title: Полная PDF-инструкция — Dircode Vision T15 видеодомофон (2)
+  keywords:
+  - Vision T15 видеодомофон инструкция
+  - Vision T15 видеодомофон руководство пользователя
+  - Vision T15 видеодомофон мануал
+  - Dircode Vision T15 видеодомофон инструкция
+  - Dircode Vision T15 видеодомофон руководство пользователя
+  - dircode vision t15 инструкция
+  applicable_models:
+  - Dircode Vision T15 видеодомофон
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode Vision T15 видеодомофон.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по Vision T15 видеодомофон, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Монитор Dircode - Инструкция.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_vision_t15
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_vision_t15_manual_2_монитор_dircode_инструкция.pdf
+
+- id: manual-yandex-dircode_w1
+  category: setup
+  title: Полная PDF-инструкция — Dircode W-1 электронный доводчик
+  keywords:
+  - W-1 электронный доводчик инструкция
+  - W-1 электронный доводчик руководство пользователя
+  - W-1 электронный доводчик мануал
+  - Dircode W-1 электронный доводчик инструкция
+  - Dircode W-1 электронный доводчик руководство пользователя
+  - dircode w1 инструкция
+  applicable_models:
+  - Dircode W-1 электронный доводчик
+  steps: |
+    В базе есть полное руководство пользователя для модели Dircode W-1 электронный доводчик.
+    Если клиент просит инструкцию, схему настройки, комплектацию или полный мануал по W-1 электронный доводчик, отправь ему этот PDF-файл.
+    Источник: публичная папка Яндекс.Диска Dircode, файл «Dircode W-1, электронный доводчик.pdf».
+  warnings:
+  - Если клиент просит выполнить опасное действие вроде сброса, предупреди, что после сброса могут удалиться пользователи, коды, карты и отпечатки.
+  model_key: dircode_w1
+  brand: Dircode
+  procedure_type: full_manual
+  updated_at: '2026-05-05'
+  file_path: data/pdfs/dircode_w1_manual.pdf
