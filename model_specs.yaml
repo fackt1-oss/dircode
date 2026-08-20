@@ -1,0 +1,3464 @@
+# Карточки моделей замков. Каноническая схема полей описана в docs/model_spec_schema.md.
+# Важно: новое поле попадёт в поиск, только если оно рендерится в ingest.py
+# (_load_model_specs_yaml). Не выдумывать цены/характеристики — пусто лучше вымысла.
+- id: spec-dircode-max
+  model_key: dircode_max
+  brand: Dircode
+  model_name: Dircode Max
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: Влажность 15-95%; IP-класс не указан.
+  price: 160 000 руб.
+  lock_type: push_pull
+  power_type: permanent_backup
+  battery_details: Постоянное питание 12В + встроенный резервный аккумулятор 5000
+    мАч.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - face_id
+  - palm_vein
+  - passcode
+  - app
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: true
+  has_camera: true
+  camera_details: Камера 2 Мп с ИК ночным видением, детекция движения 24/7, удалённый
+    видеозвонок
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life (Tuya Smart)
+  app_platform: Tuya
+  needs_hub: false
+  ip_rating: ''
+  temp_range: -10°C до +60°C
+  language: ''
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 100
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: Tuya Smart
+  emergency_power: Резервный аккумулятор 5000 мАч + механический ключ
+  keywords:
+  - dircode max характеристики
+  - max на какую дверь
+  - dircode max обзор
+  - max цена
+  - max дисплей
+  - max флагман
+  answer: 'Dircode Max — флагманский умный замок, два сенсорных дисплея.
+
+    Цена: 160 000 руб.
+
+    Питание: постоянное 12В + резервный аккумулятор 5000 мАч.
+
+    Двери: металлические входные. Температура -10°C до +60°C.
+
+    Открытие: Face ID, ладонь, PIN (рандомизированная клавиатура), приложение Smart
+    Life, механический ключ.
+
+    Два дисплея: наружный 7" и внутренний 12.3".
+
+    Камера 2 Мп с ИК ночным видением, детекция движения 24/7, удалённый видеозвонок.
+
+    До 100 пользователей. Wi-Fi 2,4 ГГц.
+
+    '
+- id: spec-dircode-street
+  model_key: dircode_street
+  brand: Dircode
+  model_name: Dircode Street
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: Производитель указывает пригодность для калитки; влажность 0-95%, IP-класс не указан.
+  price: 18 900 руб.
+  lock_type: surface
+  power_type: battery_aa
+  battery_details: Батарейки ИЛИ постоянное питание (есть контакты для подключения).
+  door_types:
+  - gate
+  - interior
+  use_cases:
+  - gate_street
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Накладной — монтаж без изменения конструкции двери.
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  - remote_control
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  ip_rating: ''
+  temp_range: ''
+  language: ''
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - street характеристики
+  - dircode street калитка
+  - street цена
+  - замок на калитку
+  - накладной замок
+  answer: 'Dircode Street — накладной замок для калитки и межкомнатных дверей.
+
+    Цена: 18 900 руб.
+
+    Питание: батарейки ИЛИ постоянное питание (контакты для подключения).
+
+    Двери: калитки, межкомнатные. Накладной монтаж без изменения двери.
+
+    Открытие: отпечаток, PIN (скрытый ввод), RFID, приложение Sciener, пульт, ключ.
+
+    Подключение: Bluetooth. Wi-Fi Hub для удалённого управления.
+
+    Автоблокировка через 5-60 сек (настраивается). Двухфакторная верификация.
+
+    '
+- id: spec-philips-ddl615
+  model_key: philips_ddl615
+  brand: Philips
+  model_name: Philips EasyKey DDL615-5HBS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: 25 900 руб.
+  lock_type: mortise
+  power_type: battery_aaa
+  battery_details: 8 батареек AAA (мизинчиковые), до 5 месяцев.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise:
+  - Kale 252
+  - Гардиан 32.21
+  - Гардиан 32.11
+  mortise_drive: square
+  mortise_requirement: 'Подходит на двери с замками Kale 252, Гардиан 32.21 или их
+    аналоги. Открытие и закрытие происходит с ручки — у врезной части ригели должны
+    убираться с квадрата, иначе замок будет работать только на язычке. На Гардиан
+    32.21 замок встанет, но будет работать ТОЛЬКО на язычке: у 32.21 ригели с
+    квадрата не убираются, их придётся доворачивать ключом.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Philips Home Access
+  app_platform: Philips
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: Звуковые оповещения (без голоса). Приложение на русском.
+  warranty: 2 года
+  master_code_default: '12345678'
+  reset_method: Кнопка RES на задней панели, удерживать 5 секунд
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - philips 615 характеристики
+  - ddl615 на какую дверь
+  - ddl615 цена
+  - philips 615 батарейки
+  - ddl615 совместимость
+  - ddl615 гардиан
+  - ddl615 kale 252
+  answer: 'Philips EasyKey DDL615-5HBS — врезной замок с классической ручкой.
+
+    Цена: 25 900 руб.
+
+    Питание: 8 батареек AAA, до 5 месяцев.
+
+    Двери: металлические. Совместим с Kale 252, Гардиан 32.21 и 32.11.
+
+    Врезная часть: открытие и закрытие с ручки — у врезной ригели должны убираться с квадрата, иначе замок работает только на язычке.
+
+    Открытие: отпечаток, PIN, RFID, механический ключ. (Управление настройками через приложение Philips Home Access по Bluetooth, шлюз не поддерживается).
+
+    Встроенный дверной звонок. Алюминий + закалённое стекло.
+
+    Приложение: Philips Home Access (НЕ Smart Life!). Гарантия 2 года.
+
+    Важно: НЕ путать с DDL610 — у них разные врезные части!
+
+    '
+- id: spec-philips-ddl610
+  model_key: philips_ddl610
+  brand: Philips
+  model_name: Philips EasyKey DDL610-5HBS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: 'IP-класс: IP65'
+  price: 36 000 руб.
+  lock_type: mortise
+  power_type: battery_aa
+  battery_details: 8 батареек AA (пальчиковые), до 10 месяцев.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Только собственная (комплектная) врезная часть — есть с бэксетом 60 или 70 мм
+  - НЕ совместим с Гардиан 32.11/32.21
+  mortise_requirement: Работает ТОЛЬКО со своей врезной частью (бэксет 60 или 70 мм на выбор). НЕ подходит для Гардиан.
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  - wifi_via_hub
+  app_name: Philips Home Access
+  app_platform: Philips
+  needs_hub: true
+  ip_rating: IP65
+  temp_range: ''
+  language: Русский (голосовые подсказки + приложение)
+  warranty: 2 года
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: 'Шлюз для Wi-Fi входит в комплект поставки'
+  emergency_power: Механический ключ
+  keywords:
+  - philips 610 характеристики
+  - ddl610 цена
+  - ddl610 на какую дверь
+  - ddl610 врезная часть
+  - ddl610 гардиан
+  answer: 'Philips EasyKey DDL610-5HBS — классический врезной замок, IP65.
+
+    Цена: 36 000 руб.
+
+    Питание: 8 батареек AA, до 10 месяцев.
+
+    Двери: металлические. Влагозащита IP65.
+
+    ВАЖНО: работает ТОЛЬКО со своей врезной частью (бэксет 60 или 70 мм на выбор). НЕ совместим с Гардиан 32.11/32.21!
+
+    Для Гардиан используйте DDL615-5HBS.
+
+    Открытие: отпечаток, PIN, RFID, механический ключ. (Управление настройками через приложение Philips Home Access, Wi-Fi шлюз в комплекте).
+
+    Встроенный дверной звонок. Голосовые подсказки на русском. Гарантия 2 года.
+
+    '
+- id: spec-philips-alpha-vp
+  model_key: philips_alpha_vp
+  brand: Philips
+  model_name: Philips EasyKey Alpha-VP-5HWS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '77 000 руб.'
+  lock_type: mortise
+  power_type: li_ion
+  battery_details: Перезаряжаемый аккумулятор 5000 мАч, Li-Po.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть — бэксет 60 или 70 мм на выбор
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть, бэксет
+    60 или 70 мм на выбор.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: true
+  camera_details: Видеодомофон с камерой и внутренним дисплеем
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips EasyKey Plus / Home Access
+  app_platform: Philips
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: ''
+  warranty: 2 года
+  master_code_default: '12345678'
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - philips alpha vp характеристики
+  - alpha vp цена
+  - alpha vp обзор
+  - philips alpha видеодомофон
+  answer: 'Philips EasyKey Alpha-VP-5HWS — рычажный видео-замок серии Alpha.
+
+    Цена: 77 000 руб.
+
+    Питание: аккумулятор 5000 мАч Li-Po.
+
+    Двери: металлические.
+
+    Открытие: отпечаток, PIN, RFID, ключ. (Управление настройками через приложение Philips EasyKey Plus по Wi-Fi).
+
+    Видеодомофон с камерой и внутренним дисплеем. ИК-сенсор для открытия изнутри.
+
+    Врезная часть: собственная (комплектная), бэксет 60 или 70 мм на выбор.
+
+    Скрытый цилиндр C-класса. Гарантия 2 года.
+
+    '
+- id: spec-philips-ddl702-fvp
+  model_key: philips_ddl702_fvp
+  brand: Philips
+  model_name: Philips EasyKey DDL702-FVP-7HWS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: 85 000 руб.
+  lock_type: mortise
+  power_type: li_ion
+  battery_details: Перезаряжаемый аккумулятор 5000 мАч Li-Po.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - face_id
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: true
+  has_camera: true
+  camera_details: Видеодомофон с камерой и внутренним дисплеем. ИК-подсветка.
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips Home Access
+  app_platform: Philips
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: ''
+  warranty: 2 года
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - philips 702 fvp характеристики
+  - ddl702 fvp цена
+  - philips face id замок
+  - ddl702 обзор
+  answer: 'Philips EasyKey DDL702-FVP-7HWS — замок с 3D Face ID.
+
+    Цена: 85 000 руб.
+
+    Питание: аккумулятор 5000 мАч Li-Po.
+
+    Двери: металлические.
+
+    Открытие: 3D Face ID, отпечаток, PIN, RFID, ключ. (Управление настройками через приложение Philips Home Access по Wi-Fi).
+
+    Видеодомофон с камерой и дисплеем. ИК-подсветка. Радарный датчик пробуждения.
+
+    Гарантия 2 года.
+
+    '
+- id: spec-philips-ddl902
+  model_key: philips_ddl902
+  brand: Philips
+  model_name: Philips EasyKey DDL902-MFVP-11HWS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '129 500 руб.'
+  lock_type: mortise
+  power_type: li_ion
+  battery_details: Перезаряжаемый аккумулятор с поддержкой беспроводной зарядки.
+  door_types:
+  - metal
+  thickness_range: ''
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть Philips — бэксет 60 или 70 мм на выбор
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть, бэксет
+    60 или 70 мм на выбор.'
+  opening_methods:
+  - face_id
+  - palm_vein
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: true
+  has_camera: true
+  # both = есть наружная камера И внутренние (в пол для посылок + внутрь помещения).
+  camera_location: both
+  camera_details: 'ТРИ камеры: наружная (обзор посетителя, видеодомофон), внутренняя
+    направленная в пол — для контроля посылок/доставки под дверью, и внутренняя
+    направленная внутрь помещения. Плюс внутренний дисплей и ИК-сенсор для открытия
+    изнутри.'
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips Home Access
+  app_platform: Philips
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: Русский (голосовое меню)
+  warranty: 2 года
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - philips 902 характеристики
+  - ddl902 цена
+  - philips флагман
+  - philips 9000 серия
+  - ddl902 беспроводная зарядка
+  answer: 'Philips EasyKey DDL902-MFVP — флагман серии 9000, мультимодальная биометрия.
+
+    Цена: 129 500 руб.
+
+    Питание: аккумулятор с беспроводной зарядкой.
+
+    Двери: металлические.
+
+    Открытие: 3D Face ID, вены ладони, отпечаток, PIN, RFID, ключ. (Управление настройками через приложение Philips Home Access по Wi-Fi).
+
+    Три камеры: наружная (видеодомофон, обзор посетителя), внутренняя в пол (контроль
+    посылок под дверью) и внутренняя в помещение. Сенсорный экран. ИК-сенсор для
+    открытия изнутри.
+
+    Голосовое меню на русском. Гарантия 2 года.
+
+    '
+- id: spec-alfa-lock-t3
+  model_key: alfa_lock_t3
+  brand: ALFA LOCK
+  model_name: ALFA LOCK T3
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: 'IP-класс: IP65 (только внешняя часть)'
+  price: 13 000 руб.
+  lock_type: mortise
+  power_type: battery_aaa
+  battery_details: 4 батарейки AAA (мизинчиковые), до 10 месяцев. Только Alkaline,
+    НЕ Ni-MH.
+  door_types:
+  - pvh
+  thickness_range: 35-120 мм
+  axle_distance: 85 мм или 92 мм
+  compatible_mortise:
+  - Врезная часть 3585 в комплекте (бэксет 35 мм, межосевое 85 мм)
+  mortise_requirement: Для узкопрофильных дверей — алюминиевых или пластиковых (ПВХ).
+    НЕ подходит для калитки (внутренний блок без влагозащиты).
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Smart Life (Tuya Smart)
+  app_platform: Tuya
+  needs_hub: true
+  ip_rating: IP65 (только внешняя часть)
+  temp_range: до -20°C
+  language: Русский (голосовое сопровождение). Приложение — на английском.
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - alfa lock t3 характеристики
+  - t3 на какую дверь
+  - t3 цена
+  - t3 батарейки
+  - t3 узкопрофильная
+  - t3 пвх
+  - t3 калитка
+  - t3 влагозащита
+  answer: 'ALFA LOCK T3 — замок для узкопрофильных дверей.
+
+    Цена: 13 000 руб.
+
+    Питание: 4 батарейки AAA, до 10 месяцев. Только Alkaline!
+
+    Двери: узкопрофильные (ПВХ, алюминий), толщина 35-120 мм.
+
+    НЕ подходит для калитки — внутренний блок без влагозащиты!
+
+    Для калитки рекомендуем Dircode Street.
+
+    IP65 (только внешняя часть), до -20°C.
+
+    Открытие: отпечаток, PIN, RFID, приложение Smart Life (Bluetooth), ключ.
+
+    Для удалённого управления нужен Wi-Fi хаб (докупается).
+
+    Голосовое сопровождение на русском, приложение на английском.
+
+    '
+- id: spec-alfa-lock-t1
+  model_key: alfa_lock_t1
+  brand: ALFA LOCK
+  model_name: ALFA LOCK T1
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан.
+  price: 13 000 руб.
+  lock_type: mortise
+  power_type: battery_aa
+  battery_details: 8 батареек AA (пальчиковые), до 12 месяцев. Только Alkaline. Type-C
+    ТОЛЬКО для аварийного питания (не зарядка!).
+  door_types:
+  - metal
+  - interior
+  thickness_range: 35-120 мм
+  axle_distance: ''
+  compatible_mortise:
+  - Комплектация «252» — аналог Kale 252
+  - Комплектация «321» — аналог Гардиан 32.11/32.21
+  - Любая врезная часть с межосевым расстоянием 85 мм (но тогда будет работать только фалевая защёлка)
+  # Привод подтверждён клиентом 2026-07-21: замок управляет КВАДРАТОМ.
+  mortise_drive: square
+  mortise_requirement: 'Замок убирает запор с квадрата. Нужна врезная часть, у которой ригели
+    убираются с квадрата (Kale 252, Dircode 321). Если ригели с квадрата не убираются —
+    как у родной Гардиан 32.21 — замок встанет, но будет работать только на язычке
+    (фалевой защёлке), ригели придётся закрывать ключом.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - remote_control
+  - app
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  ip_rating: ''
+  temp_range: ''
+  language: Русский (голосовое сопровождение + приложение TTLock)
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Type-C от Power Bank (аварийное) + механический ключ
+  keywords:
+  - alfa lock t1 характеристики
+  - t1 на какую дверь
+  - t1 цена
+  - t1 батарейки
+  - t1 type-c
+  - t1 гардиан
+  - t1 kale 252
+  - t1 межкомнатная
+  answer: 'ALFA LOCK T1 — бюджетный замок с 6 способами открытия.
+
+    Цена: 13 000 руб.
+
+    Питание: 8 батареек AA, до 12 месяцев. Только Alkaline!
+
+    Type-C — ТОЛЬКО для аварийного питания от Power Bank (аккумулятора в замке нет!).
+
+    Двери: металлические, межкомнатные, толщина 35-120 мм.
+
+    Врезная часть: «252» (Kale 252) или «321» (Гардиан 32.11/32.21).
+
+    Открытие: отпечаток, PIN, RFID, пульт, приложение TTLock (Bluetooth), ключ.
+
+    Для удалённого управления нужен Wi-Fi хаб.
+
+    Голосовое сопровождение + приложение на русском.
+
+    '
+- id: spec-alfa-lock-t2
+  model_key: alfa_lock_t2
+  brand: ALFA LOCK
+  model_name: ALFA LOCK T2
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 15-93%.
+  price: 18 000 руб.
+  lock_type: mortise
+  power_type: li_ion
+  battery_details: Встроенный перезаряжаемый аккумулятор, до 6 месяцев.
+  door_types:
+  - metal
+  - interior
+  thickness_range: 35-120 мм
+  axle_distance: ''
+  compatible_mortise:
+  - Комплектация «252» — аналог Kale 252
+  - Комплектация «321» — аналог Гардиан 32.11/32.21
+  # Привод подтверждён клиентом 2026-07-21: замок управляет КВАДРАТОМ.
+  mortise_drive: square
+  mortise_requirement: 'Замок убирает запор с квадрата. Нужна врезная часть, у которой ригели
+    убираются с квадрата (Kale 252, Dircode 321). Если ригели с квадрата не убираются —
+    как у родной Гардиан 32.21 — замок встанет, но будет работать только на язычке
+    (фалевой защёлке), ригели придётся закрывать ключом.'
+  opening_methods:
+  - face_id
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: true
+  has_camera: true
+  camera_details: Встроенный видеоглазок (видеозвонок с уведомлениями, фото и видео
+    записи)
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life (Tuya Smart)
+  app_platform: Tuya
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: Русский (голосовое сопровождение)
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: Механический ключ
+  keywords:
+  - alfa lock t2 характеристики
+  - t2 на какую дверь
+  - t2 цена
+  - t2 аккумулятор
+  - t2 face id
+  - t2 видеоглазок
+  - t2 гардиан
+  - t2 kale 252
+  answer: 'ALFA LOCK T2 — замок с Face ID и видеоглазком.
+
+    Цена: 18 000 руб.
+
+    Питание: встроенный аккумулятор, до 6 месяцев.
+
+    Двери: металлические, межкомнатные, толщина 35-120 мм.
+
+    Врезная часть: «252» (Kale 252) или «321» (Гардиан 32.11/32.21).
+
+    НЕТ влагозащиты — не подходит для улицы!
+
+    Открытие: Face ID, отпечаток, PIN, RFID, механический ключ.
+
+    Видеоглазок с уведомлениями и записью. Приложение Smart Life (Wi-Fi).
+
+    Голосовое сопровождение на русском.
+
+    '
+- id: spec-lockin-g30
+  model_key: lockin_g30
+  brand: Lockin
+  model_name: Lockin G30 3 in 1
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: 'IP-класс: IPx5'
+  price: 11 500 руб.
+  lock_type: surface
+  power_type: battery_aa
+  battery_details: 'Замок: 4 батарейки AA. Кодовая панель: 2 батарейки AA. Шлюз: USB
+    Type-C.'
+  door_types:
+  - metal
+  - wood
+  - interior
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Накладной — супер простой монтаж.
+  opening_methods:
+  - fingerprint
+  - passcode
+  - app
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  - wifi_2_4ghz
+  app_name: Lockin Home / Smart Life (Tuya Smart)
+  app_platform: Tuya
+  needs_hub: false
+  ip_rating: IPx5
+  temp_range: ''
+  language: ''
+  warranty: 1 год
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: Tuya Smart
+  emergency_power: Механический ключ
+  keywords:
+  - lockin g30 характеристики
+  - g30 цена
+  - g30 накладной
+  - g30 калибровка
+  - lockin g30 обзор
+  answer: 'Lockin G30 3 in 1 — накладной умный замок, самый простой монтаж.
+
+    Цена: 11 500 руб.
+
+    Питание: замок 4×AA, панель 2×AA, шлюз от Type-C.
+
+    Двери: металлические, деревянные, межкомнатные. Накладной монтаж. IPx5.
+
+    Открытие: отпечаток, PIN, приложение Lockin Home/Smart Life, ключ.
+
+    Bluetooth + Wi-Fi через шлюз G30 Wi-Fi Bridge.
+
+    Встроенные датчики положения двери и ригеля.
+
+    Можно настроить на 1 оборот (через калибровку в приложении).
+
+    К одному замку можно подключить 2 кодовых панели.
+
+    '
+- id: spec-desi-ok
+  model_key: desi_ok
+  brand: DESi
+  model_name: DESi Ok
+  category: model_spec
+  product_kind: overlay_module
+  waterproof: ''
+  weather_note: Модуль на существующий замок; IP не указан.
+  price: ''
+  lock_type: motor_lock
+  power_type: battery
+  battery_details: ''
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - app
+  - remote_control
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: DESi
+  app_platform: ''
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  language: ''
+  warranty: ''
+  master_code_default: ''
+  reset_method: ''
+  max_users: 0
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: ''
+  keywords:
+  - desi ok
+  - desi
+  - деси
+  answer: DESi Ok — электронный замок, управляемый через приложение и пульт.
+- id: spec-dircode-ts1
+  model_key: dircode_ts1
+  brand: Dircode
+  model_name: Dircode TS-1
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: IP67 (пыле-влагозащита).
+  door_types:
+  - metal
+  - wooden
+  - pvh
+  compatible_mortise:
+  - Гардиан 32.21
+  - Kale 252
+  - Узкопрофильные врезные части (бэксет 28, 30 или 35 мм)
+  mortise_requirement: 'Подходит для врезного замка Гардиан 32.21 и Kale Kilit 252,
+    а также на узкопрофильные врезные части с бэксетом 28, 30 или 35 мм.'
+  price: '36 000 руб.'
+  lock_type: mortise
+  power_supply: Аккумулятор (в комплекте)
+  emergency_power: USB Type-C (Power Bank, ноутбук, смартфон)
+  opening_methods:
+  - fingerprint
+  - passcode
+  - face_id
+  - rfid
+  - app
+  - mechanical_key
+  # Пульт ДУ — опция при установке радиомодуля (модификация по запросу), не штатно.
+  optional_opening_methods:
+  - remote_control
+  app_name: Smart Life (Tuya Smart)
+  package_contents:
+  - Наружная часть замка
+  - Внутренняя часть замка
+  - Врезная часть замка
+  - Винты для крепления
+  - Цилиндр с 2 ключами
+  - RFID-карты (2 шт.)
+  - Аккумулятор
+  - Кабель USB Type-C
+- id: spec-dircode-ts2
+  model_key: dircode_ts2
+  brand: Dircode
+  model_name: Dircode TS-2
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: IP67 (пыле-влагозащита); влажность 15-90%, темп. -35…+50°C.
+  door_types:
+  - metal
+  - wooden
+  - pvh
+  compatible_mortise:
+  - Гардиан 32.21
+  - Kale 252
+  - Узкопрофильные врезные части (бэксет 28, 30 или 35 мм)
+  mortise_requirement: 'Подходит для врезного замка Гардиан 32.21 и Kale Kilit 252,
+    а также на узкопрофильные врезные части с бэксетом 28, 30 или 35 мм.'
+  price: '36 000 руб.'
+  lock_type: mortise
+  power_supply: Аккумулятор (в комплекте)
+  emergency_power: USB Type-C (Power Bank, ноутбук, смартфон)
+  opening_methods:
+  - fingerprint
+  - passcode
+  - face_id
+  - rfid
+  - app
+  - mechanical_key
+  # Пульт ДУ — опция при установке радиомодуля (модификация по запросу), не штатно.
+  optional_opening_methods:
+  - remote_control
+  app_name: Smart Life (Tuya Smart)
+  package_contents:
+  - Наружная часть замка
+  - Внутренняя часть замка
+  - Врезная часть замка
+  - Винты для крепления
+  - Цилиндр с 2 ключами
+  - RFID-карты (2 шт.)
+  - Аккумулятор
+  - Кабель USB Type-C
+- id: spec-dircode-ts5
+  model_key: dircode_ts5
+  brand: Dircode
+  model_name: Dircode TS-5
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: IP67 (пыле-влагозащита); влажность 15-90%, темп. -35…+50°C.
+  door_types:
+  - metal
+  - wooden
+  - pvh
+  compatible_mortise:
+  - Гардиан 32.21
+  - Kale 252
+  - Узкопрофильные врезные части (бэксет 28, 30 или 35 мм)
+  mortise_requirement: 'Подходит для врезного замка Гардиан 32.21 и Kale Kilit 252,
+    а также на узкопрофильные врезные части с бэксетом 28, 30 или 35 мм.'
+  price: '36 000 руб.'
+  lock_type: mortise
+  power_supply: Аккумулятор (в комплекте)
+  emergency_power: USB Type-C (Power Bank, ноутбук, смартфон)
+  opening_methods:
+  - fingerprint
+  - passcode
+  - face_id
+  - rfid
+  - app
+  - mechanical_key
+  # Пульт ДУ — опция при установке радиомодуля (модификация по запросу), не штатно.
+  optional_opening_methods:
+  - remote_control
+  app_name: Smart Life (Tuya Smart)
+  package_contents:
+  - Наружная часть замка
+  - Внутренняя часть замка
+  - Врезная часть замка
+  - Винты для крепления
+  - Цилиндр с 2 ключами
+  - RFID-карты (2 шт.)
+  - Аккумулятор
+  - Кабель USB Type-C
+  has_camera: false
+  # Штатно видеоглазка/камеры обзора нет — только сенсор Face ID. В новых ревизиях
+  # TS-5 камера встречается; флаг не поднимаем, пока нет точной привязки к партии.
+  additional_features:
+    camera_note: 'Видеоглазка (камеры обзора) нет — только распознавание лиц. В новых
+      ревизиях TS-5 встречается камера: наличие уточняйте у менеджера по конкретной
+      партии.'
+- id: spec-dircode-m701
+  model_key: dircode_m701
+  brand: Dircode
+  model_name: Dircode M701
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: true
+  weather_note: IP55 (защита от водяных потоков).
+  price: '21 000 руб.'
+  lock_type: push_pull
+  power_type: alkaline
+  battery_details: 4 алкалиновые батарейки AA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise:
+  - Dircode 252 (аналог Kale 252)
+  - Dircode 321 (аналог Guardian 32.11 и 32.21)
+  - SC прямоугольные ригеля 60мм бэксет
+  - SC прямоугольные ригеля 70мм бэксет
+  - SC круглые ригеля 60мм бэксет
+  - SC круглые ригеля 70мм бэксет
+  backset_options:
+  - 60
+  - 70
+  mortise_drive: square
+  mortise_requirement: 'Подходит на двери с замками Kale 252, Гардиан 32.21 или их
+    аналоги. Управление происходит с квадрата — ригели должны убираться с квадрата,
+    иначе замок будет работать только на язычке. На Гардиан 32.21 замок встанет, но
+    будет работать ТОЛЬКО на язычке: у 32.21 ригели с квадрата не убираются. Цилиндр
+    для механического ключа находится в корпусе замка, а не во врезной части.'
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+  operating_temperature: -20°C до +50°C
+  material: ABS-пластик, Цинк, Алюминий
+  emergency_power: Type-C или Micro USB (5V 1A Power Bank)
+- id: spec-dircode-bio20
+  model_key: dircode_bio_2_0
+  brand: Dircode
+  model_name: Dircode Bio 2.0
+  category: model_spec
+  product_kind: controller
+  requires: Электромоторный или магнитный замок (управление по сухим контактам; напр. Dircode DM-1/DM-2/DM-3, Mottura, Iseo)
+  price: '38 000 руб.'
+  lock_type: access_controller
+  power_type: wired
+  battery_details: Внешний блок питания 12-24 В
+  door_types:
+  - metal
+  - wooden
+  - glass
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Управляет любым электромеханическим или электромагнитным замком
+    (сухие контакты)
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: true
+  # has_camera = камера ОБЗОРА (видеоглазок/видеозвонок). Сенсор Face ID
+  # камерой не считаем — иначе бот отвечает «да» на «есть видеоглазок?».
+  has_camera: false
+  camera_details: ''
+  ip_rating: IP55
+  waterproof: true
+  weather_note: IP55 — допускается установка на уличную дверь под навесом.
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+    faces: 50
+  operating_temperature: -40°C до +60°C
+  material: Алюминиевый сплав, Закалённое стекло
+  emergency_power: ''
+  keywords:
+  - dircode bio 2.0
+  - bio 2.0
+  - bio2
+  - био2
+  - bio20
+  - био 20
+  answer: |
+    Dircode Bio 2.0 — биометрический считыватель-контроллер (не самостоятельный замок). Цена: 38 000 руб.
+    Совместимость: управляет электромоторными/электромеханическими замками по «сухому контакту» — Dircode DM-1/DM-2/DM-3, Mottura, Iseo, а также любыми другими замками, работающими через сухой контакт.
+    Открытие: Face ID, отпечаток, PIN, RFID (Mifare), приложение TTLock, пульт дистанционного управления.
+    Защита IP55 (монтаж под навесом), рабочая температура -40°C до +60°C.
+- id: spec-dircode-vision
+  model_key: dircode_vision_t15
+  brand: Dircode
+  model_name: Dircode Vision
+  category: model_spec
+  product_kind: intercom
+  waterproof: ''
+  weather_note: Видеодомофон/монитор — не замок.
+  price: '90 000 руб.'
+  lock_type: intercom
+  power_type: wired
+  battery_details: 220 В (штепсельная вилка) или DC 12V вход
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Подключается к электромеханическим/электромагнитным замкам
+    и замкам ворот
+  opening_methods:
+  - app
+  - monitor
+  rfid_type: ''
+  has_face_id: false
+  has_camera: true
+  camera_details: Поддержка до 2 вызывных панелей и 2 IP-камер (до 2 МП, ONVIF, H.264)
+  connectivity:
+  - wifi_2_4ghz
+  - ethernet
+  app_name: Tuya Smart / Smart Life
+  capacity:
+    mobile_devices: 10
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    wiring: 4-жильный кабель (до 50м - 4x1.0мм, свыше 50м - экранированный)
+    storage: SD-карта до 1 ТБ (FAT32 для 16/32ГБ, EXFAT для 64ГБ-1ТБ)
+    ports:
+    - Дверь 1
+    - Дверь 2
+    - Камера 1
+    - Камера 2
+    - Вход
+    - Выход
+    - LAN
+    - Реле ворот
+- id: spec-dircode-w1
+  model_key: dircode_w1
+  brand: Dircode
+  model_name: Dircode W-1
+  category: model_spec
+  product_kind: closer
+  waterproof: ''
+  weather_note: Дверной доводчик — не замок.
+  price: '90 000 руб.'
+  lock_type: door_closer
+  power_type: wired
+  battery_details: Питание 220 В (блок питания 24В >4.5А), возможно подключение резервного
+    аккумулятора 24В
+  door_types:
+  - metal
+  - wooden
+  - glass
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - app
+  - sensor
+  - dry_contact
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: DSW50 (WeChat mini-program)
+  capacity: {}
+  operating_temperature: -20°C до +45°C
+  material: ''
+  emergency_power: Резервный аккумулятор 24В (зарядка до 800 мА)
+  additional_features:
+    door_weight: 100 - 300 кг
+    door_width: 720 - 1200 мм
+    opening_angle: 80° - 100°
+    opening_speed: 3 - 7 сек (настраивается)
+    closing_speed: 3 - 7 сек (настраивается)
+    hold_open_time: 0.5 - 15 сек (настраивается)
+    power_consumption: Номинальная 100 Вт, ожидание 3 Вт
+- id: spec-dircode-s01
+  model_key: dircode_s01
+  brand: Dircode
+  model_name: Dircode S01
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Скрытые петли — не замок.
+  price: ''
+  lock_type: hinge
+  power_type: none
+  battery_details: ''
+  door_types:
+  - metal
+  - wooden
+  - aluminum
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  capacity: {}
+  operating_temperature: ''
+  material: Нержавеющая сталь
+  emergency_power: ''
+  additional_features:
+    max_load: 180 кг (на комплект из 2 петель, полотно 2100x900 мм)
+    opening_angle: 180°
+    adjustment: 3D (вертикаль ±3 мм, горизонталь ±3 мм, прижим ±1.5 мм)
+    dimensions: Общая длина 240 мм, ширина 37 мм
+    colors: Матовая нержавеющая сталь (S01-SSS), Чёрный матовый (S01-BLK), любые цвета
+      RAL под заказ
+- id: spec-philips-7300
+  model_key: philips_7300
+  brand: Philips
+  model_name: Philips EasyKey 7300
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '54 000 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 щелочные батареи (Alkaline)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 38-60 мм
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть, вариант 824 — бэксет 60 или 70 мм
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть (вариант
+    824), бэксет 60 или 70 мм на выбор.'
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Philips EasyKey
+  capacity:
+    fingerprints: 100
+    user_codes: 10
+    rfid_cards: 10
+  operating_temperature: ''
+  material: ''
+  emergency_power: Micro USB (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    safe_handle: Блокировка ручки изнутри (защита от детей/животных)
+    auto_lock: Автоматический и ручной режимы запирания
+- id: spec-philips-alpha
+  model_key: philips_alpha
+  brand: Philips
+  model_name: Philips EasyKey Alpha
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '59 000 руб.'
+  lock_type: push_pull
+  power_type: alkaline
+  battery_details: 4 или 8 щелочных батареек AA (1.5V)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 38-60 мм
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть — бэксет 60 или 70 мм на выбор
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть, бэксет
+    60 или 70 мм на выбор.'
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Philips EasyKey
+  capacity:
+    fingerprints: 100
+    user_codes: 10
+    rfid_cards: 10
+  operating_temperature: ''
+  material: ''
+  emergency_power: Micro USB (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    safe_handle: Блокировка ручки изнутри
+    auto_lock: Автоматический и ручной режимы запирания
+    alerts: Анти-взлом, низкий заряд, заклинивание ригеля
+- id: spec-philips-doorbell-7000
+  model_key: philips_doorbell_7000
+  brand: Philips Home Access
+  model_name: Philips Video Doorbell 7000 series
+  category: model_spec
+  product_kind: intercom
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: ''
+  lock_type: video_doorbell
+  power_type: hybrid
+  battery_details: Встроенный аккумулятор (зарядка USB-C) ИЛИ проводное питание (8-24V
+    AC, 30VA)
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: true
+  camera_details: 2K разрешение, подсветка (Fill Light), датчик движения, радарный
+    датчик, двусторонняя аудиосвязь
+  connectivity:
+  - wifi_2_4ghz
+  - ethernet
+  app_name: Philips Home Access
+  capacity: {}
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    chime: В комплекте беспроводной звонок Wi-Fi Chime (питание от розетки 100-240V,
+      есть порт Ethernet)
+    detachment: Снятие с крепления через приложение (One-Tap Detaching) или штифтом
+    mounting: Рекомендуемая высота установки 1.2 – 1.4 м, в комплекте монтажный клин
+      15°
+- id: spec-philips-ddl502
+  model_key: philips_ddl502
+  brand: Philips
+  model_name: Philips EasyKey DDL502-13HBS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '23 000 руб.'
+  lock_type: deadbolt
+  power_type: alkaline
+  battery_details: 4 щелочные батарейки AA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips EasyKey Plus
+  capacity:
+    fingerprints: 100
+    user_codes: 10
+  operating_temperature: ''
+  material: ''
+  emergency_power: Type-C (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    indoor_unlock: Поворотная ручка (thumb turn) или двойное нажатие кнопки
+- id: spec-philips-ddl503
+  model_key: philips_ddl503
+  brand: Philips
+  model_name: Philips EasyKey DDL503-13HBS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: ''
+  lock_type: deadbolt
+  power_type: alkaline
+  battery_details: 4 щелочные батарейки AA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips EasyKey Plus
+  capacity:
+    fingerprints: 100
+    user_codes: 10
+  operating_temperature: ''
+  material: ''
+  emergency_power: Type-C (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    indoor_unlock: Поворотная ручка (thumb turn) или двойное нажатие кнопки
+- id: spec-philips-ddl603e
+  model_key: philips_ddl603e
+  brand: Philips
+  model_name: Philips EasyKey DDL603E
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '33 000 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4-8 щелочных батареек AA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 60-90 мм
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Philips EasyKey
+  capacity:
+    fingerprints: 100
+    user_codes: 20
+    rfid_cards: 100
+  operating_temperature: ''
+  material: ''
+  emergency_power: Micro USB (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    safe_handle: Блокировка ручки изнутри
+    internal_blocking: Поворотная кнопка для внутренней блокировки
+- id: spec-philips-ddl608
+  model_key: philips_ddl608
+  brand: Philips
+  model_name: Philips EasyKey DDL608
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: ''
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 щелочные батарейки AAA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 35-60 мм
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Tuya Smart
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  operating_temperature: ''
+  material: ''
+  emergency_power: Type-C (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    passage_mode: Режим свободного прохода (дверь не запирается)
+- id: spec-philips-ddl611s
+  model_key: philips_ddl611s
+  brand: Philips
+  model_name: Philips EasyKey DDL611S-5HBS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '34 000 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 щелочные батарейки AAA
+  door_types:
+  - pvh
+  - aluminum
+  thickness_range: 25-120 мм
+  axle_distance: ''
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть
+  mortise_requirement: Ставится на собственную (комплектную) врезную часть.
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Philips Home Access
+  capacity:
+    fingerprints: 100
+    user_codes: 20
+    rfid_cards: 100
+  operating_temperature: ''
+  material: ''
+  emergency_power: Type-C (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    doorbell: Встроенный дверной звонок (кнопка на панели)
+- id: spec-philips-ddl702
+  model_key: philips_ddl702
+  brand: Philips
+  model_name: Philips EasyKey DDL702
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: ''
+  lock_type: push_pull
+  power_type: alkaline
+  battery_details: Щелочные батарейки (предположительно 8 шт. AA)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 38-60 мм
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - mechanical_key
+  rfid_type: ''
+  has_face_id: true
+  # has_camera = камера ОБЗОРА (видеоглазок/видеозвонок). Сенсор Face ID
+  # камерой не считаем — иначе бот отвечает «да» на «есть видеоглазок?».
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips EasyKey
+  capacity:
+    fingerprints: 100
+    user_codes: 10
+    faces: 20
+  operating_temperature: ''
+  material: ''
+  emergency_power: Type-C (5V)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    indoor_unlock: Сенсорная ручка с ИК-датчиком
+    face_id_power_save: Распознавание лица отключается при низком заряде батареи
+- id: spec-philips-ddl709fvp
+  model_key: philips_ddl709
+  brand: Philips
+  model_name: Philips EasyKey DDL709-FVP-7HWS
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '93 000 руб.'
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Литий-полимерный аккумулятор 5000 мАч (зарядка 5V)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 60-90 мм
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть Philips, вариант 824 или 924
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть. Есть
+    два варианта — 824 и 924, оба с бэксетом 60 или 70 мм на выбор.'
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Распознавание лиц (Face ID), видеодомофон (двусторонняя связь),
+    ультразвуковой датчик движения, внутренний дисплей
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips EasyKey Plus
+  capacity:
+    fingerprints: 100
+    user_codes: 20
+    rfid_cards: 100
+    faces: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: Power Bank 5V (Micro USB)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    indoor_display: Внутренний дисплей включается при звонке
+    motion_detection: Запись видео и уведомление при обнаружении подозрительной активности
+    cloud_storage: Доступна платная подписка на облачное хранение видео
+- id: spec-philips-ddl720mvp
+  model_key: philips_ddl720
+  brand: Philips
+  model_name: Philips EasyKey DDL720-MVP
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '54 900 руб.'
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Литий-полимерный аккумулятор 5000 мАч (зарядка 5V)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 38-120 мм
+  axle_distance: ''
+  compatible_mortise:
+  - Kale 252, Гардиан 32.21 или их аналоги
+  - Подходит почти на любую существующую врезную часть
+  mortise_drive: cylinder_motor
+  mortise_requirement: 'Подбирается под уже стоящую в двери врезную часть (своей в
+    комплекте нет — ставится на замки Kale 252, Гардиан 32.21 или аналоги, почти на
+    любую врезную). Обязательное условие: язычок должен убираться с цилиндра. На
+    Гардиан 32.21 работает корректно: мотор доворачивает цилиндр и сам убирает и
+    выдвигает ригели. Гардиан 32.11 НЕ подходит — у него язычок не убирается с
+    цилиндра.'
+  opening_methods:
+  - palm_vein
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: true
+  camera_details: Распознавание вен ладони, видеодомофон (двусторонняя связь), внутренний
+    дисплей
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips Home Access
+  capacity:
+    fingerprints: 100
+    user_codes: 20
+    rfid_cards: 100
+    palm_veins: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: Power Bank 5V (Type-C / Micro USB)
+  additional_features:
+    operating_modes: Общий режим, Режим двойной проверки
+    indoor_display: Внутренний дисплей включается при звонке
+    motion_detection: Запись видео и уведомление при обнаружении подозрительной активности
+- id: spec-philips-gateway
+  model_key: philips_gateway
+  brand: Philips
+  model_name: Philips EasyKey Gateway
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации ~15-93%.
+  price: '6 000 руб.'
+  lock_type: accessory
+  power_type: wired
+  battery_details: Питание от розетки
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  - bluetooth
+  app_name: Philips EasyKey
+  capacity: {}
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Wi-Fi шлюз для удаленного управления Bluetooth-замками Philips
+    remote_features: Удаленное создание ПИН-кодов, просмотр истории, настройка параметров
+    compatibility: Работает с умными замками Philips EasyKey, поддерживающими Bluetooth
+- id: spec-hyundai-sl616
+  model_key: hyundai_sl616
+  brand: Hyundai
+  model_name: Hyundai HY-SL616
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 20-80%, преимущественно помещение.
+  price: ''
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 алкалиновые батарейки AA
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 60 мм / 65 мм / 70 мм
+  compatible_mortise:
+  - Аналог Kale 252
+  - Квадратные ригеля 60 мм бэксет
+  - Круглые ригеля 60 мм бэксет
+  - Круглые ригеля 70 мм бэксет
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+  operating_temperature: -20°C до +50°C
+  material: ABS-пластик, Цинк, Алюминий
+  emergency_power: ''
+  additional_features:
+    wifi_gateway: Поддержка Wi-Fi опционально (через шлюз TTLock)
+- id: spec-hyundai-sla102
+  model_key: hyundai_sla102
+  brand: Hyundai
+  model_name: Hyundai HY-SLA102
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 15-93%.
+  price: ''
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Аккумулятор (в комплекте)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 60 мм / 70 мм
+  compatible_mortise:
+  - Автоматическая врезная часть с герконом (датчиком положения двери)
+  mortise_requirement: ''
+  opening_methods:
+  - palm_vein
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Распознавание лиц, распознавание вен ладони, видеонаблюдение через
+    приложение
+  connectivity:
+  - wifi_2_4ghz
+  - bluetooth
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 250
+    user_codes: 250
+    rfid_cards: 250
+    faces: 50
+    palm_veins: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: Power Bank (Type-C)
+  additional_features:
+    operating_modes: Двойная верификация
+    auto_lock: Автозакрытие с помощью геркона (от 10 до 25 сек)
+    motor_power: Настраиваемая мощность мотора (высокая, средняя, низкая)
+- id: spec-hyundai-sla807
+  model_key: hyundai_sla807
+  brand: Hyundai
+  model_name: Hyundai HY-SLA807
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 15-93%.
+  price: ''
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Аккумулятор (в комплекте)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 60 мм / 70 мм
+  compatible_mortise:
+  - Автоматическая врезная часть с герконом (датчиком положения двери)
+  mortise_requirement: ''
+  opening_methods:
+  - palm_vein
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Распознавание лиц, распознавание вен ладони, видеонаблюдение через
+    приложение
+  connectivity:
+  - wifi_2_4ghz
+  - bluetooth
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 250
+    user_codes: 250
+    rfid_cards: 250
+    faces: 50
+    palm_veins: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: Power Bank (Type-C)
+  additional_features:
+    operating_modes: Двойная верификация
+    auto_lock: Автозакрытие с помощью геркона (от 10 до 25 сек)
+    motor_power: Настраиваемая мощность мотора (высокая, средняя, низкая)
+- id: spec-alfa-t5
+  model_key: alfa_lock_t5
+  brand: ALFA LOCK
+  model_name: ALFA LOCK T5
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан.
+  price: ''
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Литий-полимерный аккумулятор
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 85 мм
+  compatible_mortise:
+  - Любая врезная часть с межосевым расстоянием 85 мм (Kale 252 R, Гардиан 32.21,
+    CISA, Securemme, Apecs, Mottura и др.)
+  mortise_drive: cylinder_motor
+  mortise_requirement: 'Язычок (фалевая защелка) должен открываться с ключа — мотор
+    доворачивает цилиндр. На Гардиан 32.21 работает корректно (ригели убираются и
+    выдвигаются через цилиндр), но открытие физической ручкой на нём не сработает —
+    у 32.21 ригели с квадрата не убираются. Гардиан 32.11 НЕ подходит: у него язычок
+    не убирается с цилиндра.'
+  opening_methods:
+  - palm_vein
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Распознавание лиц, распознавание вен ладони, видеонаблюдение через
+    приложение
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 250
+    user_codes: 250
+    rfid_cards: 250
+    faces: 50
+    palm_veins: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    operating_modes: Двойная верификация
+    auto_lock: Автозакрытие (настраивается)
+    motor_power: Настраиваемая мощность мотора (высокая, средняя, низкая)
+- id: spec-dircode-t850
+  model_key: dircode_t850
+  brand: Dircode
+  model_name: Dircode T850
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: false
+  weather_note: Влажность 15-93%; IP не указан (для помещения).
+  price: '39 900 руб.'
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Литий-полимерный аккумулятор
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 85 мм
+  compatible_mortise:
+  - Kale 252 R
+  - Гардиан 32.21
+  - CISA
+  - Securemme
+  - Apecs
+  - Mottura
+  mortise_drive: cylinder_motor
+  mortise_requirement: 'Подходит для любых цилиндровых замков с доворотом от ключа —
+    обязательное условие, чтобы язычок (фалевая защёлка) убирался с цилиндра. В том
+    числе Гардиан 32.21 и Kale Kilit 252. На Гардиан 32.21 замок работает корректно:
+    мотор доворачивает цилиндр и сам убирает/выдвигает ригели. НО на 32.21 не
+    сработает открытие физической ручкой (у 32.21 ригели не убираются с квадрата) —
+    изнутри дверь открывают вертушкой, она управляет цилиндром или можно открыть с кнопки. Гардиан 32.11 НЕ
+    подходит: у него язычок не убирается с цилиндра.'
+  opening_methods:
+  - palm_vein
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  # Пульт ДУ — не штатный способ, а модификация: доступен при установке радиомодуля
+  # (делаем по запросу клиента). Держим отдельно от opening_methods, чтобы подбор
+  # «замок с пультом» не выдавал эти модели как штатно укомплектованные пультом.
+  optional_opening_methods:
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  # both = есть и наружная (обзор посетителя), и внутренняя камера с внутренней стороны.
+  camera_location: both
+  camera_details: 'Наружная камера (обзор посетителя) + внутренняя камера с внутренней
+    стороны двери. Распознавание лиц, распознавание вен ладони, видеонаблюдение через
+    приложение.'
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 250
+    user_codes: 250
+    rfid_cards: 250
+    faces: 50
+    palm_veins: 50
+  operating_temperature: ''
+  material: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    operating_modes: Двойная верификация
+    auto_lock: Автозакрытие (настраивается 10, 15, 20 сек и т.д.)
+    motor_power: Настраиваемая мощность мотора (высокая, средняя, низкая)
+- id: spec-dircode-u800
+  model_key: dircode_u800
+  brand: Dircode
+  model_name: Dircode U800
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: false
+  weather_note: Влажность 15-93%; IP не указан.
+  price: '28 000 руб.'
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Аккумулятор (в комплекте)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 68 мм
+  backset_options:
+  - 60
+  - 70
+  - 75
+  compatible_mortise:
+  - Врезная часть с межосевым расстоянием 68 мм; ригели квадратные или круглые (на выбор)
+  mortise_drive: cylinder_and_square
+  mortise_requirement: 'Обязательные условия: язычок должен убираться с цилиндра и ригели должны убираться с квадрата. Гардиан 32.11/32.21 не подходят по межосевому (у них 85 мм, а нужно 68 мм).'
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  # Пульт ДУ — опция при установке радиомодуля (модификация по запросу), не штатно.
+  optional_opening_methods:
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_location: outer
+  camera_details: Распознавание лиц, видеозвонок
+  connectivity:
+  - wifi_2_4ghz
+  app_name: USMART GO
+  capacity:
+    fingerprints: 50
+    user_codes: 100
+    rfid_cards: 100
+    faces: 30
+  operating_temperature: ''
+  material: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    operating_modes: Двойная аутентификация
+    auto_lock: Автозакрытие (настраивается 10, 15, 20, 30, 60, 120 сек)
+- id: spec-dircode-s11
+  model_key: dircode_s11
+  brand: Dircode
+  model_name: Dircode S-11
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 20-80%; производитель указывает уличную входную дверь.
+  price: '19 900 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: Батарейки (предположительно 4 шт. AA)
+  door_types:
+  - metal
+  - wooden
+  use_cases:
+  - apartment
+  - house
+  - short_term_rental
+  thickness_range: ''
+  axle_distance: ''
+  backset_mm: ''
+  compatible_mortise:
+  - Врезная Dircode 321 (под посадочные места Гардиан 32.21)
+  - Врезная Dircode 252 (под посадочные места Kale Kilit 252)
+  mortise_drive: square
+  mortise_requirement: 'Управление врезной частью происходит с нажимной ручки —
+    нужны врезные части, у которых ригели убираются нажатием ручки (с квадрата),
+    например Kale 252 и врезная Dircode 252/321. ВАЖНО: на «родном» Гардиан 32.21
+    ригели с квадрата НЕ убираются — на нём замок будет работать только на язычке,
+    ригели придётся доворачивать ключом. Цилиндр для механического ключа находится
+    в корпусе замка, а не во врезной части.'
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  - wifi_2_4ghz
+  app_name: TTLock
+  app_platform: Sciener
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+  temp_range: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    virtual_password: Поддержка виртуального пароля (до 16 цифр)
+    demo_mode: Замок поставляется в демо-режиме
+  keywords:
+  - dircode s11
+  - s11 характеристики
+  - dircode s11 цена
+  - s11 механический ключ
+  - s11 ttlock приложение
+  - электронный замок s11
+  - s11 отпечаток код карта
+  answer: |
+    Dircode S-11 — электронный замок с ручкой для металлических и деревянных
+    входных дверей. Цена: 19 900 руб.
+    Открытие: отпечаток, PIN-код, RFID-карта (Mifare), приложение TTLock (Sciener),
+    пульт и механический ключ.
+    Механический ключ входит в комплект и открывает дверь, если сядут батарейки;
+    также можно подать питание через USB Type-C (Power Bank).
+    Ёмкость: 100 отпечатков, 150 кодов, 200 карт. Есть Bluetooth и Wi-Fi 2.4 ГГц —
+    удалённое управление через приложение TTLock.
+    Врезная часть: подходят Dircode 321 (аналог Гардиан 32.21) и Dircode 252 (аналог
+    Kale 252) — врезные, у которых ригели убираются нажатием ручки (с квадрата).
+    Цилиндр для механического ключа — в корпусе замка, а не во врезной части.
+- id: spec-dircode-smart-handle
+  model_key: dircode_smart_handle
+  brand: Dircode
+  model_name: Dircode Smart Handle SH7
+  category: model_spec
+  product_kind: overlay_module
+  requires: Существующий врезной замок (межосевое 38 мм) — это электронная ручка, а не самостоятельный замок
+  waterproof: false
+  weather_note: Для межкомнатной двери; влажность 20-90%.
+  price: '13 500 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 алкалиновые батарейки AAA
+  door_types:
+  - wooden
+  use_cases:
+  - interior
+  - office
+  thickness_range: ''
+  axle_distance: 38 мм
+  compatible_mortise:
+  - Соответствует стандарту итальянских врезных замков (AGB) и 90% российско-китайских
+    аналогов
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  temp_range: ''
+  material: ABS-пластик, Цинк, Алюминий
+  emergency_power: USB Type-C (Power Bank)
+  keywords:
+  - dircode smart handle sh7
+  - smart handle sh7
+  - sh7 электронная ручка
+  - ttlock smart handle
+  - электронная ручка sh7
+  additional_features:
+    wifi_gateway: Удаленное управление возможно через Wi-Fi хаб (приобретается отдельно)
+  answer: |
+    Dircode Smart Handle SH7 — умная электронная ручка (накладной модуль) для
+    межкомнатных деревянных дверей. Цена: 13 500 руб.
+    Это НЕ самостоятельный замок: ставится на существующий врезной замок с межосевым
+    38 мм (стандарт AGB и большинство российско-китайских аналогов).
+    Открытие: отпечаток, PIN-код, RFID-карта (Mifare), приложение TTLock (Sciener),
+    пульт и механический ключ.
+    Питание: 4 батарейки AAA, при разряде — USB Type-C (Power Bank). Удалённое
+    управление через приложение TTLock по Wi-Fi хабу (приобретается отдельно).
+  answer: |
+    Dircode Smart Handle SH7 — электронная ручка. Цена: 13 500 руб.
+    Устанавливается на существующий врезной замок (межосевое 38 мм).
+    Открытие: отпечаток, PIN, RFID-карта (Mifare), механический ключ, приложение Sciener, пульт ДУ.
+    Питание: 4 батарейки AAA. Аварийное: USB Type-C (Power Bank).
+    Удалённое управление через Wi-Fi хаб (приобретается отдельно).
+- id: spec-dircode-p30
+  model_key: dircode_p30
+  brand: Dircode
+  model_name: Dircode P30
+  category: model_spec
+  product_kind: overlay_module
+  requires: Существующий врезной замок (межосевое 38 мм) — это электронная ручка, а не самостоятельный замок
+  waterproof: false
+  weather_note: Для межкомнатной двери; влажность 20-90%.
+  price: '17 000 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 алкалиновые батарейки AAA
+  door_types:
+  - wooden
+  thickness_range: ''
+  axle_distance: 38 мм
+  compatible_mortise:
+  - Подходит для замков итальянского производства и 90% российско-китайских аналогов
+    (в комплекте магнитная защелка)
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - mechanical_key
+  - app
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+  operating_temperature: ''
+  material: ABS-пластик, Цинк, Алюминий
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    auto_lock: Автоматическое запирание (настраивается 5, 10, 15, 30, 60 сек)
+    wifi_gateway: Удаленное управление возможно через Wi-Fi хаб (приобретается отдельно)
+- id: spec-dircode-dm7
+  model_key: dircode_dm7
+  brand: Dircode
+  model_name: Dircode DM-7 (DM-7A5)
+  category: model_spec
+  # DM-7 — это ГОТОВЫЙ комплект: считыватель с внутренним дисплеем + электромоторная
+  # врезная часть DM-2 в комплекте (см. поле answer). Поэтому это самостоятельный
+  # замок (standalone_lock), а не голая врезная деталь. Голые компоненты DM-1/DM-2/DM-3
+  # остаются product_kind=electromotor_lock и в подборе не участвуют.
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность эксплуатации.
+  price: '85 000 руб.'
+  lock_type: push_pull
+  power_type: wired
+  battery_details: Постоянное питание 12В (через блок питания)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Распознавание лиц, видеодомофон, внутренний дисплей
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 200
+    user_codes: 200
+    rfid_cards: 200
+    faces: 200
+  operating_temperature: -20°C до +60°C
+  material: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    operating_modes: Антипаника (открытие изнутри нажатием на ручку)
+    auto_lock: Автоматическая блокировка/разблокировка при закрытии двери
+    wiring: Черный 8-пиновый разъем для подключения постоянного питания (9-12В) и
+      периферии (доводчик, сухие контакты)
+  answer: |
+    Dircode DM-7 (DM-7A5) — электромоторный push-pull замок с биометрией и видеодомофоном.
+    Цена комплекта: 85 000 руб. — включает считыватель DM-7 и электромоторный замок DM-2.
+    Отдельно считыватель DM-7 стоит 25 600 руб.
+    Питание: постоянное 12В. Открытие: Face ID, отпечаток, PIN, RFID (Mifare), приложение Smart Life/Tuya, механический ключ.
+- id: spec-dircode-q2
+  model_key: dircode_q2
+  brand: Dircode
+  model_name: Dircode Q2
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: false
+  weather_note: Для помещения; влажность 15-93%, IP не указан.
+  price: '48 000 руб.'
+  lock_type: push_pull
+  power_type: lithium
+  battery_details: Аккумулятор (в комплекте, 7.4В)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 50-120 мм
+  axle_distance: 68 мм
+  backset_options:
+  - 60
+  - 70
+  - 75
+  compatible_mortise:
+  - Врезная часть с межосевым расстоянием 68 мм; ригели квадратные или круглые (на выбор)
+  mortise_drive: cylinder_motor
+  mortise_requirement: 'Обязательное условие: язычок должен убираться с цилиндра. Гардиан 32.11/32.21 не подходят по межосевому (у них 85 мм, а нужно 68 мм).'
+  opening_methods:
+  - face_id
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: true
+  has_camera: true
+  camera_details: Видеоглазок (камера обзора посетителя) + распознавание лиц
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Smart Life / Tuya Smart
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  operating_temperature: -20°C до +60°C
+  material: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    alarm_credentials: Поддержка тревожного отпечатка/пароля/карты
+    motion_detection: Настраиваемый датчик обнаружения движения
+- id: spec-dircode-slim
+  model_key: dircode_slim
+  brand: Dircode
+  model_name: Dircode Slim
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: Узкопрофильная ПВХ-дверь (35-60 мм); влажность 20-80%; заявлена влагозащита IP65.
+  price: '21 000 руб.'
+  lock_type: lever_handle
+  power_type: alkaline
+  battery_details: 4 батарейки (в комплекте)
+  door_types:
+  - metal
+  - wooden
+  - pvh
+  use_cases:
+  - apartment
+  - house
+  - short_term_rental
+  thickness_range: ''
+  axle_distance: 72/85/92 мм
+  backset_mm: ''
+  backset_options:
+  - 28
+  - 30
+  - 35
+  compatible_mortise:
+  - Любая существующая врезная часть с межосевым расстоянием 72, 85 или 92 мм
+  - Узкопрофильный замок — типовой бэксет врезной части 28, 30 или 35 мм
+  mortise_drive: square
+  mortise_requirement: 'Если ригели врезной части не убираются с квадрата, замок
+    будет работать только на язычке (так будет, например, на Гардиан 32.21).'
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  temp_range: ''
+  emergency_power: USB Type-C (Power Bank)
+  additional_features:
+    weather_resistance: Влагозащита IP65
+    wifi_gateway: Удаленное управление возможно через Wi-Fi хаб (приобретается отдельно)
+  keywords:
+  - dircode slim
+  - слим замок
+  - dircode slim цена
+  - slim узкопрофильная дверь
+  - slim пвх дверь
+  - slim ttlock приложение
+  - тонкий замок slim
+  answer: |
+    Dircode Slim — тонкий замок с ручкой для узкопрофильных дверей (ПВХ/алюминий,
+    полотно 35-60 мм), также ставится на металлические и деревянные. Цена: 21 000 руб.
+    Открытие: отпечаток, PIN-код, RFID-карта (Mifare), приложение TTLock (Sciener),
+    пульт и механический ключ.
+    Ёмкость: по 100 отпечатков, кодов и карт. При разряде батареек — питание через
+    USB Type-C (Power Bank) или механический ключ.
+    Удалённое управление через приложение TTLock — по Wi-Fi хабу (приобретается отдельно).
+    Врезная часть: ставится в любую существующую врезную с межосевым 72, 85 или 92 мм.
+    Узкопрофильный замок — типовой бэксет врезной части 28, 30 или 35 мм. Если ригели
+    не убираются с квадрата, замок будет работать только на язычке.
+
+- id: spec-alfa-lock-t1-new
+  model_key: alfa_lock_t1_new
+  brand: ALFA LOCK
+  model_name: Alfa Lock T1 New
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP не указан; влажность 20-80%.
+  price: ''
+  lock_type: mortise
+  power_type: battery_aa
+  battery_details: 4 Алкалиновые батарейки AA
+  door_types:
+  - metal
+  - interior
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise:
+  - Dircode 252 (аналог Kale 252)
+  - Dircode 321 (аналог Guardian 32.11 и 32.21)
+  - SC квадратные ригеля 60 мм бэксет
+  - SC круглые ригеля 60 мм бэксет
+  - SC круглые ригеля 70 мм бэксет
+  # Привод подтверждён клиентом 2026-07-21: замок управляет КВАДРАТОМ.
+  mortise_drive: square
+  mortise_requirement: 'Замок убирает запор с квадрата. Нужна врезная часть, у которой ригели
+    убираются с квадрата (Kale 252, Dircode 321). Если ригели с квадрата не убираются —
+    как у родной Гардиан 32.21 — замок встанет, но будет работать только на язычке
+    (фалевой защёлке), ригели придётся закрывать ключом.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  - app
+  - remote_control
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  - wifi (опционально через шлюз)
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  ip_rating: ''
+  temp_range: -20°C до 50°C
+  language: ''
+  warranty: ''
+  master_code_default: 123456
+  reset_method: Кнопка Reset на внутренней панели 5 сек, затем 000#
+  max_users: 100 отпечатков, 150 кодов, 200 карт
+  max_admins: 0
+  max_faces: 0
+  max_palms: 0
+  smart_home: ''
+  emergency_power: ''
+  keywords:
+  - alfa lock t1 new
+  - t1 new
+  - alfa t1 new
+  - t1 нью
+  answer: 'Alfa Lock T1 New — электронный замок, работает через приложение TTLock. Открытие по отпечатку (до 100), коду (до 150), RFID-карте (до 200), ключу и со смартфона. Питание: 4 алкалиновые батарейки АА. Температура работы: от -20 до +50 °C. Поддерживает различные врезные части, в том числе аналоги Kale 252 и Гардиан 32.11.'
+- id: spec-dircode-dm1
+  model_key: dircode_dm1
+  brand: Dircode
+  model_name: Dircode DM-1
+  category: model_spec
+  product_kind: electromotor_lock
+  requires: Контроллер/считыватель (напр. Dircode Bio 2.0) или система СКУД по сухим контактам
+  price: '45 000 руб.'
+  lock_type: electromotor_mortise
+  power_type: wired
+  battery_details: Питание 12V
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 85 мм
+  backset_mm: 65
+  compatible_mortise:
+  - Врезная часть 138x410x32 мм, 4 ригеля + защёлка
+  - Межосевое расстояние 85 мм, бэксет 65 мм
+  mortise_requirement: Врезной монтаж. Управляется по сухим контактам или контроллером Dircode Bio.
+  opening_methods:
+  - mechanical_key
+  optional_methods_with_panel:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  waterproof: ''
+  weather_note: IP не указан; рабочая влажность 15-93%, температура -20..+60°C.
+  material: Легированная сталь
+  keywords:
+  - dircode dm-1
+  - dm1 электромоторный замок
+  - dm1 характеристики
+  answer: 'Dircode DM-1 — электромоторный врезной замок. Сам по себе НЕ имеет клавиатуры/сканера: открывается механическим ключом, а электронное управление (отпечаток, код, карта, приложение) — через контроллер Dircode Bio 2.0 или систему СКУД по сухим контактам. Врезная часть 138x410x32 мм, 4 ригеля + защёлка, межосевое расстояние 85 мм, бэксет 65 мм, питание 12V.'
+- id: spec-dircode-dm2
+  model_key: dircode_dm2
+  brand: Dircode
+  model_name: Dircode DM-2
+  category: model_spec
+  product_kind: electromotor_lock
+  requires: Контроллер/считыватель (напр. Dircode Bio 2.0) или система СКУД по сухим контактам
+  price: '45 000 руб.'
+  lock_type: electromotor_mortise
+  power_type: wired
+  battery_details: Питание 12V
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 85 мм
+  backset_mm: 65
+  compatible_mortise:
+  - Врезной односистемный цилиндровый замок, 3 точки запирания
+  - Межосевое расстояние 85 мм, бэксет 65 мм
+  mortise_requirement: Врезной монтаж. Ригель перемещается электродвигателем при замыкании сухих контактов; совместим с контроллером Dircode Bio.
+  opening_methods:
+  - mechanical_key
+  optional_methods_with_panel:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  waterproof: ''
+  weather_note: IP не указан; рабочая влажность 15-93%, температура -20..+60°C.
+  material: Легированная сталь
+  keywords:
+  - dircode dm-2
+  - dm2 электромоторный замок
+  - dm2 характеристики
+  answer: 'Dircode DM-2 — электромоторный врезной замок с 3 точками запирания. Открывается механическим ключом; электронное управление (код, отпечаток, карта, приложение) — через контроллер Dircode Bio 2.0 или СКУД по сухим контактам. Ригель двигается мотором при замыкании сухих контактов. Межосевое расстояние 85 мм, бэксет 65 мм.'
+- id: spec-dircode-dm3
+  model_key: dircode_dm3
+  brand: Dircode
+  model_name: Dircode DM-3
+  category: model_spec
+  product_kind: electromotor_lock
+  requires: Контроллер/считыватель (напр. Dircode Bio 2.0) или система СКУД по сухим контактам
+  price: '29 800 руб.'
+  lock_type: electromotor_mortise
+  power_type: wired
+  battery_details: Питание 12-24В, встроенный аккумулятор 4200 мАч
+  door_types:
+  - metal
+  - wooden
+  thickness_range: Нет ограничения по толщине двери
+  axle_distance: 68 мм
+  backset_mm: 60
+  compatible_mortise:
+  - Врезной замок, 3 ригеля
+  - Межосевое расстояние 68 мм, бэксет 60 мм
+  mortise_requirement: Врезной монтаж. Управляется по сухим контактам (СКУД) или контроллером Dircode Bio; открытие механическим ключом.
+  opening_methods:
+  - mechanical_key
+  optional_methods_with_panel:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  waterproof: ''
+  weather_note: IP не указан; рабочая влажность 15-93%, температура -20..+60°C.
+  material: Легированная сталь
+  keywords:
+  - dircode dm-3
+  - dm3 электромоторный замок
+  - dm3 характеристики
+  answer: 'Dircode DM-3 — электромоторный врезной замок (3 ригеля), подходит для дверей любой толщины. Открывается механическим ключом; электронное управление — через контроллер Dircode Bio 2.0 или СКУД по сухим контактам. Питание 12-24В, резервный аккумулятор 4200 мАч. Межосевое расстояние 68 мм, бэксет 60 мм.'
+- id: spec-lockin-v5max
+  model_key: lockin_v5max
+  brand: Lockin
+  model_name: Lockin V5 Max
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации до 90%.
+  price: '55 000 руб.'
+  lock_type: mortise
+  power_type: rechargeable
+  battery_details: Литий-полимерные аккумуляторы 5000 мАч и 2250 мАч; аварийно — внешний аккумулятор 5В через USB Type-C.
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть — бэксет 60 или 70 мм на выбор
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть, бэксет
+    60 или 70 мм на выбор.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - face_id
+  - palm_vein
+  - rfid
+  - app
+  - mechanical_key
+  rfid_type: NFC
+  has_face_id: true
+  has_camera: true
+  camera_details: Широкоугольная камера 170°, видеоглазок, 4" IPS-экран, двусторонняя видеосвязь, ночное ИК-видение.
+  connectivity:
+  - bluetooth
+  - wifi_2_4ghz
+  app_name: Mi Home / Apple HomeKit
+  app_platform: MiHome
+  needs_hub: false
+  ip_rating: ''
+  temp_range: ''
+  smart_home: Mi Home, Apple HomeKit
+  keywords:
+  - lockin v5 max
+  - локин v5 max
+  - v5 max характеристики
+  - lockin с распознаванием лица и ладони
+  - lockin с камерой и экраном
+  answer: |
+    Lockin V5 Max — флагманский умный замок: распознавание лица и вен ладони, отпечаток, ПИН-код, NFC-карта, приложение и механический ключ.
+    Камера 170° с видеоглазком и 4" экраном, двусторонняя видеосвязь, ночное видение.
+    Умный дом: Mi Home и Apple HomeKit. Связь: Bluetooth 5.0 + Wi-Fi 2.4 ГГц. Питание: литий-полимерные аккумуляторы, аварийно power bank 5В.
+    Врезная часть: собственная (комплектная), бэксет 60 или 70 мм на выбор.
+- id: spec-lockin-x1
+  model_key: lockin_x1
+  brand: Lockin
+  model_name: Lockin X1
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации до 90%.
+  price: '18 000 руб.'
+  lock_type: mortise
+  power_type: battery_aa
+  battery_details: Алкалиновые батарейки AA, 4 шт.; аварийно — внешний аккумулятор 5В.
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - passcode
+  - fingerprint
+  - rfid
+  - app
+  - mechanical_key
+  rfid_type: NFC
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Mi Home
+  app_platform: MiHome
+  needs_hub: false
+  ip_rating: ''
+  temp_range: -10°C до +55°C
+  smart_home: Mi Home
+  keywords:
+  - lockin x1
+  - локин x1
+  - lockin x1 характеристики
+  - lockin полуавтоматический замок
+  answer: |
+    Lockin X1 — полуавтоматический умный замок: ПИН-код, отпечаток пальца, NFC-карта, приложение и механический ключ.
+    Врезной, корпус из алюминиевого сплава и ABS. Умный дом: Mi Home. Связь: Bluetooth. Питание: 4 батарейки AA, аварийно power bank 5В.
+- id: spec-lockin-x9
+  model_key: lockin_x9
+  brand: Lockin
+  model_name: Lockin X9
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: ''
+  weather_note: IP-класс не указан; влажность эксплуатации 15-93%.
+  price: '5 500 руб.'
+  lock_type: mortise
+  power_type: battery_aa
+  battery_details: Алкалиновые батарейки AA, 4 шт.; аварийно — внешний аккумулятор 5В.
+  door_types:
+  - metal
+  - wooden
+  thickness_range: 40-120 мм
+  axle_distance: ''
+  backset_options:
+  - 60
+  - 70
+  compatible_mortise:
+  - Собственная (комплектная) врезная часть — бэксет 60 или 70 мм на выбор
+  mortise_requirement: 'Ставится на собственную (комплектную) врезную часть, бэксет
+    60 или 70 мм на выбор.'
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  - mechanical_key
+  rfid_type: NFC
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: Xiaomi Home (Mi Home)
+  app_platform: MiHome
+  needs_hub: false
+  ip_rating: ''
+  temp_range: -10°C до +55°C
+  smart_home: Xiaomi Home
+  keywords:
+  - lockin x9
+  - локин x9
+  - lockin x9 характеристики
+  - lockin врезной отпечаток nfc
+  answer: |
+    Lockin X9 — врезной умный замок: отпечаток пальца, ПИН-код, NFC-карта, приложение (Bluetooth) и механический ключ.
+    Толщина двери 40-120 мм. Умный дом: Xiaomi Home. Питание: 4 батарейки AA, аварийно power bank 5В.
+    Врезная часть: собственная (комплектная), бэксет 60 или 70 мм на выбор.
+- id: spec-mortise-generic
+  model_key: mortise_generic
+  brand: Dircode
+  model_name: Врезная часть (врезка) для электронных и электромеханических замков
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Врезная часть — запорный механизм внутри двери, не самостоятельный замок.
+  price: '3 000 руб.'
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: Нержавеющая сталь
+  emergency_power: ''
+  additional_features:
+    backset: Бэксет (расстояние от торца двери до оси цилиндра) 60, 70 или 75 мм на выбор
+    bolts: Ригели квадратные или круглые на выбор
+    included: В комплекте врезная часть и ответная планка
+  keywords:
+  - врезная часть
+  - врезка
+  - врезной механизм замка
+  - запорная часть
+  - врезка бэксет 60 70 75
+  answer: |
+    Врезная часть (врезка) для электронных и электромеханических замков. Цена: 3 000 руб.
+    Бэксет (расстояние от торца двери до центра цилиндра) — 60, 70 или 75 мм на выбор.
+    Ригели квадратные или круглые. Материал — нержавеющая сталь. В комплекте врезная часть и ответная планка.
+    Универсальный вариант, когда посадочное место не под конкретный бренд.
+- id: spec-mortise-kale-252
+  model_key: mortise_kale_252
+  brand: Dircode
+  model_name: Врезная часть Dircode 252 (под Kale 252)
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Врезная часть — запорный механизм внутри двери, не самостоятельный замок.
+  price: Уточняйте у менеджера
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: Нержавеющая сталь
+  emergency_power: ''
+  additional_features:
+    compatibility: Подходит под посадочные места врезного замка Kale Kilit 252
+    included: В комплекте врезная часть и ответная планка
+  keywords:
+  - врезка kale 252
+  - врезная часть 252
+  - dircode 252
+  - kale kilit 252
+  - врезка кале
+  answer: |
+    Врезная часть Dircode 252 — изготовлена под посадочные места врезного замка Kale Kilit 252.
+    Материал — нержавеющая сталь. В комплекте врезная часть и ответная планка.
+    Цену уточняйте у менеджера.
+- id: spec-mortise-guardian-321
+  model_key: mortise_guardian_321
+  brand: Dircode
+  model_name: Врезная часть Dircode 321 (под Гардиан 32.21)
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Врезная часть — запорный механизм внутри двери, не самостоятельный замок.
+  price: Уточняйте у менеджера
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: 85 мм
+  backset_mm: 65
+  compatible_mortise: []
+  mortise_requirement: 'Ставится вместо врезной части Гардиан 32.11 / 32.21 (те же
+    посадочные места: межосевое 85 мм, бэксет 65 мм). В отличие от оригинальных
+    Гардиан, у Dircode 321 ригели убираются с квадрата, а язычок — с цилиндра,
+    поэтому электронный замок работает полноценно.'
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: Нержавеющая сталь
+  emergency_power: ''
+  additional_features:
+    compatibility: Подходит под посадочные места врезного замка Гардиан (Guardian) 32.11 и 32.21
+  keywords:
+  - врезка гардиан
+  - врезная часть 321
+  - dircode 321
+  - guardian 32.21
+  - guardian 32.11
+  - врезка guardian
+  - замена гардиан 32.11
+  - замена гардиан 32.21
+  answer: |
+    Врезная часть Dircode 321 — изготовлена под посадочные места врезного замка
+    Гардиан (Guardian) 32.11 и 32.21: межосевое 85 мм, бэксет 65 мм.
+    Материал — нержавеющая сталь.
+
+    Зачем менять родной Гардиан на Dircode 321: у Гардиан 32.11 язычок не убирается
+    с цилиндра, а у Гардиан 32.21 ригели не убираются с квадрата — из-за этого
+    электронный замок на них работает не полностью. У Dircode 321 убирается и
+    язычок (с цилиндра), и ригели (с квадрата).
+
+    Цену уточняйте у менеджера.
+- id: spec-dircode-sciener-gateway
+  model_key: dircode_sciener_gateway
+  brand: Dircode
+  model_name: Dircode Sciener Wi-Fi шлюз
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Шлюз ставится в помещении рядом с замком.
+  price: '5 000 руб.'
+  lock_type: accessory
+  power_type: wired
+  battery_details: Питание от розетки (USB)
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Wi-Fi шлюз для удалённого управления Bluetooth-замками Sciener / TTLock
+    remote_features: Удалённое открытие, выдача кодов, просмотр истории, настройки
+    compatibility: Работает с замками Dircode на платформе Sciener / TTLock
+  keywords:
+  - dircode sciener шлюз
+  - wi-fi шлюз ttlock
+  - шлюз sciener
+  - gateway ttlock
+  - удалённое управление замком wifi
+  answer: |
+    Dircode Sciener Wi-Fi шлюз. Цена: 5 000 руб.
+    Даёт удалённое управление Bluetooth-замками на платформе Sciener / TTLock через интернет: открытие, выдача кодов, просмотр истории.
+    Ставится в помещении рядом с замком, питание от USB.
+- id: spec-dircode-rfid-card
+  model_key: dircode_rfid_card
+  brand: Dircode
+  model_name: RFID-карта (карта доступа)
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: ''
+  price: '600 руб.'
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - rfid
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Бесконтактная карта доступа для открытия электронных замков с RFID-считывателем
+  keywords:
+  - rfid карта
+  - карта доступа
+  - mifare карта
+  - карточка для замка
+  - дополнительная карта
+  answer: |
+    RFID-карта (карта доступа) для электронных замков со считывателем RFID/Mifare. Цена: 600 руб.
+    Прикладывается к замку для открытия. Заказывается дополнительно, если нужно больше карт.
+- id: spec-dircode-sciener-remote
+  model_key: dircode_sciener_remote
+  brand: Dircode
+  model_name: Dircode Sciener пульт (пульт ДУ)
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: ''
+  price: '2 200 руб.'
+  lock_type: accessory
+  power_type: battery
+  battery_details: Встроенная батарея
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods:
+  - remote_control
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Пульт дистанционного управления для замков Dircode на платформе Sciener / TTLock
+  keywords:
+  - dircode sciener пульт
+  - пульт дистанционного управления
+  - пульт ду для замка
+  - открыть замок пультом
+  - брелок для замка
+  answer: |
+    Dircode Sciener пульт — пульт дистанционного управления для замков на платформе Sciener / TTLock. Цена: 2 200 руб.
+    Позволяет открывать (и закрывать) замок на расстоянии по радиоканалу.
+- id: spec-dircode-smart-home-module
+  model_key: dircode_smart_home_module
+  brand: Dircode
+  model_name: Модуль умный дом Dircode
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: ''
+  price: '12 000 руб.'
+  lock_type: accessory
+  power_type: wired
+  battery_details: ''
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  app_name: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Подключение замка к экосистеме умного дома, включая Яндекс (Алиса)
+  keywords:
+  - модуль умный дом dircode
+  - умный дом dircode
+  - яндекс алиса замок
+  - интеграция умный дом
+  - блок сопряжения умный дом
+  answer: |
+    Модуль умный дом Dircode. Цена: 12 000 руб.
+    Подключает замок к экосистеме умного дома, включая Яндекс (голосовое управление через Алису).
+- id: spec-lockin-g30-adapter
+  model_key: lockin_g30_adapter
+  brand: Lockin
+  model_name: Переходник для замка Lockin G30
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: ''
+  price: '3 500 руб.'
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Переходник для установки Lockin G30 на D-образный цилиндр
+  keywords:
+  - переходник lockin g30
+  - переходник d-образный цилиндр
+  - lockin g30 адаптер
+  - переходник для умного замка g30
+  answer: |
+    Переходник для замка Lockin G30. Цена: 3 500 руб.
+    Нужен для установки G30 на дверь с D-образным цилиндром.
+- id: spec-lockin-c-eu1-cylinder
+  model_key: lockin_c_eu1_cylinder
+  brand: Lockin
+  model_name: Цилиндр Lockin C-EU1 для замка G30
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: ''
+  price: '4 700 руб.'
+  lock_type: accessory
+  power_type: none
+  battery_details: ''
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity: []
+  app_name: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Универсальный регулируемый цилиндр для замка Lockin G30
+  keywords:
+  - цилиндр lockin c-eu1
+  - цилиндр для g30
+  - lockin c-eu1
+  - регулируемый цилиндр lockin
+  answer: |
+    Цилиндр Lockin C-EU1 для замка G30. Цена: 4 700 руб.
+    Универсальный регулируемый цилиндр под замок Lockin G30.
+- id: spec-dircode-bio
+  model_key: dircode_bio
+  brand: Dircode
+  model_name: Dircode Bio
+  category: model_spec
+  product_kind: controller
+  requires: Электромоторный или магнитный замок (управление по сухим контактам; напр. Dircode DM-1/DM-2/DM-3, Mottura, Iseo)
+  price: '35 000 руб.'
+  lock_type: access_controller
+  power_type: wired
+  battery_details: Внешний блок питания 12 В
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Управляет любым электромеханическим или электромагнитным замком
+    (сухие контакты)
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  - remote_control
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  waterproof: ''
+  weather_note: IP-класс не указан; устанавливается на двери.
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  keywords:
+  - dircode bio
+  - bio считыватель
+  - dircode bio цена
+  - считыватель dircode
+  - dircode bio характеристики
+  answer: |
+    Dircode Bio — биометрический считыватель-контроллер (не самостоятельный замок). Цена: 35 000 руб.
+    Совместимость: управляет электромоторными/электромеханическими замками по «сухому контакту» — Dircode DM-1/DM-2/DM-3, Mottura, Iseo, а также любыми другими замками, работающими через сухой контакт.
+    Открытие: отпечаток, PIN, RFID (Mifare), приложение TTLock, пульт дистанционного управления.
+    Есть более новая версия — Dircode Bio 2.0 (38 000 руб.) с Face ID и IP55.
+- id: spec-dircode-touch
+  model_key: dircode_touch
+  brand: Dircode
+  model_name: Dircode Touch
+  category: model_spec
+  product_kind: controller
+  requires: Электромоторный или магнитный замок (управление по сухим контактам; напр. Dircode DM-1/DM-2/DM-3, Mottura, Iseo)
+  price: '30 000 руб.'
+  lock_type: access_controller
+  power_type: wired
+  battery_details: Внешний блок питания 12 В
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Управляет любым электромеханическим или электромагнитным замком
+    (сухие контакты)
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  waterproof: ''
+  weather_note: IP-класс не указан; устанавливается на двери.
+  capacity:
+    fingerprints: 100
+    user_codes: 150
+    rfid_cards: 200
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    note: Свободного прохода у Dircode Touch НЕТ. Не обещайте клиенту этот режим.
+  keywords:
+  - dircode touch
+  - touch считыватель
+  - dircode touch цена
+  - считыватель touch
+  - dircode touch характеристики
+  answer: |
+    Dircode Touch — считыватель по отпечатку пальца (не самостоятельный замок). Цена: 30 000 руб.
+    Совместимость: управляет электромоторными/электромеханическими замками по «сухому контакту» — Dircode DM-1/DM-2/DM-3, Mottura, Iseo и другие.
+    Открытие: отпечаток, PIN, RFID (Mifare), приложение TTLock.
+    Важно: свободного прохода у Dircode Touch НЕТ.
+- id: spec-dircode-glass
+  model_key: dircode_glass
+  brand: Dircode
+  model_name: Dircode Glass
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: false
+  weather_note: Для помещения; IP-класс не указан.
+  price: '18 000 руб.'
+  lock_type: surface
+  power_type: battery
+  battery_details: Батарейки (тип уточняйте)
+  door_types:
+  - glass
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Накладной — монтаж без изменения конструкции двери.
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - app
+  - mechanical_key
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  keywords:
+  - dircode glass
+  - glass накладной замок
+  - dircode glass цена
+  - замок на стеклянную дверь
+  - накладной замок dircode
+  answer: |
+    Dircode Glass — накладной электронный замок. Цена: 18 000 руб.
+    Подходит для стеклянных и деревянных дверей. Накладной монтаж без изменения конструкции двери.
+    Открытие: отпечаток, PIN, RFID (Mifare), приложение Sciener, механический ключ.
+- id: spec-dircode-s10
+  model_key: dircode_s10
+  brand: Dircode
+  model_name: Dircode S10
+  category: model_spec
+  product_kind: standalone_lock
+  waterproof: false
+  weather_note: Для помещения; IP-класс не указан.
+  price: '15 000 руб.'
+  lock_type: mortise
+  power_type: battery
+  battery_details: Батарейки (тип уточняйте)
+  door_types:
+  - metal
+  - wooden
+  use_cases:
+  - apartment
+  - house
+  - short_term_rental
+  thickness_range: ''
+  axle_distance: ''
+  backset_mm: 60
+  compatible_mortise: []
+  mortise_requirement: Бэксет 60 мм (по данным обращения; уточнить у поставщика).
+  opening_methods:
+  - fingerprint
+  - passcode
+  - rfid
+  - mechanical_key
+  - app
+  rfid_type: Mifare
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - bluetooth
+  app_name: TTLock
+  app_platform: Sciener
+  needs_hub: true
+  capacity:
+    fingerprints: 100
+    user_codes: 100
+    rfid_cards: 100
+  temp_range: ''
+  emergency_power: Механический ключ
+  keywords:
+  - dircode s10
+  - s10 классический замок
+  - dircode s10 цена
+  - электронный замок s10
+  - dircode s10 характеристики
+  - s10 ttlock приложение
+  - s10 бэксет 60
+  - s10 механический ключ
+  - отличие s10 от s11
+  answer: |
+    Dircode S10 — классический врезной электронный замок для металлических и
+    деревянных дверей. Цена: 15 000 руб.
+    Открытие: отпечаток, PIN-код, RFID-карта (Mifare), приложение TTLock (Sciener)
+    и механический ключ. Механический ключ есть на случай разряда батареек.
+    Бэксет 60 мм. Ёмкость: по 100 отпечатков, кодов и карт.
+- id: spec-philips-dda270
+  model_key: philips_dda270x
+  brand: Philips
+  model_name: Philips DDA270X-2TXS3
+  category: model_spec
+  product_kind: intercom
+  waterproof: ''
+  weather_note: IP-класс не указан.
+  price: '24 000 руб.'
+  lock_type: video_peephole
+  power_type: battery
+  battery_details: Встроенный аккумулятор (перезаряжаемый)
+  door_types:
+  - metal
+  - wooden
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: Устанавливается в стандартное отверстие дверного глазка.
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: true
+  camera_details: Умный видеоглазок с камерой, детекцией движения и удалённым просмотром
+  connectivity:
+  - wifi_2_4ghz
+  app_name: Philips Home Access
+  capacity: {}
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Умный видеоглазок — позволяет видеть посетителя на экране и через смартфон удалённо
+    motion_detection: Детекция движения с уведомлениями на телефон
+  keywords:
+  - philips dda270
+  - видеоглазок philips
+  - philips видеоглазок цена
+  - dda270 характеристики
+  - умный видеоглазок
+  answer: |
+    Philips DDA270X-2TXS3 — умный видеоглазок. Цена: 24 000 руб.
+    Устанавливается в стандартное отверстие дверного глазка.
+    Камера с детекцией движения, уведомления на телефон, удалённый просмотр через приложение Philips Home Access по Wi-Fi.
+- id: spec-philips-gw001
+  model_key: philips_gw001
+  brand: Philips
+  model_name: Шлюз Philips GW001
+  category: model_spec
+  product_kind: accessory
+  waterproof: ''
+  weather_note: Шлюз ставится в помещении рядом с замком.
+  price: '6 000 руб.'
+  lock_type: accessory
+  power_type: wired
+  battery_details: Питание от розетки
+  door_types: []
+  thickness_range: ''
+  axle_distance: ''
+  compatible_mortise: []
+  mortise_requirement: ''
+  opening_methods: []
+  rfid_type: ''
+  has_face_id: false
+  has_camera: false
+  camera_details: ''
+  connectivity:
+  - wifi_2_4ghz
+  - bluetooth
+  app_name: Philips Home Access
+  capacity: {}
+  operating_temperature: ''
+  material: ''
+  emergency_power: ''
+  additional_features:
+    purpose: Wi-Fi шлюз для удалённого управления умными замками Philips
+    remote_features: Удалённое открытие, выдача кодов, просмотр истории, настройки
+    compatibility: Работает с замками Philips EasyKey
+  keywords:
+  - philips gw001
+  - шлюз philips
+  - philips gateway
+  - philips шлюз цена
+  - gw001 шлюз
+  - шлюз для philips замка
+  answer: |
+    Шлюз Philips GW001. Цена: 6 000 руб.
+    Связав шлюз с умным замком Philips, можно настроить персональное управление: удалённое открытие, выдача кодов, просмотр истории.
+    Ставится в помещении рядом с замком, питание от розетки.
